@@ -176,8 +176,8 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  pun  ⟶  Will send a random pun joke from sv443.net/jokeapi </li>
             </ul>
-        </details>
         </ul>
+        </details>
         <details>
         <summary>Help</summary>
         <ul>
@@ -224,8 +224,8 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  trump &lt;message&gt; ⟶  Will send an image with the input text as a tweet </li>
             </ul>
-        </details>
         </ul>
+        </details>
         <details>
         <summary>IPTools</summary>
         <ul>
@@ -251,8 +251,8 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  socks4 [proxytimeoutms=1000] ⟶  Scrapes socks4 proxies (IP:PORT) and sends the file in chat </li>
             </ul>
-        </details>
         </ul>
+        </details>
         <details>
         <summary>Other</summary>
         <ul>
@@ -308,8 +308,8 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
                     <li> servers  ⟶  Will join all servers from the backed up txt file </li>
                 </ul>
             </ul>
-        </details>
         </ul>
+        </details>
         <details>
         <summary>Raid</summary>
         <ul>
@@ -329,8 +329,8 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  login [type=False]  ⟶  Will log in all the raid accounts (bot or user) from the user account and join your guild </li>
             </ul>
-        </details>
         </ul>
+        </details>
         <details>
         <summary>Trolling</summary>
         <ul>
@@ -399,8 +399,8 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  stop  ⟶  Will stop all autodeafen listeners </li>
             </ul>
-        </details>
         </ul>
+        </details>
         <details>
         <summary>Utilities</summary>
         <ul>
@@ -454,8 +454,8 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  stop  ⟶  Will stop all custom listeners </li>
             </ul>
-        </details>
         </ul>
+        </details>
     </ul>
 </details>
   
