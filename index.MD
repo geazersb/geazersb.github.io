@@ -321,10 +321,10 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
                 <li>  add [tokens...] ⟶  Will add tokens to the list of useraccounts that can be used to log in </li>
             </ul>
             <ul>
-                <li>  logout  ⟶  Will log out all the raid user instances accounts  </li>
+                <li>  logout  ⟶  Will log out all the logged in bot/user instances </li>
             </ul>
             <ul>
-                <li>  remove [ids...] ⟶  Will remove the specified token from the json file </li>
+                <li>  remove [ids...] ⟶  Will remove the specified tokens from the json file </li>
             </ul>
             <ul>
                 <li>  login [type=False]  ⟶  Will log in all the raid accounts (bot or user) from the user account and join your guild </li>
