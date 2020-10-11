@@ -340,6 +340,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <li> username [username] ⟶  RAID - Will change the USERname for all the RAID user accounts to specified username, could be random </li>
             <li> avatar [user] ⟶  RAID - Will change the avatar for every raid user, could be random </li>
             <li> nickname [nickname] ⟶  RAID - Will change the nickname for all the RAID user accounts to specified nickname </li>
+            <li> spam &lt;channel&gt; &lt;amount&gt; &lt;message&gt; ⟶  RAID - Will send the provided messages x times in a row </li>
             <li> guild  ⟶  RAID - Base command for RAID accounts to join and leave guilds </li>
             <ul>
                 <li>  join &lt;invite&gt; ⟶  RAID - Will join the specified guild with all the RAID user accounts using a link </li>
@@ -374,7 +375,6 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  channel &lt;channel&gt; [message] ⟶  RAID - Will copy everybody in a channel if no message is provided </li>
             </ul>
-            <li> spam &lt;channel&gt; &lt;amount&gt; &lt;message&gt; ⟶  RAID - Will send the provided messages x times in a row </li>
             <li> raidserver  ⟶  RAID - Base command for raiding servers by spamming messages/blank in every channel </li>
             <ul>
                 <li>  message &lt;guild&gt; &lt;message&gt; ⟶  Will spam every channel in specified guild with provided message </li>
