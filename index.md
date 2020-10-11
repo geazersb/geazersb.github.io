@@ -6,9 +6,7 @@
 ---
 
 ### Introduction
-Welcome to the Geazer (Discord) Selfbot website. A Discrete, cheap and full of features discord selfbot made in Python! <img style="float: right;" src="https://i.imgur.com/UsrLN7k.gif" width="150" height="150" />
-
-
+Welcome to the Geazer (Discord) Selfbot website. A Discrete, cheap and full of features discord selfbot made in Python! 
 Some of our best features include: 
 * Very fast nitro and privnote sniper (0.12s/0.15s) + more snipers ✓
 * Custom commands, listeners and embeds ✓
@@ -35,7 +33,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
         <li>Python: <a href="https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe">Python 3.8.5</a> </li>
         <li>OS: Windows 10 (64-bit), Linux distro, MacOS </li>
         <li>Having joined <a href="https://discord.gg/ZGrYnNB">our discord</a> </li>
-        <li>An activation code </li>
+        <li>Having an activation code </li>
     </ul>
 </details>
 
@@ -494,3 +492,5 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
         </details>  
     </ul>
 </details>
+
+<img style="float: right;" src="https://i.imgur.com/UsrLN7k.gif" width="150" height="150" />
