@@ -121,8 +121,8 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  list  ⟶  Will log the amount of email:password combinations in file </li>
             </ul>
-        </details>
         </ul>
+        </details>
         <details>
         <summary>Fun</summary>
         <ul>
@@ -183,8 +183,8 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
         <ul>
             <li> showall  ⟶  Will link to a pastebin showing all the commands </li>
             <li> help [command] ⟶  Shows this message </li>
-        </details>
         </ul>
+        </details>
         <details>
         <summary>Images</summary>
         <ul>
