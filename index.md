@@ -334,41 +334,32 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
         <details>
         <summary>RaidCommands</summary>
         <ul>
-            <li> say &lt;channel&gt; &lt;message&gt; ⟶  RAID - Will send a message to specified channel with all the RAID user accounts,
-                channel should be the ID, if it's 'c' it will user the current channel 
-            </li>
-            <li> dm &lt;userid&gt; &lt;message&gt; ⟶  RAID - Attempts to DM a user by id. Works only when user is friended or accepts DMs for everyone. </li>
+            <li> say &lt;channel&gt; &lt;message&gt; ⟶  RAID - Will send a message to specified channel </li>
+            <li> dm &lt;userid&gt; &lt;message&gt; ⟶  RAID - Attempts to DM a user by id </li>
             <li> fr &lt;userid&gt; ⟶  RAID - Attempts to add a user by id. </li>
-            <li> username [username] ⟶  RAID - Will change the USERname for all the RAID user accounts to specified username, could be random
-            </li>
-            <li> avatar [user] ⟶  RAID - Will change the avatar for every raid user, could be random
-            </li>
-            <li> nickname [nickname] ⟶  RAID - Will change the nickname for all the RAID user accounts to specified nickname
-            </li>
+            <li> username [username] ⟶  RAID - Will change the USERname for all the RAID user accounts to specified username, could be random </li>
+            <li> avatar [user] ⟶  RAID - Will change the avatar for every raid user, could be random </li>
+            <li> nickname [nickname] ⟶  RAID - Will change the nickname for all the RAID user accounts to specified nickname </li>
             <li> guild  ⟶  RAID - Base command for RAID accounts to join and leave guilds </li>
             <ul>
                 <li>  join &lt;invite&gt; ⟶  RAID - Will join the specified guild with all the RAID user accounts using a link </li>
             </ul>
             <ul>
-                <li>  leave &lt;guild&gt; ⟶  RAID - Will leave the specified guild from ID with all the RAID user accounts
-                </li>
+                <li>  leave &lt;guild&gt; ⟶  RAID - Will leave the specified guild from ID </li>
             </ul>
             <li> blank  ⟶  RAID - Base command for sending ~2000 char long whitespace message and spamming guilds with it </li>
             <ul>
-                <li>  guild &lt;guild&gt; ⟶  RAID - Will send a ~2000 char long blank message after every message send in a guild with all the RAID user accounts
-                </li>
+                <li>  guild &lt;guild&gt; ⟶  RAID - Will send a ~2000 char long blank message after every message send in a guild </li>
             </ul>
             <ul>
                 <li>  stop  ⟶  RAID - Will stop all blank spam in guilds </li>
             </ul>
             <li> annoy  ⟶  RAID - Base command for annoying entire guilds by adding emoji's or specific users </li>
             <ul>
-                <li>  user &lt;userid&gt; [emojis...] ⟶  RAID - Will react with specified emojis to every message by specified user
-                </li>
+                <li>  user &lt;userid&gt; [emojis...] ⟶  RAID - Will react with specified emojis to every message by specified user </li>
             </ul>
             <ul>
-                <li>  guild &lt;guild&gt; [emojis...] ⟶  RAID - Will attempt to react with specified emojis to every message in current guild
-                </li>
+                <li>  guild &lt;guild&gt; [emojis...] ⟶  RAID - Will attempt to react [emojis] to every message send in &lt;guild&gt; </li>
             </ul>
             <ul>
                 <li>  stop  ⟶  RAID - Will stop all stop all annoy events </li>
@@ -383,33 +374,31 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  channel &lt;channel&gt; [message] ⟶  RAID - Will copy everybody in a channel if no message is provided </li>
             </ul>
-            <li> spam &lt;channel&gt; &lt;amount&gt; &lt;message&gt; ⟶  RAID - Will send the provided messages x times in a row
-                channel should be the ID, if it's 'c' it will user the current channel 
-            </li>
+            <li> spam &lt;channel&gt; &lt;amount&gt; &lt;message&gt; ⟶  RAID - Will send the provided messages x times in a row </li>
             <li> raidserver  ⟶  RAID - Base command for raiding servers by spamming messages/blank in every channel </li>
             <ul>
-                <li>  message &lt;guild&gt; &lt;message&gt; ⟶  Will spam every channel in specified guild with provided message. Needs to join guild first </li>
+                <li>  message &lt;guild&gt; &lt;message&gt; ⟶  Will spam every channel in specified guild with provided message </li>
             </ul>
             <ul>
-                <li>  blank &lt;guild&gt; ⟶  Will spam every channel in specified guild with blank. Needs to join guild first </li>
+                <li>  blank &lt;guild&gt; ⟶  Will spam every channel in specified guild with blank </li>
             </ul>
             <ul>
                 <li>  stop  ⟶  Stops the server raid </li>
             </ul>
             <li> status  ⟶  RAID - Base command for changing your the status </li>
             <ul>
-                <li>  streaming &lt;streamurl&gt; &lt;message&gt; ⟶  RAID - Will change your status to streaming input </li>
+                <li>  streaming &lt;streamurl&gt; &lt;message&gt; ⟶  RAID - Will change your status to streaming &lt;message&gt; </li>
             </ul>
             <ul>
-                <li>  playing &lt;message&gt; ⟶  RAID - Will change your status playing input </li>
+                <li>  playing &lt;message&gt; ⟶  RAID - Will change your status playing &lt;message&gt; </li>
             </ul>
             <ul>
-                <li>  listening &lt;message&gt; ⟶  RAID - Will change your status to listening to input </li>
+                <li>  listening &lt;message&gt; ⟶  RAID - Will change your status to listening to &lt;message&gt; </li>
             </ul>
             <ul>
-                <li>  watching &lt;message&gt; ⟶  RAID - Will change your status to watching input </li>
+                <li>  watching &lt;message&gt; ⟶  RAID - Will change your status to watching &lt;message&gt; </li>
             </ul>
-            <li> presence  ⟶  RAID - Base command for changing the presence (online, offline etc) </li>
+            <li> presence  ⟶  RAID - Base command for changing the presence </li>
             <ul>
                 <li>  dnd  ⟶  RAID - Will set the presence to do not disturb </li>
             </ul>
