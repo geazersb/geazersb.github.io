@@ -1,5 +1,6 @@
 <head>
     <script src="https://autobuy.io/js/embed.min.js"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 </head>
 
 <h1 style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Preface</h1>
