@@ -40,8 +40,8 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
 ### Commands
 <details>
     <ul>
-        <ul>
         <details>
+        <ul>
             <summary>Abuse</summary>
             <li> charbypass  ⟶  Will send a ~6000 char long message </li>
             <li> glitchdescription &lt;channel&gt; ⟶  Will glitch a channels topic/description </li>
