@@ -40,8 +40,8 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
 ### Commands
 <details>
     <ul>
-        <details>
         <ul>
+        <details>
             <summary>Abuse</summary>
             <li> charbypass  ⟶  Will send a ~6000 char long message </li>
             <li> glitchdescription &lt;channel&gt; ⟶  Will glitch a channels topic/description </li>
@@ -90,7 +90,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
                 <li>  send &lt;username&gt; &lt;avatar&gt; &lt;m&gt; ⟶  Will send a message with the created webhook </li>
             </ul>
             <ul>
-                <li>  create2 &lt;amount&gt; &lt;mc&gt; &lt;dc&gt; [name=🤫] ⟶  Will spam create webhooks on channels by making it on one channel and moving it to another </li>
+                <li>  create2 &lt;amount&gt; &lt;mc&gt; &lt;dc&gt; [name=🤫] ⟶  Will spam create webhooks on a channel bypassing the 10 wh cap</li>
             </ul>
             <ul>
                 <li>  spam_start  ⟶  Will spam (weak) insults with the created webhook as random guild members </li>
@@ -121,10 +121,10 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  list  ⟶  Will log the amount of email:password combinations in file </li>
             </ul>
-        </ul>
         </details>
-        <details>
+        </ul>
         <ul>
+        <details>
             <summary>Fun</summary>
             <li> embed &lt;title&gt; &lt;description&gt; ⟶  Will send a rainbow embed with &lt;title&gt; and &lt;description&gt; </li>
             <li> worm &lt;amount&gt; &lt;message&gt; ⟶  Will send your &lt;message&gt; &lt;amount&gt; times in the form of a sinewave </li>
@@ -176,17 +176,17 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  pun  ⟶  Will send a random pun joke from sv443.net/jokeapi </li>
             </ul>
-        </ul>
         </details>
-        <details>
+        </ul>
         <ul>
+        <details>
             <summary>Help</summary>
             <li> showall  ⟶  Will link to a pastebin showing all the commands </li>
             <li> help [command] ⟶  Shows this message </li>
-        </ul>
         </details>
-        <details>
+        </ul>
         <ul>
+        <details>
             <summary>Images</summary>
             <li> whowouldwin &lt;user1&gt; &lt;user2&gt; ⟶  Will send an image with the profile pictures of the provided users </li>
             <li> avatar &lt;user&gt; ⟶  Will send a enlarged users avatar in chat </li>
@@ -224,10 +224,10 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  trump &lt;message&gt; ⟶  Will send an image with the input text as a tweet </li>
             </ul>
-        </ul>
         </details>
-        <details>
+        </ul>
         <ul>
+        <details>
             <summary>IPTools</summary>
             <li> ipinfo &lt;host&gt; ⟶  Will display information about a host by ip/hostname </li>
             <li> unshorten &lt;link&gt; ⟶  Wil unshorten ad.fly, sh.st and adfoc.us links, they might've patched this idk </li>
@@ -251,10 +251,10 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  socks4 [proxytimeoutms=1000] ⟶  Scrapes socks4 proxies (IP:PORT) and sends the file in chat </li>
             </ul>
-        </ul>
         </details>
-        <details>
+        </ul>
         <ul>
+        <details>
             <summary>Other</summary>
             <li> eval &lt;body&gt; ⟶  Will evaluate python code and discord.py code. This means you can basically run any script anywhere anytime. </li>
             <li> fakeperson [gender] [nationality] ⟶  Will generate a random person with &lt;nationality&gt; and &lt;gender&gt; </li>
@@ -308,10 +308,10 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
                     <li> servers  ⟶  Will join all servers from the backed up txt file </li>
                 </ul>
             </ul>
-        </ul>
         </details>
-        <details>
+        </ul>
         <ul>
+        <details>
             <summary>Raid</summary>
             <li> raid  ⟶  Base command for logging and and logging out all the raid accounts </li>
             <ul>
@@ -329,10 +329,10 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  login [type=False]  ⟶  Will log in all the raid accounts (bot or user) from the user account and join your guild </li>
             </ul>
-        </ul>
         </details>
-        <details>
+        </ul>
         <ul>
+        <details>
             <summary>Trolling</summary>
             <li> virus  ⟶  Will send an editing virus message </li>
             <li> stfu  ⟶  Will send an editing stfu message </li>
@@ -399,10 +399,10 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  stop  ⟶  Will stop all autodeafen listeners </li>
             </ul>
-        </ul>
         </details>
-        <details>
+        </ul>
         <ul>
+        <details>
             <summary>Utilities</summary>
             <li> youtubesearch &lt;search&gt; ⟶  Will search for a video on YouTube by given title </li>
             <li> tobtc &lt;amount&gt; [currencycode=USD] ⟶  Will convert provided currency to it's bitcoin equivalent </li>
@@ -454,8 +454,8 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <ul>
                 <li>  stop  ⟶  Will stop all custom listeners </li>
             </ul>
-        </ul>
         </details>
+        </ul>
     </ul>
 </details>
   
