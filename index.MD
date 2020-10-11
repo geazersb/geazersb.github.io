@@ -1,4 +1,4 @@
-<h1 style="color:#606c71">Preface</h1>
+<h1 style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Preface</h1>
 ---
 
 ### Introduction
@@ -34,7 +34,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
     </ul>
 </details>
 
-<h1 style="color:#606c71">Features</h1>
+<h1 style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Features</h1>
 ---
 
 ### Commands
