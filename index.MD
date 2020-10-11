@@ -1,4 +1,4 @@
-<h1 style="background: -webkit-linear-gradient(#c45e62, #28526d);">Preface</h1>
+<h1 style="background-color: -webkit-linear-gradient(#c45e62, #28526d);">Preface</h1>
 
 ### Introduction
 Welcome to the Geazer (Discord) Selfbot website. A Discrete, cheap and full of features discord selfbot made in Python! 
@@ -33,7 +33,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
     </ul>
 </details>
 
-<h1 style="background: -webkit-linear-gradient(#c45e62, #28526d);">Features</h1>
+<h1 style="background-color: -webkit-linear-gradient(#c45e62, #28526d);">Features</h1>
 
 ### Commands
 <details>
