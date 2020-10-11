@@ -2,13 +2,13 @@
 ---
 
 ### Introduction
-Welcome to the Geazer (Discord) Selfbot website. A Discrete, cheap and full of features discord selfbot made in Python! 
+Welcome to the Geazer (Discord) Selfbot website. A cheap and full of features discord selfbot made in Python by Buster.
 
 Some of our best features include:
 <details open>
 <summary>open/close</summary>
     <ul>
-        <li> Very fast nitro and privnote sniper (0.12s/0.15s) + more snipers ✓ </li>
+        <li> Fast nitro and privnote sniper (0.12s/0.15s) + more snipers ✓ </li>
         <li> Custom commands, listeners and embeds ✓ </li>
         <li> Creating and loading backups ✓ </li>
         <li> Controlling hundreds of bot/user accounts (for raiding) ✓ </li>
@@ -18,7 +18,7 @@ Some of our best features include:
         <li> Frequent updates ✓ </li>
         <li> Good support ✓ </li>
         <li> Discrete webhooked logging ✓ </li>
-        <li> <b>And over 210 commands more!</b> </li>
+        <li> <b>And in total over 210 commands!</b> </li>
     </ul>
 </details>
 
