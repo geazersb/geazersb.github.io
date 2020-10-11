@@ -204,6 +204,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
         <ul>
             <li> showall  ⟶  Will link to a pastebin showing all the commands </li>
             <li> help [command] ⟶  Shows this message </li>
+            <li> website ⟶  Will link to this website </li>
         </ul>
         </details>
         <details>
