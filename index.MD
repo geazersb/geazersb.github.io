@@ -1,4 +1,4 @@
-## Preface
+# Preface
 ---
 
 ### Introduction
@@ -34,7 +34,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
     </ul>
 </details>
 
-## Features
+# Features
 ---
 
 ### Commands
