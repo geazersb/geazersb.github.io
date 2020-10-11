@@ -23,10 +23,12 @@ Some of our best features include:
 </details>
 
 ### References
+<script src="https://autobuy.io/js/embed.min.js"></script>
 <details open>
 <summary>open/close</summary>
     <ul>
         <li> Join our discord <a title="Support, suggestions, questions and more" href="https://discord.gg/ZGrYnNB">here</a> </li>
+        <button data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
         <li> Buy the selfbot <a title="My autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">here</a> </li>
         <li> View our features quickly <a title="Clear pastebin listing of commands" href="https://pastebin.com/raw/7f4RHTeH">here</a> </li>
     </ul>
