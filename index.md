@@ -493,4 +493,6 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
     </ul>
 </details>
 
-<img style="float: middle;" src="https://i.imgur.com/UsrLN7k.gif" width="150" height="150" />
+<p align="center">
+    <img src="https://i.imgur.com/UsrLN7k.gif" width="150" height="150" />
+</p>
