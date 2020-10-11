@@ -8,7 +8,7 @@
 ### Introduction
 Welcome to the Geazer (Discord) Selfbot website. A cheap and full of features discord selfbot made in Python by Buster.
 
-<button data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
+<button class="button button5" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
 
 Some of our best features include:
 <details open>
@@ -628,7 +628,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
     </ul>
 </details>
 
-<button data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
+<button class="button button5" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
 
 <p align="center">
     <img src="https://i.imgur.com/UsrLN7k.gif" width="150" height="150" />
