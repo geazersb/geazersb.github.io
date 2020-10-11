@@ -15,7 +15,7 @@ Some of our best features include:
 <details open>
 <summary>open/close</summary>
     <ul>
-        <li> Fast nitro and privnote sniper (<a title="Snipe speeds" href="https://i.imgur.com/GZ8uR5W.png">0.12s/0.15s</a>) and more ✓ </li>
+        <li> Fast nitro and privnote sniper (<a title="Snipe speeds" href="https://i.imgur.com/GZ8uR5W.png">~0.15s</a>) and more ✓ </li>
         <li> Custom commands, listeners and embeds ✓ </li>
         <li> Creating and loading backups ✓ </li>
         <li> Great semi-interactive <a title="Help command screenshots" href="https://imgur.com/a/MRppIAw">help command</a> ✓ </li>
