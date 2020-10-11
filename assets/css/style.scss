@@ -31,9 +31,6 @@ body {
 }
 
 .button {
-  a:link {
-    color: white;
-  }
   background-color: #fdfdfd;
   color: black;
   border-radius: 8px;
@@ -41,10 +38,15 @@ body {
 }
 
 .button:hover {
-  a:link {
-    color: white;
-  }
   background-color: #2b2b2b;
   border-radius: 8px;
   color: #fdfdfd;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+ color: white; 
 }
