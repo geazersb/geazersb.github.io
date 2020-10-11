@@ -3,34 +3,38 @@
 
 ### Introduction
 Welcome to the Geazer (Discord) Selfbot website. A Discrete, cheap and full of features discord selfbot made in Python! 
+
 Some of our best features include:
 <details open>
+<summary>open/close</summary>
     <ul>
         <li> Very fast nitro and privnote sniper (0.12s/0.15s) + more snipers ✓ </li>
         <li> Custom commands, listeners and embeds ✓ </li>
         <li> Creating and loading backups ✓ </li>
         <li> Controlling hundreds of bot/user accounts (for raiding) ✓ </li>
         <li> Loads of exploit/abuse commands ✓ </li>
-        <li> Extensive optimization and ingenuity (Abiding [PEP-8](https://www.python.org/dev/peps/pep-0008/ "PEP-8 definition") rules) ✓ </li>
+        <li> Extensive optimization and ingenuity (Abiding <a title="PEP-8 definition" href="https://www.python.org/dev/peps/pep-0008/">PEP-8</a> rules) ✓ </li>
         <li> Cheap price ✓ </li>
         <li> Frequent updates ✓ </li>
         <li> Good support ✓ </li>
         <li> Discrete webhooked logging ✓ </li>
-        <li> **And over 210 commands more!** </li>
+        <li> <b>And over 210 commands more!</b> </li>
     </ul>
 </details>
 
 ### References
 <details open>
+<summary>open/close</summary>
     <ul>
-        <li> Join our discord [here](https://discord.gg/ZGrYnNB "Support, suggestions, questions and more") </li>
-        <li> Buy the selfbot [here](https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd "My autobuy.io shop") </li>
-        <li> View our features quickly [here](https://pastebin.com/raw/7f4RHTeH "Discrete pastebin with features") </li>
+        <li> Join our discord <a title="Support, suggestions, questions and more" href="https://discord.gg/ZGrYnNB">here</a> </li>
+        <li> Buy the selfbot <a title="My autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">here</a> </li>
+        <li> View our features quickly <a title="Clear pastebin listing of commands" href="https://pastebin.com/raw/7f4RHTeH">here</a> </li>
     </ul>
 </details>
 
 ### Requirements
 <details open>
+<summary>open/close</summary>
     <ul>
         <li>Python: <a href="https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe">Python 3.8.5</a> </li>
         <li>OS: Windows 10 (64-bit), Linux distro, MacOS </li>
@@ -47,6 +51,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
 
 ### Commands
 <details>
+<summary>open/close</summary>
     <ul>
         <details>
         <summary>Abuse</summary>
@@ -558,6 +563,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
   
 ### Events
 <details>
+<summary>open/close</summary>
     <ul>
         <details>
             <summary>Nitro sniper</summary>
@@ -587,6 +593,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
 
 ### Other
 <details>
+<summary>open/close</summary>
     <ul>
         <details>
             <summary>Customizability</summary>
