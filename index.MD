@@ -33,7 +33,7 @@ Some of our best features include:
 </details>
 
 ### Requirements
-<details open>
+<details>
 <summary>open/close</summary>
     <ul>
         <li>Python: <a href="https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe">Python 3.8.5</a> </li>
@@ -53,7 +53,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
 <details>
 <summary>open/close</summary>
     <ul>
-        <details>
+        <details open>
         <summary>Abuse</summary>
         <ul>
             <li> charbypass  ⟶  Will send a ~6000 char long message </li>
@@ -562,7 +562,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
 </details>
   
 ### Events
-<details>
+<details open>
 <summary>open/close</summary>
     <ul>
         <details>
@@ -592,7 +592,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
 </details>
 
 ### Other
-<details>
+<details open>
 <summary>open/close</summary>
     <ul>
         <details>
