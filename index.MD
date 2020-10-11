@@ -50,10 +50,10 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
 ---
 
 ### Commands
-<details>
+<details open>
 <summary>open/close</summary>
     <ul>
-        <details open>
+        <details>
         <summary>Abuse</summary>
         <ul>
             <li> charbypass  ⟶  Will send a ~6000 char long message </li>
