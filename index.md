@@ -14,6 +14,7 @@ Some of our best features include:
 * Frequent updates ✓
 * Good support ✓
 * Discrete webhooked logging ✓
+* **And over 210 commands more!**
 
 ### References
 * Join our discord [here](https://discord.gg/ZGrYnNB "Support, suggestions, questions and more")
@@ -485,7 +486,17 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             <summary>Extensions</summary>
             I have made 2 optional extensions. This includes the Moderation (8 commands) and the NSFW extension (2 commands).
             They can be downloaded in our guild upon buying the selfbot.
-        </details>  
+        </details>
+        <details>
+            <summary>Logging</summary>
+            All logging is done discretely in a by you chosen guilds sytem channel. A webhook is created who will
+            send what actions are done, some command output, and more.
+        </details>
+        <details>
+            <summary>Support</summary>
+            You can create a ticket in <a href="https://discord.gg/ZGrYnNB">our discord</a> where we will provide great support
+            ASAP. The discord server also contains a FAQ page, where most of your questions will be answered. So make sure to check that out!
+        </details> 
     </ul>
 </details>
 
