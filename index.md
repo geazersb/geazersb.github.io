@@ -1,7 +1,3 @@
-<head>    
-    <link rel="icon" href="/favicon.ico" type="image/gif" >
-</head>
-
 ## Preface
 ---
 
