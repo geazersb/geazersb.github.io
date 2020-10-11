@@ -41,8 +41,8 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
 <details>
     <ul>
         <details>
+        <summary>Abuse</summary>
         <ul>
-            <summary>Abuse</summary>
             <li> charbypass  ⟶  Will send a ~6000 char long message </li>
             <li> glitchdescription &lt;channel&gt; ⟶  Will glitch a channels topic/description </li>
             <li> viewbot &lt;link&gt; [amount=50] ⟶  Will have &lt;amount&gt; bots viewing &lt;link&gt;, will work with ebay listings etc. </li>
