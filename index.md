@@ -123,9 +123,9 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             </ul>
         </details>
         </ul>
-        <ul>
         <details>
-            <summary>Fun</summary>
+        <summary>Fun</summary>
+        <ul>
             <li> embed &lt;title&gt; &lt;description&gt; ⟶  Will send a rainbow embed with &lt;title&gt; and &lt;description&gt; </li>
             <li> worm &lt;amount&gt; &lt;message&gt; ⟶  Will send your &lt;message&gt; &lt;amount&gt; times in the form of a sinewave </li>
             <li> snipe [channel] ⟶  Will send the latest deleted message from any guild text channel </li>
