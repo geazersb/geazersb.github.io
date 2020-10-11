@@ -6,8 +6,9 @@
 ---
 
 ### Introduction
-Welcome to the Geazer (Discord) Selfbot website. A Discrete, cheap and full of features discord selfbot made in Python!
 <img style="float: right;" src="https://i.imgur.com/UsrLN7k.gif" width="150" height="150" />
+
+Welcome to the Geazer (Discord) Selfbot website. A Discrete, cheap and full of features discord selfbot made in Python!
 
 Some of our best features include: 
 * Very fast nitro and privnote sniper (0.12s/0.15s) + more snipers ✓
