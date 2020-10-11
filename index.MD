@@ -21,11 +21,11 @@ Some of our best features include:
         <li> Great semi-interactive <a title="Help command screenshots" href="https://imgur.com/a/MRppIAw">help command</a> ✓ </li>
         <li> Controlling hundreds of bot/user accounts (for raiding) ✓ </li>
         <li> Loads of exploit/abuse commands ✓ </li>
-        <li> Extensive optimization and ingenuity (Abiding <a title="PEP-8 definition" href="https://www.python.org/dev/peps/pep-0008/">PEP-8</a> rules) ✓ </li>
+        <li> Extensive optimization and ingenuity (abiding <a title="PEP-8 definition" href="https://www.python.org/dev/peps/pep-0008/">PEP-8</a> rules) ✓ </li>
         <li> Cheap price ✓ </li>
         <li> Frequent updates ✓ </li>
         <li> Good support ✓ </li>
-        <li> <a title="Webhook logging screenshot" href="https://i.imgur.com/8uR38X2.png">Discrete webhooked logging</a> ✓ </li>
+        <li> Discrete webhooked <a title="Webhook logging screenshot" href="https://i.imgur.com/8uR38X2.png">logging</a> ✓ </li>
         <li> <b>And in total over 210 commands! ✓</b> </li>
     </ul>
 </details>
