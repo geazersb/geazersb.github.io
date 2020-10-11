@@ -3,12 +3,25 @@
 
 $header-bg-color: #c45e62;
 $header-bg-color-secondary: #28526d;
-$section-headings-color: -webkit-linear-gradient(#c45e62, #28526d);
 
 @import "{{ site.theme }}";
 
 header {
   display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  background: -webkit-linear-gradient(#c45e62, #28526d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 footer {
