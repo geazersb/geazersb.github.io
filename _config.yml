@@ -1,5 +1,6 @@
 theme: jekyll-theme-cayman
 title: Geazer Selfbot
+description: The Geazer (Discord) Selfbot website
 
 plugins:
   - jekyll-seo-tag
