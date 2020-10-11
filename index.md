@@ -1,5 +1,5 @@
 <head>    
-    <link rel="icon" href="/standard.gif" type="image/gif" >
+    <link rel="icon" href="/favicon.ico" type="image/gif" >
 </head>
 
 ## Preface
@@ -7,6 +7,7 @@
 
 ### Introduction
 Welcome to the Geazer (Discord) Selfbot website. A Discrete, cheap and full of features discord selfbot made in Python!
+![Logo GIF](https://i.imgur.com/UsrLN7k.gif)
 Some of our best features include: 
 * Very fast nitro and privnote sniper (0.12s/0.15s) + more snipers ✓
 * Custom commands, listeners and embeds ✓
