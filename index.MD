@@ -634,7 +634,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
     </ul>
 </details>
 
-<button class="button button"><a href="#top">Back to top</a></button>
+<button class="button button"><a style="color: black" href="#top">Back to top</a></button>
 
 <p align="center">
     <img src="https://i.imgur.com/UsrLN7k.gif" width="150" height="150" />
