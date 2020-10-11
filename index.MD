@@ -31,7 +31,7 @@ Some of our best features include:
 ### Buy
 The selfbot can be bought on autobuy.io, or right here using the button below.
 
-<button class="button button5" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
+<button class="button button" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
 
 ### References
 <details open>
@@ -634,7 +634,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
     </ul>
 </details>
 
-<button class="button button5"><a href="#top">Back to top</a></button>
+<button class="button button"><a href="#top">Back to top</a></button>
 
 <p align="center">
     <img src="https://i.imgur.com/UsrLN7k.gif" width="150" height="150" />
