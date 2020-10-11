@@ -15,17 +15,18 @@ Some of our best features include:
 <details open>
 <summary>open/close</summary>
     <ul>
-        <li> Fast nitro and privnote sniper (0.12s/0.15s) + more snipers ✓ </li>
+        <li> Fast nitro and privnote sniper (<a title="Snipe speeds" href="https://i.imgur.com/GZ8uR5W.png">0.12s/0.15s</a>) and more ✓ </li>
         <li> Custom commands, listeners and embeds ✓ </li>
         <li> Creating and loading backups ✓ </li>
+        <li> Great semi-interactive <a title="Help command screenshots" href="https://imgur.com/a/MRppIAw">help command</a> ✓ </li>
         <li> Controlling hundreds of bot/user accounts (for raiding) ✓ </li>
         <li> Loads of exploit/abuse commands ✓ </li>
         <li> Extensive optimization and ingenuity (Abiding <a title="PEP-8 definition" href="https://www.python.org/dev/peps/pep-0008/">PEP-8</a> rules) ✓ </li>
         <li> Cheap price ✓ </li>
         <li> Frequent updates ✓ </li>
         <li> Good support ✓ </li>
-        <li> Discrete webhooked logging ✓ </li>
-        <li> <b>And in total over 210 commands!</b> </li>
+        <li> <a title="Webhook logging screenshot" href="https://i.imgur.com/8uR38X2.png">Discrete webhooked logging</a> ✓ </li>
+        <li> <b>And in total over 210 commands! ✓</b> </li>
     </ul>
 </details>
 
@@ -46,7 +47,7 @@ Some of our best features include:
         <li>Python: <a href="https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe">Python 3.8.5</a> </li>
         <li>OS: Windows 10 (64-bit), Linux distro, MacOS </li>
         <li>Having joined <a href="https://discord.gg/ZGrYnNB">our discord</a> </li>
-        <li>Having an activation code </li>
+        <li>Having an activation code (can be obtained after buying)</li>
     </ul>
 </details>
 
