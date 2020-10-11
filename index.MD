@@ -1,4 +1,5 @@
 <h1 style="color:#606c71">Preface</h1>
+---
 
 ### Introduction
 Welcome to the Geazer (Discord) Selfbot website. A Discrete, cheap and full of features discord selfbot made in Python! 
@@ -34,6 +35,7 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
 </details>
 
 <h1 style="color:#606c71">Features</h1>
+---
 
 ### Commands
 <details>
