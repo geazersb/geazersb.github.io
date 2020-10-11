@@ -178,16 +178,16 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             </ul>
         </details>
         </ul>
-        <ul>
         <details>
-            <summary>Help</summary>
+        <summary>Help</summary>
+        <ul>
             <li> showall  ⟶  Will link to a pastebin showing all the commands </li>
             <li> help [command] ⟶  Shows this message </li>
         </details>
         </ul>
-        <ul>
         <details>
-            <summary>Images</summary>
+        <summary>Images</summary>
+        <ul>
             <li> whowouldwin &lt;user1&gt; &lt;user2&gt; ⟶  Will send an image with the profile pictures of the provided users </li>
             <li> avatar &lt;user&gt; ⟶  Will send a enlarged users avatar in chat </li>
             <li> spongebob &lt;random&gt; &lt;message&gt; ⟶  Will send an image of mocking spongebob by default, or another random one </li>
@@ -226,9 +226,9 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             </ul>
         </details>
         </ul>
-        <ul>
         <details>
-            <summary>IPTools</summary>
+        <summary>IPTools</summary>
+        <ul>
             <li> ipinfo &lt;host&gt; ⟶  Will display information about a host by ip/hostname </li>
             <li> unshorten &lt;link&gt; ⟶  Wil unshorten ad.fly, sh.st and adfoc.us links, they might've patched this idk </li>
             <li> icmpping &lt;host&gt; ⟶  Will ICMP ping &lt;host&gt; using ICMP packets </li>
@@ -253,9 +253,9 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             </ul>
         </details>
         </ul>
-        <ul>
         <details>
-            <summary>Other</summary>
+        <summary>Other</summary>
+        <ul>
             <li> eval &lt;body&gt; ⟶  Will evaluate python code and discord.py code. This means you can basically run any script anywhere anytime. </li>
             <li> fakeperson [gender] [nationality] ⟶  Will generate a random person with &lt;nationality&gt; and &lt;gender&gt; </li>
             <li> metrics  ⟶  Will show the top 10 most used commands by you in a graph in an embed </li>
@@ -310,9 +310,9 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             </ul>
         </details>
         </ul>
-        <ul>
         <details>
-            <summary>Raid</summary>
+        <summary>Raid</summary>
+        <ul>
             <li> raid  ⟶  Base command for logging and and logging out all the raid accounts </li>
             <ul>
                 <li>  amount  ⟶  Will give the amount of id:token combinations </li>
@@ -331,9 +331,9 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             </ul>
         </details>
         </ul>
-        <ul>
         <details>
-            <summary>Trolling</summary>
+        <summary>Trolling</summary>
+        <ul>
             <li> virus  ⟶  Will send an editing virus message </li>
             <li> stfu  ⟶  Will send an editing stfu message </li>
             <li> noonecares  ⟶  Will send an editing no one cares message </li>
@@ -401,9 +401,9 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
             </ul>
         </details>
         </ul>
-        <ul>
         <details>
-            <summary>Utilities</summary>
+        <summary>Utilities</summary>
+        <ul>
             <li> youtubesearch &lt;search&gt; ⟶  Will search for a video on YouTube by given title </li>
             <li> tobtc &lt;amount&gt; [currencycode=USD] ⟶  Will convert provided currency to it's bitcoin equivalent </li>
             <li> btc [currencycode=USD] ⟶  Will convert a bitcoin to the provided currency equivalent </li>
