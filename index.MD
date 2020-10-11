@@ -3,29 +3,34 @@
 
 ### Introduction
 Welcome to the Geazer (Discord) Selfbot website. A Discrete, cheap and full of features discord selfbot made in Python! 
-Some of our best features include: 
-* Very fast nitro and privnote sniper (0.12s/0.15s) + more snipers ✓
-* Custom commands, listeners and embeds ✓
-* Creating and loading backups ✓
-* Controlling hundreds of bot/user accounts (for raiding) ✓
-* Loads of exploit/abuse commands ✓
-* Extensive optimization and ingenuity (Abiding [PEP-8](https://www.python.org/dev/peps/pep-0008/ "PEP-8 definition") rules) ✓
-* Cheap price ✓
-* Frequent updates ✓
-* Good support ✓
-* Discrete webhooked logging ✓
-* **And over 210 commands more!**
+Some of our best features include:
+<details open>
+    <ul>
+        <li> Very fast nitro and privnote sniper (0.12s/0.15s) + more snipers ✓ </li>
+        <li> Custom commands, listeners and embeds ✓ </li>
+        <li> Creating and loading backups ✓ </li>
+        <li> Controlling hundreds of bot/user accounts (for raiding) ✓ </li>
+        <li> Loads of exploit/abuse commands ✓ </li>
+        <li> Extensive optimization and ingenuity (Abiding [PEP-8](https://www.python.org/dev/peps/pep-0008/ "PEP-8 definition") rules) ✓ </li>
+        <li> Cheap price ✓ </li>
+        <li> Frequent updates ✓ </li>
+        <li> Good support ✓ </li>
+        <li> Discrete webhooked logging ✓ </li>
+        <li> **And over 210 commands more!** </li>
+    </ul>
+</details>
 
 ### References
-* Join our discord [here](https://discord.gg/ZGrYnNB "Support, suggestions, questions and more")
-* Buy the selfbot [here](https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd "My autobuy.io shop")
-* View our features quickly [here](https://pastebin.com/raw/7f4RHTeH "Discrete pastebin with features")
-
-### Disclaimer
-Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots- "TOS article on selfbots"). Though I have made this selfbot very __discrete__ by logging into a separate channel, and giving the option to disable embeds. You will __not__ be banned, unless you get reported with proof (e.g screen of embed/you saying you used abusive commands).
+<details open>
+    <ul>
+        <li> Join our discord [here](https://discord.gg/ZGrYnNB "Support, suggestions, questions and more") </li>
+        <li> Buy the selfbot [here](https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd "My autobuy.io shop") </li>
+        <li> View our features quickly [here](https://pastebin.com/raw/7f4RHTeH "Discrete pastebin with features") </li>
+    </ul>
+</details>
 
 ### Requirements
-<details>
+<details open>
     <ul>
         <li>Python: <a href="https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe">Python 3.8.5</a> </li>
         <li>OS: Windows 10 (64-bit), Linux distro, MacOS </li>
@@ -33,6 +38,9 @@ Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-u
         <li>Having an activation code </li>
     </ul>
 </details>
+
+### Disclaimer
+Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots- "TOS article on selfbots"). Though I have made this selfbot very __discrete__ by logging into a separate channel, and giving the option to disable embeds. You will __not__ be banned, unless you get reported with proof (e.g screen of embed/you saying you used abusive commands).
 
 <h1 style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Features</h1>
 ---
