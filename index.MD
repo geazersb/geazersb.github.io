@@ -52,7 +52,7 @@ Some of our best features include:
 ### Disclaimer
 <details>
 <summary>open/close</summary>
-    Using a selfbot is __against__ Discord's <a title="Discord article on Selfbots" href="https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-  self-bots->TOS</a>. Though I have made this selfbot very <b>discrete</b> by logging into a separate channel, and giving the option to disable embeds. You will <b>not</b> be banned, 
+    Using a selfbot is <b>against</b> Discord's <a title="Discord article on Selfbots" href="https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-  self-bots->TOS</a>. Though I have made this selfbot very <b>discrete</b> by logging into a separate channel, and giving the option to disable embeds. You will <b>not</b> be banned, 
     <b>unless</b> you get <b>reported with proof</b> (e.g screen of embed/you saying you used abusive commands).
 </details>
 
