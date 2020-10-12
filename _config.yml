@@ -1,8 +1,8 @@
 theme: jekyll-theme-cayman
 title: Geazer Selfbot
 description: The Geazer (Discord) Selfbot website
-logo: https://i.imgur.com/UsrLN7k.gif
-image: https://i.imgur.com/UsrLN7k.gif
+logo: https://i.imgur.com/shO8dws.png
+image: https://i.imgur.com/shO8dws.png
 
 plugins:
   - jekyll-seo-tag
