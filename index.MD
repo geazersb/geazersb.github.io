@@ -1,7 +1,7 @@
 <head>
     <script src="https://autobuy.io/js/embed.min.js"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-    <meta property="og:image" content=""/>
+    <meta property="og:image" content="https://i.imgur.com/shO8dws.png"/>
 </head>
 
 <h1 name="top" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Preface</h1>
