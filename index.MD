@@ -642,5 +642,5 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
 <button class="button button"><a style="color: black;" href="#top">Back to top</a></button>
 
 <p align="center">
-    <img src="https://i.imgur.com/UsrLN7k.gif" width="150" height="150" />
+    <img alt="Geazer Selfbot Logo" src="https://i.imgur.com/UsrLN7k.gif" width="150" height="150" />
 </p>
