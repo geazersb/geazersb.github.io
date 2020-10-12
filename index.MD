@@ -13,17 +13,17 @@ Some of our best features include:
 <details open>
 <summary>open/close</summary>
     <ul>
-        <li> Fast nitro and privnote sniper (<a title="Snipe speeds" href="https://i.imgur.com/GZ8uR5W.png">~0.15s</a>) and more ✓ </li>
+        <li> Fast nitro and privnote sniper (<a target="_blank" title="Snipe speeds" href="https://i.imgur.com/GZ8uR5W.png">~0.15s</a>) and more ✓ </li>
         <li> Custom commands, listeners and embeds ✓ </li>
         <li> Creating and loading backups ✓ </li>
-        <li> Great semi-interactive <a title="Help command screenshots" href="https://imgur.com/a/MRppIAw">help command</a> ✓ </li>
+        <li> Great semi-interactive <a target="_blank" title="Help command screenshots" href="https://imgur.com/a/MRppIAw">help command</a> ✓ </li>
         <li> Controlling hundreds of bot/user accounts (for raiding) ✓ </li>
         <li> Loads of exploit/abuse commands ✓ </li>
-        <li> Extensive optimization and ingenuity (abiding <a title="PEP-8 definition" href="https://www.python.org/dev/peps/pep-0008/">PEP-8</a> rules) ✓ </li>
+        <li> Extensive optimization and ingenuity (abiding <a target="_blank" title="PEP-8 definition" href="https://www.python.org/dev/peps/pep-0008/">PEP-8</a> rules) ✓ </li>
         <li> Cheap price ✓ </li>
         <li> Frequent updates ✓ </li>
         <li> Good support ✓ </li>
-        <li> Discrete webhooked <a title="Webhook logging screenshot" href="https://i.imgur.com/8uR38X2.png">logging</a> ✓ </li>
+        <li> Discrete webhooked <a target="_blank" title="Webhook logging screenshot" href="https://i.imgur.com/8uR38X2.png">logging</a> ✓ </li>
         <li> <b>And in total over 210 commands! ✓</b> </li>
     </ul>
 </details>
@@ -32,9 +32,9 @@ Some of our best features include:
 <details open>
 <summary>open/close</summary>
     <ul>
-        <li> Join our discord <a title="Support, suggestions, questions and more" href="https://discord.gg/ZGrYnNB">here</a> </li>
-        <li> View our shop <a title="My autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">here</a> </li>
-        <li> View our features quickly <a title="Clear pastebin listing of commands" href="https://pastebin.com/raw/7f4RHTeH">here</a> </li>
+        <li> Join our discord <a target="_blank" title="Support, suggestions, questions and more" href="https://discord.gg/ZGrYnNB">here</a> </li>
+        <li> View our shop <a target="_blank" title="My autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">here</a> </li>
+        <li> View our features quickly <a target="_blank" title="Clear pastebin listing of commands" href="https://pastebin.com/raw/7f4RHTeH">here</a> </li>
     </ul>
 </details>
 
@@ -42,9 +42,9 @@ Some of our best features include:
 <details>
 <summary>open/close</summary>
     <ul>
-        <li>Python: <a title="Direct Python install" href="https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe">Python 3.8.5</a> </li>
+        <li>Python: <a target="_blank" title="Direct Python install" href="https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe">Python 3.8.5</a> </li>
         <li>OS: Windows 10 (64-bit), Linux distro, MacOS </li>
-        <li>Having joined <a title="Invite to our Discord" href="https://discord.gg/ZGrYnNB">our discord</a> </li>
+        <li>Having joined <a target="_blank" title="Invite to our Discord" href="https://discord.gg/ZGrYnNB">our discord</a> </li>
         <li>Having an activation code (can be obtained after buying), is based on your HWID</li>
     </ul>
 </details>
@@ -53,7 +53,7 @@ Some of our best features include:
 <details>
 <summary>open/close</summary>
     <ul>
-    <li> Using a selfbot is <b>against</b> Discord's <a title="Discord article on Selfbots" href="https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-">TOS</a>. Though I have made this selfbot very <b>discrete</b> by logging into a separate channel, and giving the option to disable embeds. You will <b>not</b> be banned, 
+    <li> Using a selfbot is <b>against</b> Discord's <a target="_blank" title="Discord article on Selfbots" href="https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-">TOS</a>. Though I have made this selfbot very <b>discrete</b> by logging into a separate channel, and giving the option to disable embeds. You will <b>not</b> be banned, 
     <b>unless</b> you get <b>reported with proof</b> (e.g screen of embed/you saying you used abusive commands). </li>
     </ul>
 </details>
@@ -649,7 +649,7 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
         <details>
             <summary>Support</summary>
             <ul>
-                <li> You can create a ticket in <a href="https://discord.gg/ZGrYnNB">our discord</a> where we will provide great support
+                <li> You can create a ticket in <a target="_blank" href="https://discord.gg/ZGrYnNB">our discord</a> where we will provide great support
                 ASAP. The discord server also contains a FAQ page, where most of your questions will be answered. So make sure to check that out! </li>
             </ul>
         </details> 
