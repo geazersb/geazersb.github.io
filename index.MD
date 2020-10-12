@@ -28,11 +28,6 @@ Some of our best features include:
     </ul>
 </details>
 
-### Buy
-The selfbot can be bought on autobuy.io, or right here using the button below.
-
-<button class="button button" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
-
 ### References
 <details open>
 <summary>open/close</summary>
@@ -55,7 +50,17 @@ The selfbot can be bought on autobuy.io, or right here using the button below.
 </details>
 
 ### Disclaimer
-Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots- "TOS article on selfbots"). Though I have made this selfbot very __discrete__ by logging into a separate channel, and giving the option to disable embeds. You will __not__ be banned, unless you get reported with proof (e.g screen of embed/you saying you used abusive commands).
+<details>
+<summary>open/close</summary>
+    Using a selfbot is __against__ [discord TOS](https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-self-bots- "TOS article on selfbots"). 
+    Though I have made this selfbot very __discrete__ by logging into a separate channel, and giving the option to disable embeds. You will __not__ be banned, 
+    unless you get reported with proof (e.g screen of embed/you saying you used abusive commands).
+</details>
+
+### Buy
+The selfbot can be bought on autobuy.io, or right here using the button below. Right now I accept PayPal as the only payment method, though CryptoCurrency will be accepted soon!
+
+<button class="button button" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
 
 <h1 style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Features</h1>
 ---
