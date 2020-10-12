@@ -585,26 +585,36 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
     <ul>
         <details>
             <summary>Nitro sniper</summary>
-            Our nitro sniper has build in anti-spam methods, you won't ever be banned by using this!
-            The speed (depending on your internetspeed and discords server load) is between 0.12s and 0.15s from beginning to end.
+            <ul>
+                <li> The nitro sniper has build in anti-spam methods, this means you won't ever be banned by using this!
+                The speed (depending on your internetspeed and discords server load) is between 0.12s and 0.15s from beginning to end. </li>
+            </ul>
         </details>
         <details>
             <summary>Privnote sniper</summary>
-            The privnotes snipe speed are about the same as the nitro snipe speeds. The contents of these privnotes
-            are saved in a folder in .txt files.
+            <ul>
+                <li> The privnotes snipe speed are about the same as the nitro snipe speeds. The contents of these privnotes
+                are saved in a folder in .txt files. </li>
+            </ul>
         </details>
         <details>
             <summary>Token sniper</summary>
-            If someone pastes a bot or user token, it will instantly be logged to the logging channel.
+            <ul>
+                <li> If someone pastes a bot or user token, it will instantly be logged to the logging channel. </li>
+            </ul>
         </details>
         <details>
             <summary>Giveaway sniper</summary>
-            If there is a giveaway from one of the 4 recognized bots, it will attempt to join it by reacting
-            with the emote after a random delay.
+            <ul>
+                <li> If a giveaway is started from one of the 4 recognized bots, it will attempt to join it by reacting
+                with the emote after a random delay. </li>
+            </ul>
         </details>
         <details>
             <summary>Auto delete</summary>
-            Every sentence/word starting with your custom prefix will instantly be deleted. There is no way to turn this off.
+            <ul>
+                <li> Every sentence/word starting with your custom prefix will instantly be deleted. </li>
+            </ul>
         </details>
     </ul>
 </details>
