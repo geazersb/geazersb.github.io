@@ -628,9 +628,9 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
         <details>
             <summary>Customizability</summary>
             <ul>
-                <li> Some commands could send their output in an embed form depending on whether you have enabled that.
-                     If so, you can specify the footer icon, text and colour it will show up with. </li>
-                <li> The prefix is fully customizable as well </li>
+                <li> The embed colour, footer icon and text and autodelete time are customizable </li>
+                <li> The prefix is custamizable </li>
+                <li> Enabling/disabling sniping is optional </li>
             </ul>
         </details>
         <details>
@@ -643,8 +643,8 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
         <details>
             <summary>Logging</summary>
             <ul>
-                <li> All logging is done discretely in a by you chosen guilds sytem channel. A webhook is created who will
-                send what actions are done, some command output, and more. </li>
+                <li> All logging is done discretely in a by you chosen guilds sytem channel. A webhook is created that will 
+                send what actions are being done, or some command output and more. </li>
             </ul>
         </details>
         <details>
