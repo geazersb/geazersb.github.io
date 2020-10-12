@@ -69,18 +69,19 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
 ### Commands
 <details open>
 <summary>open/close</summary>
+    <p>Arguments within brackets ([]) are optional. Arguments within greater/smaller than signs (<>) are required.</p>
     <ul>
         <details>
         <summary>Abuse</summary>
         <ul>
             <li> charbypass  ⟶  Will send a ~6000 char long message </li>
             <li> glitchdescription &lt;channel&gt; ⟶  Will glitch a channels topic/description </li>
-            <li> viewbot &lt;link&gt; [amount=50] ⟶  Will have &lt;amount&gt; bots viewing &lt;link&gt;, will work with ebay listings etc. </li>
+            <li> viewbot &lt;link&gt; [amount] ⟶  Will have &lt;amount&gt; bots viewing &lt;link&gt;, will work with ebay listings etc. </li>
             <li> maskmsg [m...] ⟶  Will hide a message inside another message. </li>
             <li> bantoken &lt;token&gt; ⟶  Will make a discord token invalid </li>
             <li> bantoken2 &lt;token&gt; ⟶  Will disable a discord account </li>
             <li> tokeninfo &lt;token&gt; ⟶  Will show information about a token </li>
-            <li> tokenspam &lt;token&gt; [name=B̩̮̘y͍̲̤̳͔̰͈ ̠͎̩͉̫G͓̭̩͔͔̖̱e̟̩̦a͙̪͉̱̮̖ͅz̴̻̬͇̫e̼r̤̤͙̹̰̝] ⟶  Will flash someones screen and change settings by using their token </li>
+            <li> tokenspam &lt;token&gt; [name] ⟶  Will flash someones screen and change settings by using their token </li>
             <li> destroyserver  ⟶  Will destroy a server by deleting it's channels and creating random new ones </li>
             <li> crashcall  ⟶  Base command for crashing calls </li>
             <ul>
@@ -114,13 +115,13 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
                 <li>  spam_stop  ⟶  Will stop the webhook spam </li>
             </ul>
             <ul>
-                <li>  create [name=🤫] ⟶  Will create a webhook for the current channel, can be used to send messages with </li>
+                <li>  create [name] ⟶  Will create a webhook for the current channel, can be used to send messages with </li>
             </ul>
             <ul>
                 <li>  send &lt;username&gt; &lt;avatar&gt; &lt;m&gt; ⟶  Will send a message with the created webhook </li>
             </ul>
             <ul>
-                <li>  create2 &lt;amount&gt; &lt;mc&gt; &lt;dc&gt; [name=🤫] ⟶  Will spam create webhooks on a channel bypassing the 10 wh cap</li>
+                <li>  create2 &lt;amount&gt; &lt;mc&gt; &lt;dc&gt; [name] ⟶  Will spam create webhooks on a channel bypassing the 10 wh cap</li>
             </ul>
             <ul>
                 <li>  spam_start  ⟶  Will spam (weak) insults with the created webhook as random guild members </li>
@@ -229,10 +230,10 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> changemymind &lt;message&gt; ⟶  Will send an image with in the change my mind meme context with the text input </li>
             <li> magik  ⟶  Base command for magikyzing user profile pictures and other images </li>
             <ul>
-                <li>  image &lt;link&gt; [intensity=5] ⟶  Will send the &lt;link&gt;'s image deformed with &lt;intensity&gt; </li>
+                <li>  image &lt;link&gt; [intensity] ⟶  Will send the &lt;link&gt;'s image deformed with &lt;intensity&gt; </li>
             </ul>
             <ul>
-                <li>  user &lt;user&gt; [intensity=5] ⟶  Will send the &lt;user&gt;'s profile picture deformed with &lt;intensity&gt; </li>
+                <li>  user &lt;user&gt; [intensity] ⟶  Will send the &lt;user&gt;'s profile picture deformed with &lt;intensity&gt; </li>
             </ul>
             <li> blurpify  ⟶  Base command for blurpifying user profile pictures and other images </li>
             <ul>
@@ -263,7 +264,7 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> ipinfo &lt;host&gt; ⟶  Will display information about a host by ip/hostname </li>
             <li> unshorten &lt;link&gt; ⟶  Wil unshorten ad.fly, sh.st and adfoc.us links, they might've patched this idk </li>
             <li> icmpping &lt;host&gt; ⟶  Will ICMP ping &lt;host&gt; using ICMP packets </li>
-            <li> tcpping &lt;host&gt; [port=80] ⟶  Will ping &lt;host&gt; on port &lt;port&gt; using TCP packets </li>
+            <li> tcpping &lt;host&gt; [port] ⟶  Will ping &lt;host&gt; on port &lt;port&gt; using TCP packets </li>
             <li> dnsresolve &lt;apikey&gt; [hostnames..] ⟶  Will resolve a DNS by hostname </li>
             <li> showheaders &lt;apikey&gt;  ⟶  Will show the HTTP headers that your client sends when connecting to a webserver </li>
             <li> portscan &lt;apikey&gt; &lt;host&gt; ⟶  Will scan the common ports of a &lt;host&gt;. </li>
@@ -271,16 +272,16 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> maclookup &lt;apikey&gt; &lt;mac&gt; ⟶  Will search for the manufacturer of a product based on it's MAC address </li>
             <li> proxies  ⟶  Base command for sending txt files containing proxies </li>
             <ul>
-                <li>  socks5 [proxytimeoutms=1000] ⟶  Scrapes socks5 proxies (IP:PORT) and sends the file in chat </li>
+                <li>  socks5 [proxytimeoutms] ⟶  Scrapes socks5 proxies (IP:PORT) and sends the file in chat </li>
             </ul>
             <ul>
-                <li>  http [proxytimeoutms=1000] ⟶  Scrapes HTTP proxies (IP:PORT) and sends the file in chat </li>
+                <li>  http [proxytimeoutms] ⟶  Scrapes HTTP proxies (IP:PORT) and sends the file in chat </li>
             </ul>
             <ul>
-                <li>  https [proxytimeoutms=1000] ⟶  Scrapes HTTPS proxies (IP:PORT) and sends the file in chat </li>
+                <li>  https [proxytimeoutms] ⟶  Scrapes HTTPS proxies (IP:PORT) and sends the file in chat </li>
             </ul>
             <ul>
-                <li>  socks4 [proxytimeoutms=1000] ⟶  Scrapes socks4 proxies (IP:PORT) and sends the file in chat </li>
+                <li>  socks4 [proxytimeoutms] ⟶  Scrapes socks4 proxies (IP:PORT) and sends the file in chat </li>
             </ul>
         </ul>
         </details>
@@ -358,7 +359,7 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
                 <li>  remove [ids...] ⟶  Will remove the specified tokens from the json file </li>
             </ul>
             <ul>
-                <li>  login [type=False]  ⟶  Will log in all the raid accounts (bot or user) from the user account and join your guild </li>
+                <li>  login [type]  ⟶  Will log in all the raid accounts (bot or user) from the user account and join your guild </li>
             </ul>
         </ul>
         </details>
@@ -460,7 +461,7 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> 911  ⟶  Will send an editing 911 image </li>
             <li> cum  ⟶  Will send an editing masturbating image 😳 </li>
             <li> tokencalc &lt;user&gt; ⟶  Will calculate the first part of a users token based on their account information </li>
-            <li> glitchmention [length=1977] ⟶  Will send a &lt;length&gt; long mention looking message </li>
+            <li> glitchmention [length] ⟶  Will send a &lt;length&gt; long mention looking message </li>
             <li> typing  ⟶  Will make it look like you are typing indefinitely (Send a message to make it stop) </li>
             <li> freenitro [customurl] [gifurl] ⟶  Will send an embedded gif that if added to favourites will send the customurl gif instead</li>
             <li> editpos &lt;message&gt; ⟶  Will send a &lt;message&gt; where it's edited tag is on the left instead of right </li>
@@ -525,8 +526,8 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
         <summary>Utilities</summary>
         <ul>
             <li> youtubesearch &lt;search&gt; ⟶  Will search for a video on YouTube by given title </li>
-            <li> tobtc &lt;amount&gt; [currencycode=USD] ⟶  Will convert provided currency to it's bitcoin equivalent </li>
-            <li> btc [currencycode=USD] ⟶  Will convert a bitcoin to the provided currency equivalent </li>
+            <li> tobtc &lt;amount&gt; [currencycode] ⟶  Will convert provided currency to it's bitcoin equivalent </li>
+            <li> btc [currencycode] ⟶  Will convert a bitcoin to the provided currency equivalent </li>
             <li> commandtimer &lt;interval&gt; &lt;amount&gt; &lt;command&gt; ⟶  Will use &lt;command&gt; every &lt;interval&gt; seconds &lt;amount&gt; times </li>
             <li> timer &lt;time&gt; &lt;interval&gt; ⟶  Will count down from &lt;_time&gt; and update in an embed every &lt;interval&gt; seconds </li>
             <li> nitro &lt;amount&gt; ⟶  Will generate &lt;amount&gt; discord nitro codes </li>
