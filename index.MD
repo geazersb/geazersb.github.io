@@ -52,8 +52,10 @@ Some of our best features include:
 ### Disclaimer
 <details>
 <summary>open/close</summary>
-    Using a selfbot is <b>against</b> Discord's <a title="Discord article on Selfbots" href="https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-">TOS</a>. Though I have made this selfbot very <b>discrete</b> by logging into a separate channel, and giving the option to disable embeds. You will <b>not</b> be banned, 
-    <b>unless</b> you get <b>reported with proof</b> (e.g screen of embed/you saying you used abusive commands).
+    <ul>
+    <li> Using a selfbot is <b>against</b> Discord's <a title="Discord article on Selfbots" href="https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-">TOS</a>. Though I have made this selfbot very <b>discrete</b> by logging into a separate channel, and giving the option to disable embeds. You will <b>not</b> be banned, 
+    <b>unless</b> you get <b>reported with proof</b> (e.g screen of embed/you saying you used abusive commands). </li>
+    </ul>
 </details>
 
 ### Buying
@@ -615,25 +617,30 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <summary>Customizability</summary>
             <ul>
                 <li> Some commands could send their output in an embed form depending on whether you have enabled that.
-                     If so, you can specify the footer icon, text and colour it will show up with. 
-                </li>
-                <li>The prefix is customizable as well</li>
+                     If so, you can specify the footer icon, text and colour it will show up with. </li>
+                <li> The prefix is fully customizable as well </li>
             </ul>
         </details>
         <details>
             <summary>Extensions</summary>
-            I have made 2 optional extensions. This includes the Moderation (8 commands) and the NSFW extension (2 commands).
-            They can be downloaded in our guild upon buying the selfbot.
+            <ul>
+                <li> I have made 2 optional extensions. This includes the Moderation (8 commands) and the NSFW extension (2 commands).
+                They can be downloaded in our guild upon buying the selfbot. </li>
+            </ul>
         </details>
         <details>
             <summary>Logging</summary>
-            All logging is done discretely in a by you chosen guilds sytem channel. A webhook is created who will
-            send what actions are done, some command output, and more.
+            <ul>
+                <li> All logging is done discretely in a by you chosen guilds sytem channel. A webhook is created who will
+                send what actions are done, some command output, and more. </li>
+            </ul>
         </details>
         <details>
             <summary>Support</summary>
-            You can create a ticket in <a href="https://discord.gg/ZGrYnNB">our discord</a> where we will provide great support
-            ASAP. The discord server also contains a FAQ page, where most of your questions will be answered. So make sure to check that out!
+            <ul>
+                <li> You can create a ticket in <a href="https://discord.gg/ZGrYnNB">our discord</a> where we will provide great support
+                ASAP. The discord server also contains a FAQ page, where most of your questions will be answered. So make sure to check that out! </li>
+            </ul>
         </details> 
     </ul>
 </details>
