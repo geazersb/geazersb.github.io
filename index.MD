@@ -57,7 +57,7 @@ Some of our best features include:
     unless you get reported with proof (e.g screen of embed/you saying you used abusive commands).
 </details>
 
-### Buy
+### Buying
 The selfbot can be bought on autobuy.io, or right here using the button below. Right now I accept PayPal as the only payment method, though CryptoCurrency will be accepted soon!
 
 <button class="button button" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
