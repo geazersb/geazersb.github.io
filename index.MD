@@ -69,8 +69,8 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
 ### Commands
 <details open>
 <summary>open/close</summary>
-    <p>Arguments within brackets ([]) are optional. Arguments within greater/smaller than signs (<>) are required.</p>
     <ul>
+        <p>Arguments within brackets ([]) are optional. Arguments within greater/smaller than signs (<>) are required.</p>
         <details>
         <summary>Abuse</summary>
         <ul>
