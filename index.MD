@@ -588,7 +588,7 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <summary>Nitro sniper</summary>
             <ul>
                 <li> The nitro sniper has build in anti-spam methods, this means you won't ever be banned by using this!
-                The speed (depending on your internetspeed and discords server load) is between 0.12s and 0.15s from beginning to end. </li>
+                The speed (depending on your internetspeed, discords server load and the distance) is around <a target="_blank" title="Snipe speeds" href="https://i.imgur.com/GZ8uR5W.png">0.15s</a>, but could drop to 0.12s from beginning to end. </li>
             </ul>
         </details>
         <details>
