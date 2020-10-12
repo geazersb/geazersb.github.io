@@ -42,3 +42,10 @@ body {
   border-radius: 8px;
   color: #fdfdfd;
 }
+
+details > summary {
+  cursor: pointer; 
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
