@@ -42,10 +42,10 @@ Some of our best features include:
 <details>
 <summary>open/close</summary>
     <ul>
-        <li>Python: <a href="https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe">Python 3.8.5</a> </li>
+        <li>Python: <a title="Direct Python install" href="https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe">Python 3.8.5</a> </li>
         <li>OS: Windows 10 (64-bit), Linux distro, MacOS </li>
-        <li>Having joined <a href="https://discord.gg/ZGrYnNB">our discord</a> </li>
-        <li>Having an activation code (can be obtained after buying)</li>
+        <li>Having joined <a title="Invite to our Discord" href="https://discord.gg/ZGrYnNB">our discord</a> </li>
+        <li>Having an activation code (can be obtained after buying), is based on your HWID</li>
     </ul>
 </details>
 
@@ -57,7 +57,7 @@ Some of our best features include:
 </details>
 
 ### Buying
-The selfbot can be bought on autobuy.io, or right here using the button below. Right now I accept PayPal as the only payment method, though CryptoCurrency will be accepted soon!
+The selfbot can be bought on autobuy.io, or right here using the button below. Right now I accept PayPal as the only payment method, though some crypto currency will be accepted soon!
 
 <button class="button button" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
 
