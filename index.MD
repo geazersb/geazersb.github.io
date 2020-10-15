@@ -304,7 +304,6 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> declineall  ⟶  Will decline all incoming friend requests </li>
             <li> reload  ⟶  Will reload all cogs </li>
             <li> getavatars &lt;guildid&gt; ⟶  Will scrape all avatars in a guild for the random avatars list </li>
-            <li> killpresident ⟶  Will send a message containing reasons to kill the President of the USA 😂 </li>
             <li> getemojis &lt;fromguildid&gt; &lt;toguildid&gt; ⟶  Will scrape all emojis from &lt;fromguildid&gt; guild and put them in &lt;toguildid&gt; guild </li>
             <li> settings  ⟶  Base command for changing your selfbot settings </li>
             <ul>
