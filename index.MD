@@ -8,7 +8,7 @@
 ---
 
 <h3 name="introduction">Introduction</h3>
-Welcome to the Geazer (Discord) Selfbot website. A cheap and full of features discord selfbot made in Python by Buster.
+Welcome to the Geazer (Discord) Selfbot website. A cheap and full of features discord selfbot made in Python, made by Buster.
 
 Some of our best features include:
 <details open>
@@ -64,10 +64,10 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
 
 <button class="button button" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
 
-<h1 style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Features</h1>
+<h1 name="features" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Features</h1>
 ---
 
-<h3 name="commands">Commands</h3>
+<h3>Commands</h3>
 <details open>
 <summary>open/close</summary>
     <ul>
