@@ -19,7 +19,7 @@ Some of our best features include:
         <li> Creating and loading backups ✓ </li>
         <li> Great semi-interactive <a target="_blank" title="Help command screenshots" href="https://imgur.com/a/MRppIAw">help command</a> ✓ </li>
         <li> Controlling hundreds of bot/user accounts (for raiding) ✓ </li>
-        <li> Loads of exploit/abuse commands ✓ </li>
+        <li> Loads of exploit/abuse commands F✓ </li>
         <li> Extensive optimization and ingenuity (abiding <a target="_blank" title="PEP-8 definition" href="https://www.python.org/dev/peps/pep-0008/">PEP-8</a> rules) ✓ </li>
         <li> Cheap price ✓ </li>
         <li> Frequent updates ✓ </li>
@@ -165,6 +165,7 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> fact  ⟶  Will send a random fact </li>
             <li> emojify &lt;emote&gt; &lt;message&gt; ⟶  Will send a message joining your input with &lt;emote&gt; </li>
             <li> combine &lt;word1&gt; &lt;word2&gt; ⟶  Will combine &lt;word1&gt; and &lt;word2&gt; into one word </li>
+            <li> furrify ⟶  Will convert your &lt;message&gt; into a cancerous incel message </li>
             <li> novowel &lt;message&gt; ⟶  Will send a &lt;message&gt; with all vowels removed from your input </li>
             <li> vowelreplace &lt;letter&gt; &lt;message&gt; ⟶  Will send a &lt;message&gt; where it's vowels are placed with &lt;letter&gt; </li>
             <li> 1337 &lt;message&gt; ⟶  Will send your &lt;message&gt; as leet (unreadable) </li>
@@ -270,6 +271,7 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> showheaders &lt;apikey&gt;  ⟶  Will show the HTTP headers that your client sends when connecting to a webserver </li>
             <li> portscan &lt;apikey&gt; &lt;host&gt; ⟶  Will scan the common ports of a &lt;host&gt;. </li>
             <li> traceroute &lt;apikey&gt; &lt;host&gt; ⟶  Will determine what servers data traverses through before reaching the &lt;host&gt; </li>
+            <li> screenwebsite &lt;url&gt; ⟶  Will send a screenshot of a website with the provided &lt;url&gt; </li>
             <li> maclookup &lt;apikey&gt; &lt;mac&gt; ⟶  Will search for the manufacturer of a product based on it's MAC address </li>
             <li> proxies  ⟶  Base command for sending txt files containing proxies </li>
             <ul>
@@ -468,6 +470,7 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> editpos &lt;message&gt; ⟶  Will send a &lt;message&gt; where it's edited tag is on the left instead of right </li>
             <li> massping  ⟶  Will massping everybody in the guild (in groups of 100) </li>
             <li> spam &lt;amount&gt; &lt;message&gt; ⟶  Will send &lt;message&gt; &lt;amount&gt; times in a row </li>
+            <li> killpresident ⟶  Will send a message containing reasons to kill the President of the USA :joy: </li>
             <li> uclone &lt;user&gt; ⟶  Will copy &lt;user&gt;'s nick/pfp/role else username/pfp </li>
             <li> blank  ⟶  Base command for sending ~2000 char long whitespace message </li>
             <ul>
