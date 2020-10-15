@@ -33,7 +33,7 @@ Some of our best features include:
 <details open>
 <summary>open/close</summary>
     <ul>
-        <li> Join our discord <a target="_blank" title="Support, suggestions, questions and more" href="https://discord.gg/ZGrYnNB">here</a> </li>
+        <li> Join our discord <a target="_blank" title="Support, suggestions, questions and more" href="https://discord.gg/ZGrYnNB">here</a> (<a target="_blank" title="Support, suggestions, questions and more" href="https://discord.gg/22fZgtp">backup</a>)</li>
         <li> View our shop <a target="_blank" title="My autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">here</a> </li>
         <li> View our features quickly <a target="_blank" title="Clear pastebin listing of commands" href="https://pastebin.com/raw/7f4RHTeH">here</a> </li>
     </ul>
