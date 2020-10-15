@@ -13,7 +13,7 @@ Welcome to the Geazer (Discord) Selfbot website. A cheap and full of features di
 Some of our best features include:
 <details open>
 <summary>open/close</summary>
-    <ul>
+    <ul name="notable features">
         <li> Fast nitro and privnote sniper (<a target="_blank" title="Snipe speeds" href="https://i.imgur.com/GZ8uR5W.png">~0.15s</a>) and more ✓ </li>
         <li> Custom commands, listeners and embeds ✓ </li>
         <li> Creating and loading backups ✓ </li>
