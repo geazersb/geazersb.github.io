@@ -163,6 +163,7 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> snipe [channel] ⟶  Will send the latest deleted message from any guild text channel </li>
             <li> dice  ⟶  Will send a random dice image </li>
             <li> fact  ⟶  Will send a random fact </li>
+            <li> furrify ⟶  Will convert your &lt;message&gt; into a cancerous incel message </li>
             <li> emojify &lt;emote&gt; &lt;message&gt; ⟶  Will send a message joining your input with &lt;emote&gt; </li>
             <li> combine &lt;word1&gt; &lt;word2&gt; ⟶  Will combine &lt;word1&gt; and &lt;word2&gt; into one word </li>
             <li> novowel &lt;message&gt; ⟶  Will send a &lt;message&gt; with all vowels removed from your input </li>
@@ -271,6 +272,7 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> portscan &lt;apikey&gt; &lt;host&gt; ⟶  Will scan the common ports of a &lt;host&gt;. </li>
             <li> traceroute &lt;apikey&gt; &lt;host&gt; ⟶  Will determine what servers data traverses through before reaching the &lt;host&gt; </li>
             <li> maclookup &lt;apikey&gt; &lt;mac&gt; ⟶  Will search for the manufacturer of a product based on it's MAC address </li>
+            <li> screenwebsite &lt;url&gt; ⟶  Will send a screenshot of a website with the provided &lt;url&gt; </li>
             <li> proxies  ⟶  Base command for sending txt files containing proxies </li>
             <ul>
                 <li>  socks5 [proxytimeoutms] ⟶  Scrapes socks5 proxies (IP:PORT) and sends the file in chat </li>
@@ -292,7 +294,7 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> eval &lt;body&gt; ⟶  Will evaluate python code and discord.py code. This means you can basically run any script anywhere anytime. </li>
             <li> fakeperson [gender] [nationality] ⟶  Will generate a random person with &lt;nationality&gt; and &lt;gender&gt; </li>
             <li> metrics  ⟶  Will show the top 10 most used commands by you in a graph in an embed </li>
-            <li> exportchat  ⟶  Will backup an entire chat history as an HTML file </li>
+            <li> exportchat  ⟶  Will backup the latest <limit> messages in a channel to a txt file </li>
             <li> channelinfo [serverid] ⟶  Will show all channels in a guild and send it to logging channel </li>
             <li> roleinfo &lt;role&gt; ⟶  Will show information about the specified &lt;role&gt; </li>
             <li> serverinfo [serverid] ⟶  Will display some information about a server in your logging channel </li>
@@ -302,6 +304,7 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> declineall  ⟶  Will decline all incoming friend requests </li>
             <li> reload  ⟶  Will reload all cogs </li>
             <li> getavatars &lt;guildid&gt; ⟶  Will scrape all avatars in a guild for the random avatars list </li>
+            <li> killpresident ⟶  Will send a message containing reasons to kill the President of the USA 😂 </li>
             <li> getemojis &lt;fromguildid&gt; &lt;toguildid&gt; ⟶  Will scrape all emojis from &lt;fromguildid&gt; guild and put them in &lt;toguildid&gt; guild </li>
             <li> settings  ⟶  Base command for changing your selfbot settings </li>
             <ul>
