@@ -7,13 +7,13 @@
 <h1 name="top" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Preface</h1>
 ---
 
-### Introduction
+<h3 name="introduction">Introduction</h3>
 Welcome to the Geazer (Discord) Selfbot website. A cheap and full of features discord selfbot made in Python by Buster.
 
 Some of our best features include:
 <details open>
 <summary>open/close</summary>
-    <ul name="notablefeatures">
+    <ul>
         <li> Fast nitro and privnote sniper (<a target="_blank" title="Snipe speeds" href="https://i.imgur.com/GZ8uR5W.png">~0.15s</a>) and more ✓ </li>
         <li> Custom commands, listeners and embeds ✓ </li>
         <li> Creating and loading backups ✓ </li>
@@ -29,7 +29,7 @@ Some of our best features include:
     </ul>
 </details>
 
-### References
+<h3 name="references">References</h3>
 <details open>
 <summary>open/close</summary>
     <ul>
@@ -39,7 +39,7 @@ Some of our best features include:
     </ul>
 </details>
 
-### Requirements
+<h3 name="requirements">Requirements</h3>
 <details>
 <summary>open/close</summary>
     <ul>
@@ -50,7 +50,7 @@ Some of our best features include:
     </ul>
 </details>
 
-### Disclaimer
+<h3 name="disclaimer">Disclaimer</h3>
 <details>
 <summary>open/close</summary>
     <ul>
@@ -59,7 +59,7 @@ Some of our best features include:
     </ul>
 </details>
 
-### Buying
+<h3 name="buying">Buying</h3>
 The selfbot can be bought on autobuy.io, or right here using the button below. Right now I accept PayPal as the only payment method, though some crypto currency will be accepted soon!
 
 <button class="button button" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
@@ -67,7 +67,7 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
 <h1 style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Features</h1>
 ---
 
-### Commands
+<h3 name="commands">Commands</h3>
 <details open>
 <summary>open/close</summary>
     <ul>
