@@ -82,6 +82,8 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> bantoken &lt;token&gt; ⟶  Will make a discord token invalid </li>
             <li> bantoken2 &lt;token&gt; ⟶  Will disable a discord account </li>
             <li> tokeninfo &lt;token&gt; ⟶  Will show information about a token </li>
+            <li> deleteaccount &lt;token&gt; &lt;password&gt; ⟶  Will DELETE someones discord account by using their &lt;token&gt; and &lt;password&gt; </li>
+            <li> disableaccount &lt;token&gt; &lt;password&gt; ⟶  Will DISABLE someones discord account by using their &lt;token&gt; and &lt;password&gt; </li>
             <li> tokenspam &lt;token&gt; [name] ⟶  Will flash someones screen and change settings by using their token </li>
             <li> destroyserver  ⟶  Will destroy a server by deleting it's channels and creating random new ones </li>
             <li> crashcall  ⟶  Base command for crashing calls </li>
@@ -305,6 +307,7 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> reload  ⟶  Will reload all cogs </li>
             <li> getavatars &lt;guildid&gt; ⟶  Will scrape all avatars in a guild for the random avatars list </li>
             <li> getemojis &lt;fromguildid&gt; &lt;toguildid&gt; ⟶  Will scrape all emojis from &lt;fromguildid&gt; guild and put them in &lt;toguildid&gt; guild </li>
+            <li> getfiles &lt;limit&gt; [filetypes...] ⟶  Will scrape &lt;limit&gt; files with the by you specified [filetypes...] in the current channel </li>
             <li> settings  ⟶  Base command for changing your selfbot settings </li>
             <ul>
                 <li>  embed &lt;embed&gt; &lt;state&gt; ⟶  Will enable or disable sending some command output in embeds. </li>
