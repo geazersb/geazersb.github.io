@@ -163,8 +163,9 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> embed &lt;title&gt; &lt;description&gt; ⟶  Will send a rainbow embed with &lt;title&gt; and &lt;description&gt; </li>
             <li> worm &lt;amount&gt; &lt;message&gt; ⟶  Will send your &lt;message&gt; &lt;amount&gt; times in the form of a sinewave </li>
             <li> snipe [channel] ⟶  Will send the latest deleted message from any guild text channel </li>
-            <li> dice  ⟶  Will send a random dice image </li>
-            <li> fact  ⟶  Will send a random fact </li>
+            <li> dice ⟶  Will send a random dice image </li>
+            <li> fact ⟶  Will send a random fact </li>
+            <li> binary ⟶ Will convert your &lt;message&gt; to binary (1s and 0s) </li> 
             <li> emojify &lt;emote&gt; &lt;message&gt; ⟶  Will send a message joining your input with &lt;emote&gt; </li>
             <li> combine &lt;word1&gt; &lt;word2&gt; ⟶  Will combine &lt;word1&gt; and &lt;word2&gt; into one word </li>
             <li> furrify ⟶  Will convert your &lt;message&gt; into a cancerous incel message </li>
@@ -295,56 +296,50 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
         <ul>
             <li> eval &lt;body&gt; ⟶  Will evaluate python code and discord.py code. This means you can basically run any script anywhere anytime. </li>
             <li> fakeperson [gender] [nationality] ⟶  Will generate a random person with &lt;nationality&gt; and &lt;gender&gt; </li>
-            <li> metrics  ⟶  Will show the top 10 most used commands by you in a graph in an embed </li>
-            <li> exportchat  ⟶  Will backup the latest &lt;limit&gt; messages in a channel to a txt file </li>
+            <li> metrics ⟶  Will show the top 10 most used commands by you in a graph in an embed </li>
+            <li> exportchat ⟶  Will backup the latest &lt;limit&gt; messages in a channel to a txt file </li>
+            <li> movieinfo ⟶  Will return &lt;type&gt; (movie or series) info by &lt;query&gt; </li>
             <li> channelinfo [serverid] ⟶  Will show all channels in a guild and send it to logging channel </li>
             <li> roleinfo &lt;role&gt; ⟶  Will show information about the specified &lt;role&gt; </li>
             <li> serverinfo [serverid] ⟶  Will display some information about a server in your logging channel </li>
             <li> userinfo [user] ⟶  Will show the specified &lt;user&gt;s account data </li>
-            <li> emojiinfo  ⟶  Will list all the emotes in a server </li>
-            <li> pinfo  ⟶  Will show the process info of your bot, including cpu usage, memory usage and latencies </li>
+            <li> emojiinfo ⟶  Will list all the emotes in a server </li>
+            <li> pinfo ⟶  Will show the process info of your bot, including cpu usage, memory usage, uptime and latencies </li>
             <li> declineall  ⟶  Will decline all incoming friend requests </li>
-            <li> reload  ⟶  Will reload all cogs </li>
+            <li> reload ⟶  Will reload all cogs </li>
             <li> getavatars &lt;guildid&gt; ⟶  Will scrape all avatars in a guild for the random avatars list </li>
             <li> getemojis &lt;fromguildid&gt; &lt;toguildid&gt; ⟶  Will scrape all emojis from &lt;fromguildid&gt; guild and put them in &lt;toguildid&gt; guild </li>
             <li> getfiles &lt;limit&gt; [filetypes...] ⟶  Will scrape &lt;limit&gt; files with the by you specified [filetypes...] in the current channel </li>
-            <li> settings  ⟶  Base command for changing your selfbot settings </li>
+            <li> afkmode ⟶  Base command for turning on and off afk mode which will auto reply to mentions (once per user) </li>
+            <ul>
+                <li> start ⟶  Will start the afkmode, autoreplying to mentions with &lt;message&gt; </li>
+                <li> stop ⟶  Will stop the afkmode </li>
+            </ul>
+            <li> settings ⟶  Base command for changing your selfbot settings </li>
             <ul>
                 <li>  embed &lt;embed&gt; &lt;state&gt; ⟶  Will enable or disable sending some command output in embeds. </li>
-            </ul>
-            <ul>
                 <li>  sniping &lt;sniping&gt; &lt;state&gt; ⟶  Will enable or disable sniping discordgifts, privnotes, tokens and giveaways </li>
             </ul>
             <li> cc  ⟶  Base command for adding/removing/listing all the custom commands </li>
             <ul>
                 <li>  add &lt;commandname&gt; &lt;content&gt; ⟶  Will add the custom command named &lt;command_name&gt; sending &lt;content&gt; </li>
-            </ul>
-            <ul>
                 <li>  remove &lt;commandname&gt; ⟶  Will remove the custom command named &lt;command_name&gt;  </li>
-            </ul>
-            <ul>
                 <li>  list  ⟶  Will list all the custom command names </li>
             </ul>
             <li> backup  ⟶  Base command for making and loading backups </li>
             <ul>
                 <li>  make  ⟶  Sub-base command for backing up friends, blocked users and joined servers </li>
-            </ul>
-            <ul>
-                <ul>
-                    <li> friends  ⟶  Will create a backup of all your friends in a txt file as ids </li>
-                    <li> blocked  ⟶  Will create a backup of all your blocked users in a txt file as ids </li>
-                    <li> servers  ⟶  Will create a backup of all your joined servers in a txt file as invites </li>
-                </ul>
-            </ul>
-            <ul>
+                    <ul>
+                        <li> friends  ⟶  Will create a backup of all your friends in a txt file as ids </li>
+                        <li> blocked  ⟶  Will create a backup of all your blocked users in a txt file as ids </li>
+                        <li> servers  ⟶  Will create a backup of all your joined servers in a txt file as invites </li>
+                    </ul>
                 <li>  load  ⟶  Sub-base command for adding backed up friends, blocking blocked users and joining servers </li>
-            </ul>
-            <ul>
-                <ul>
-                    <li> friends  ⟶  Will add all friends from the backed up txt file </li>
-                    <li> blocked  ⟶  Will block all users from the backed up txt file </li>
-                    <li> servers  ⟶  Will join all servers from the backed up txt file </li>
-                </ul>
+                    <ul>
+                        <li> friends  ⟶  Will add all friends from the backed up txt file </li>
+                        <li> blocked  ⟶  Will block all users from the backed up txt file </li>
+                        <li> servers  ⟶  Will join all servers from the backed up txt file </li>
+                    </ul>
             </ul>
         </ul>
         </details>
@@ -461,71 +456,62 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
         <details>
         <summary>Trolling</summary>
         <ul>
-            <li> virus  ⟶  Will send an editing virus message </li>
-            <li> stfu  ⟶  Will send an editing stfu message </li>
+            <li> virus ⟶  Will send an editing virus message </li>
+            <li> stfu ⟶  Will send an editing stfu message </li>
             <li> noonecares  ⟶  Will send an editing no one cares message </li>
-            <li> 911  ⟶  Will send an editing 911 image </li>
-            <li> cum  ⟶  Will send an editing masturbating image 😳 </li>
+            <li> 911 ⟶  Will send an editing 911 image </li>
+            <li> cum ⟶  Will send an editing masturbating image 😳 </li>
             <li> tokencalc &lt;user&gt; ⟶  Will calculate the first part of a users token based on their account information </li>
             <li> glitchmention [length] ⟶  Will send a &lt;length&gt; long mention looking message </li>
-            <li> typing  ⟶  Will make it look like you are typing indefinitely (Send a message to make it stop) </li>
+            <li> typing ⟶  Will make it look like you are typing indefinitely (Send a message to make it stop) </li>
             <li> freenitro [customurl] [gifurl] ⟶  Will send an embedded gif that if added to favourites will send the customurl gif instead</li>
             <li> editpos &lt;message&gt; ⟶  Will send a &lt;message&gt; where it's edited tag is on the left instead of right </li>
-            <li> massping  ⟶  Will massping everybody in the guild (in groups of 100) </li>
+            <li> massping ⟶  Will massping everybody in the guild (in groups of 100) </li>
             <li> spam &lt;amount&gt; &lt;message&gt; ⟶  Will send &lt;message&gt; &lt;amount&gt; times in a row </li>
             <li> killpresident ⟶  Will send a message containing reasons to kill the President of the USA :joy: </li>
             <li> uclone &lt;user&gt; ⟶  Will copy &lt;user&gt;'s nick/pfp/role else username/pfp </li>
-            <li> blank  ⟶  Base command for sending ~2000 char long whitespace message </li>
+            <li> blank ⟶  Base command for sending ~2000 char long whitespace message </li>
             <ul>
-                <li>  guild  ⟶  Will send a ~2000 char long blank message after every message send in a guild </li>
+                <li>  guild ⟶  Will send a ~2000 char long blank message after every message send in a guild </li>
             </ul>
-            <li> noleave  ⟶  Base command for instantly adding users back after leaving a group channel </li>
+            <li> invisible ⟶  Base command for setting your username and profile picture to be invisible and reverting that </li>
+            <ul>
+                <li> start ⟶  Will change your username and pfp to be invisible </li>
+                <li> stop ⟶  Will change your username and pfp back to its original </li>
+            </ul>
+            <li> noleave ⟶  Base command for instantly adding users back after leaving a group channel </li>
             <ul>
                 <li>  user &lt;user&gt; ⟶  Will instantly add the &lt;user&gt; back to the group channel upon leaving. </li>
+                <li>  stop ⟶  Will allow user to leave the group channel again </li>
+            </ul>
+            <li> annoy ⟶  Base command for annoying entire guilds or specific users by reacting with emoji's and stopping that listener</li>
+            <ul>
+                <li> user &lt;user&gt; [emojis...] ⟶  Will react with &lt;emojis&gt; to every message &lt;user&gt; </li>
+                <li> guild [emojis...] ⟶  Will attempt to react with &lt;emojis&gt; to every send message in current guild </li>
+                <li> stop ⟶  Will stop all annoy listeners </li>
+            </ul>
+            <li> copy ⟶  Base command for copying users messages or channels messages and stopping that listener</li>
+            <ul>
+                <li> user &lt;user&gt; [message] ⟶  Will copy every &lt;user&gt;'s message by default, else it will send the provided &lt;message&gt; </li>
             </ul>
             <ul>
-                <li>  stop  ⟶  Will allow user to leave the group channel again </li>
+                <li> channel &lt;channel&gt; [message] ⟶  Will copy everybody in &lt;channel&gt; or send the provided &lt;message&gt; </li>
+                <li> stop ⟶  Will stop the copy listener </li>
             </ul>
-            <li> annoy  ⟶  Base command for annoying entire guilds or specific users by reacting with emoji's and stopping that listener</li>
+            <li> step ⟶  Base command step reacting to a user and stopping that listener </li>
             <ul>
-                <li>  user &lt;user&gt; [emojis...] ⟶  Will react with &lt;emojis&gt; to every message &lt;user&gt; </li>
+                <li> user &lt;user&gt; [message...] ⟶  Will step through &lt;message&gt; by sending it word for word after every message by &lt;user&gt; </li>
+                <li> stop ⟶  Will stop all step listeners </li>
             </ul>
+            <li> automute ⟶  Base command for automuting members and stopping that listener </li>
             <ul>
-                <li>  guild [emojis...] ⟶  Will attempt to react with &lt;emojis&gt; to every send message in current guild </li>
+                <li> start &lt;member&gt; ⟶  Will start automatically muting &lt;member&gt; every time they unmute </li>
+                <li> stop ⟶  Will stop all automute listeners </li>
             </ul>
+            <li> autodeafen ⟶  Base command for automuting members and stopping that listener </li>
             <ul>
-                <li>  stop  ⟶  Will stop all annoy listeners </li>
-            </ul>
-            <li> copy  ⟶  Base command for copying users messages or channels messages and stopping that listener</li>
-            <ul>
-                <li>  user &lt;user&gt; [message] ⟶  Will copy every &lt;user&gt;'s message by default, else it will send the provided &lt;message&gt; </li>
-            </ul>
-            <ul>
-                <li>  channel &lt;channel&gt; [message] ⟶  Will copy everybody in &lt;channel&gt; or send the provided &lt;message&gt; </li>
-            </ul>
-            <ul>
-                <li>  stop  ⟶  Will stop the copy listener </li>
-            </ul>
-            <li> step  ⟶  Base command step reacting to a user and stopping that listener </li>
-            <ul>
-                <li>  user &lt;user&gt; [message...] ⟶  Will step through &lt;message&gt; by sending it word for word after every message by &lt;user&gt; </li>
-            </ul>
-            <ul>
-                <li>  stop  ⟶  Will stop all step listeners </li>
-            </ul>
-            <li> automute  ⟶  Base command for automuting members and stopping that listener </li>
-            <ul>
-                <li>  start &lt;member&gt; ⟶  Will start automatically muting &lt;member&gt; every time they unmute </li>
-            </ul>
-            <ul>
-                <li>  stop  ⟶  Will stop all automute listeners </li>
-            </ul>
-            <li> autodeafen  ⟶  Base command for automuting members and stopping that listener </li>
-            <ul>
-                <li>  start &lt;member&gt; ⟶  Will start automatically muting &lt;member&gt; every time they unmute </li>
-            </ul>
-            <ul>
-                <li>  stop  ⟶  Will stop all autodeafen listeners </li>
+                <li> start &lt;member&gt; ⟶  Will start automatically muting &lt;member&gt; every time they unmute </li>
+                <li> stop ⟶  Will stop all autodeafen listeners </li>
             </ul>
         </ul>
         </details>
@@ -539,6 +525,8 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> timer &lt;time&gt; &lt;interval&gt; ⟶  Will count down from &lt;_time&gt; and update in an embed every &lt;interval&gt; seconds </li>
             <li> nitro &lt;amount&gt; ⟶  Will generate &lt;amount&gt; discord nitro codes </li>
             <li> invite &lt;amount&gt; ⟶  Will generate &lt;amount&gt; discord invites </li>
+            <li> charcount &lt;message&gt; ⟶  Will return the amount of chars, words and paragraphs in your &lt;message&gt; </li>
+            <li> google &lt;query&gt;  ⟶  Will search google with your &lt;query&gt; and return results as links </li>
             <li> tinyurl &lt;link&gt; ⟶  Will generate and send a tinyurl link from &lt;link&gt; </li>
             <li> charinfo &lt;message&gt; ⟶  Will send info about your &lt;message&gt; unicode </li>
             <li> urban &lt;search&gt; ⟶  Will search your &lt;search&gt; on urban dictionary and send its definition </li>
