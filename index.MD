@@ -2,8 +2,6 @@
 <summary> open/close </summary>
     <ul>
     <p> Arguments within greater/smaller than signs (<>) are required, arguments within brackets ([]) are optional. </p>
-
-
         <details>
         <summary> Abuse </summary>
         <ul>
@@ -40,53 +38,51 @@
             <li> role ⟶  Base command for creating or removing a lot of roles in a guild </li>
             <ul>
                 <li> add ⟶  Will attempt to add &lt;amount&gt; of roles to specified member </li>
-                <li> create ⟶  Will create specified amount of roles with random colour and specified name </li>
                 <li> remove ⟶  Will attempt to remove specified amount of roles in a guild </li>
+                <li> create ⟶  Will create specified amount of roles with random colour and specified name </li>
             </ul>
             <li> add ⟶  Will attempt to add &lt;amount&gt; of roles to specified member </li>
-            <li> create ⟶  Will create specified amount of roles with random colour and specified name </li>
             <li> remove ⟶  Will attempt to remove specified amount of roles in a guild </li>
+            <li> create ⟶  Will create specified amount of roles with random colour and specified name </li>
             <li> webhook ⟶  Base command for creating webhooks, spamming with webhooks and stopping that spam </li>
             <ul>
+                <li> spam_stop ⟶  Will stop the webhook spam </li>
+                <li> create ⟶  Will create a webhook for the current channel, can be used to send messages with - Requires manage_webhooks </li>
+                <li> send ⟶  Will send a message with the created webhook, works from anywhere in discord </li>
                 <li> create2 ⟶  Will spam create webhooks on channels exceeding the 10 wh cap </li>
                 <li> spam_start ⟶  Will spam (weak) insults with the created webhook as random guild members </li>
                 <li> send2 ⟶  Will create a partial webhook from a wh URL and send messages with it </li>
                 <li> delete ⟶  Will delete all webhooks on a specific channel </li>
                 <li> delete2 ⟶  Will delete any webhook using it's URL </li>
-                <li> spam_stop ⟶  Will stop the webhook spam </li>
-                <li> create ⟶  Will create a webhook for the current channel, can be used to send messages with - Requires manage_webhooks </li>
-                <li> send ⟶  Will send a message with the created webhook, works from anywhere in discord </li>
             </ul>
+            <li> spam_stop ⟶  Will stop the webhook spam </li>
+            <li> create ⟶  Will create a webhook for the current channel, can be used to send messages with - Requires manage_webhooks </li>
+            <li> send ⟶  Will send a message with the created webhook, works from anywhere in discord </li>
             <li> create2 ⟶  Will spam create webhooks on channels exceeding the 10 wh cap </li>
             <li> spam_start ⟶  Will spam (weak) insults with the created webhook as random guild members </li>
             <li> send2 ⟶  Will create a partial webhook from a wh URL and send messages with it </li>
             <li> delete ⟶  Will delete all webhooks on a specific channel </li>
             <li> delete2 ⟶  Will delete any webhook using it's URL </li>
-            <li> spam_stop ⟶  Will stop the webhook spam </li>
-            <li> create ⟶  Will create a webhook for the current channel, can be used to send messages with - Requires manage_webhooks </li>
-            <li> send ⟶  Will send a message with the created webhook, works from anywhere in discord </li>
             <li> blocked ⟶  Base command for sending messages to blocked users </li>
             <ul>
-                <li> setid ⟶  Will set the (DM) channel to send messages to </li>
                 <li> send ⟶  Will send a message to user that is blocked </li>
+                <li> setid ⟶  Will set the (DM) channel to send messages to </li>
             </ul>
-            <li> setid ⟶  Will set the (DM) channel to send messages to </li>
             <li> send ⟶  Will send a message to user that is blocked </li>
+            <li> setid ⟶  Will set the (DM) channel to send messages to </li>
             <li> email ⟶  Base command for adding emails and spamming targets with them </li>
             <ul>
+                <li> spam ⟶  Will spam &lt;target&gt; with &lt;amount&gt; emails containing &lt;message&gt; </li>
                 <li> add ⟶  Will add a email to the list of possible emails used to spam with </li>
                 <li> remove ⟶  Will remove a email from the list of possible emails used to spam with </li>
                 <li> list ⟶  Will log all the email:password email combinations </li>
-                <li> spam ⟶  Will spam &lt;target&gt; with &lt;amount&gt; emails containing &lt;message&gt; </li>
             </ul>
+            <li> spam ⟶  Will spam &lt;target&gt; with &lt;amount&gt; emails containing &lt;message&gt; </li>
             <li> add ⟶  Will add a email to the list of possible emails used to spam with </li>
             <li> remove ⟶  Will remove a email from the list of possible emails used to spam with </li>
             <li> list ⟶  Will log all the email:password email combinations </li>
-            <li> spam ⟶  Will spam &lt;target&gt; with &lt;amount&gt; emails containing &lt;message&gt; </li>
         </ul>
         </details>
-
-
         <details>
         <summary> Fun </summary>
         <ul>
@@ -130,21 +126,19 @@
             <li> stop ⟶  Will stop the cyclestatus listener </li>
             <li> joke ⟶  Base command for sending jokes </li>
             <ul>
+                <li> misc ⟶  Will send a random miscellaneous joke from [this website]https://sv443.net/jokeapi </li>
+                <li> dark ⟶  Will send a random dark joke from [this website]https://sv443.net/jokeapi </li>
                 <li> pun ⟶  Will send a random pun joke from [this website]https://sv443.net/jokeapi </li>
                 <li> programming ⟶  Will send a random programming related joke from [this website]https://sv443.net/jokeapi </li>
                 <li> dad ⟶  Will send a random dad joke from [this website](https://icanhazdadjoke.com) </li>
-                <li> misc ⟶  Will send a random miscellaneous joke from [this website]https://sv443.net/jokeapi </li>
-                <li> dark ⟶  Will send a random dark joke from [this website]https://sv443.net/jokeapi </li>
             </ul>
+            <li> misc ⟶  Will send a random miscellaneous joke from [this website]https://sv443.net/jokeapi </li>
+            <li> dark ⟶  Will send a random dark joke from [this website]https://sv443.net/jokeapi </li>
             <li> pun ⟶  Will send a random pun joke from [this website]https://sv443.net/jokeapi </li>
             <li> programming ⟶  Will send a random programming related joke from [this website]https://sv443.net/jokeapi </li>
             <li> dad ⟶  Will send a random dad joke from [this website](https://icanhazdadjoke.com) </li>
-            <li> misc ⟶  Will send a random miscellaneous joke from [this website]https://sv443.net/jokeapi </li>
-            <li> dark ⟶  Will send a random dark joke from [this website]https://sv443.net/jokeapi </li>
         </ul>
         </details>
-
-
         <details>
         <summary> Images </summary>
         <ul>
@@ -166,11 +160,11 @@
             <li> image ⟶  Will send the &lt;link&gt;'s image magikized with &lt;intensity&gt; </li>
             <li> blurpify ⟶  Base command for blurpifying user profile pictures and other images </li>
             <ul>
-                <li> image ⟶  Will send the &lt;link&gt;'s image blurpified </li>
                 <li> user ⟶  Will send the &lt;user&gt;'s users profile picture blurpified </li>
+                <li> image ⟶  Will send the &lt;link&gt;'s image blurpified </li>
             </ul>
-            <li> image ⟶  Will send the &lt;link&gt;'s image blurpified </li>
             <li> user ⟶  Will send the &lt;user&gt;'s users profile picture blurpified </li>
+            <li> image ⟶  Will send the &lt;link&gt;'s image blurpified </li>
             <li> deepfry ⟶  Base command for deepfrying user profile pictures and other images </li>
             <ul>
                 <li> user ⟶  Will send the &lt;user&gt;'s profile picture deepfried </li>
@@ -187,8 +181,6 @@
             <li> trump ⟶  Will send an image with the input text as a tweet </li>
         </ul>
         </details>
-
-
         <details>
         <summary> Iptools </summary>
         <ul>
@@ -205,19 +197,17 @@
             <li> screenwebsite ⟶  Will send a screenshot of a website with the provided &lt;url&gt; </li>
             <li> proxies ⟶  Base command for sending txt files containing proxies </li>
             <ul>
+                <li> http ⟶  Scrapes HTTP proxies (IP:PORT) and sends the file in chat </li>
                 <li> https ⟶  Scrapes HTTPS proxies (IP:PORT) and sends the file in chat </li>
                 <li> socks4 ⟶  Scrapes socks4 proxies (IP:PORT) and sends the file in chat </li>
                 <li> socks5 ⟶  Scrapes socks5 proxies (IP:PORT) and sends the file in chat </li>
-                <li> http ⟶  Scrapes HTTP proxies (IP:PORT) and sends the file in chat </li>
             </ul>
+            <li> http ⟶  Scrapes HTTP proxies (IP:PORT) and sends the file in chat </li>
             <li> https ⟶  Scrapes HTTPS proxies (IP:PORT) and sends the file in chat </li>
             <li> socks4 ⟶  Scrapes socks4 proxies (IP:PORT) and sends the file in chat </li>
             <li> socks5 ⟶  Scrapes socks5 proxies (IP:PORT) and sends the file in chat </li>
-            <li> http ⟶  Scrapes HTTP proxies (IP:PORT) and sends the file in chat </li>
         </ul>
         </details>
-
-
         <details>
         <summary> Other </summary>
         <ul>
@@ -242,11 +232,11 @@
             <li> getfiles ⟶  Will scrape &lt;limit&gt; files with the by you specified [filetypes...] in the current channel </li>
             <li> settings ⟶  Base command for changing your selfbot settings </li>
             <ul>
-                <li> sniping ⟶  Will enable or disable sniping discordgifts, privnotes, tokens and giveaways </li>
                 <li> embed ⟶  Will enable or disable sending some command output in embeds. </li>
+                <li> sniping ⟶  Will enable or disable sniping discordgifts, privnotes, tokens and giveaways </li>
             </ul>
-            <li> sniping ⟶  Will enable or disable sniping discordgifts, privnotes, tokens and giveaways </li>
             <li> embed ⟶  Will enable or disable sending some command output in embeds. </li>
+            <li> sniping ⟶  Will enable or disable sniping discordgifts, privnotes, tokens and giveaways </li>
             <li> cc ⟶  Base command for adding/removing/listing all the custom commands </li>
             <ul>
                 <li> list ⟶  Will list all the custom commands </li>
@@ -260,13 +250,13 @@
             <ul>
                 <li> load ⟶  Sub-base command for adding backed up friends, blocking blocked users and joining servers </li>
                 <ul>
+                    <li> servers ⟶  Will join all servers from the backed up txt file </li>
                     <li> friends ⟶  Will add all friends from the backed up txt file </li>
                     <li> blocked ⟶  Will block all users from the backed up txt file </li>
-                    <li> servers ⟶  Will join all servers from the backed up txt file </li>
                 </ul>
+                <li> servers ⟶  Will join all servers from the backed up txt file </li>
                 <li> friends ⟶  Will add all friends from the backed up txt file </li>
                 <li> blocked ⟶  Will block all users from the backed up txt file </li>
-                <li> servers ⟶  Will join all servers from the backed up txt file </li>
                 <li> make ⟶  Sub-base command for backing up friends, blocked users and joined servers </li>
                 <ul>
                     <li> friends ⟶  Will create a backup of all your friends in a txt file as ids </li>
@@ -279,13 +269,13 @@
             </ul>
             <li> load ⟶  Sub-base command for adding backed up friends, blocking blocked users and joining servers </li>
             <ul>
+                <li> servers ⟶  Will join all servers from the backed up txt file </li>
                 <li> friends ⟶  Will add all friends from the backed up txt file </li>
                 <li> blocked ⟶  Will block all users from the backed up txt file </li>
-                <li> servers ⟶  Will join all servers from the backed up txt file </li>
             </ul>
+            <li> servers ⟶  Will join all servers from the backed up txt file </li>
             <li> friends ⟶  Will add all friends from the backed up txt file </li>
             <li> blocked ⟶  Will block all users from the backed up txt file </li>
-            <li> servers ⟶  Will join all servers from the backed up txt file </li>
             <li> make ⟶  Sub-base command for backing up friends, blocked users and joined servers </li>
             <ul>
                 <li> friends ⟶  Will create a backup of all your friends in a txt file as ids </li>
@@ -304,29 +294,25 @@
             <li> stop ⟶  Will stop the afkmode </li>
         </ul>
         </details>
-
-
         <details>
         <summary> Raid </summary>
         <ul>
         <p> Category with all the raid commands, use these with caution </p>
             <li> raid ⟶  Base command for logging and and logging out all the raid accounts </li>
             <ul>
+                <li> login ⟶  Will log in all the raid user accounts from the user account, they will also join your logging guild </li>
+                <li> amount ⟶  Will give the amount of id:token combinations </li>
                 <li> logout ⟶  Will log out all the raid user instances </li>
                 <li> add ⟶  Will add tokens to the list of useraccounts that can be used to log in </li>
                 <li> remove ⟶  Will remove a id:token entry from the token list by [ids...] </li>
-                <li> login ⟶  Will log in all the raid user accounts from the user account, they will also join your logging guild </li>
-                <li> amount ⟶  Will give the amount of id:token combinations </li>
             </ul>
+            <li> login ⟶  Will log in all the raid user accounts from the user account, they will also join your logging guild </li>
+            <li> amount ⟶  Will give the amount of id:token combinations </li>
             <li> logout ⟶  Will log out all the raid user instances </li>
             <li> add ⟶  Will add tokens to the list of useraccounts that can be used to log in </li>
             <li> remove ⟶  Will remove a id:token entry from the token list by [ids...] </li>
-            <li> login ⟶  Will log in all the raid user accounts from the user account, they will also join your logging guild </li>
-            <li> amount ⟶  Will give the amount of id:token combinations </li>
         </ul>
         </details>
-
-
         <details>
         <summary> Trolling </summary>
         <ul>
@@ -336,11 +322,11 @@
             <li> glitchzalgo ⟶  Will send a glitched zalgo message </li>
             <li> invisible ⟶  Base command for making your username/pfp blank, and reverting that </li>
             <ul>
-                <li> start ⟶  Will change your username and pfp to be blank </li>
                 <li> stop ⟶  Will change your username and pfp back to original </li>
+                <li> start ⟶  Will change your username and pfp to be blank </li>
             </ul>
-            <li> start ⟶  Will change your username and pfp to be blank </li>
             <li> stop ⟶  Will change your username and pfp back to original </li>
+            <li> start ⟶  Will change your username and pfp to be blank </li>
             <li> stfu ⟶  Will send an editing stfu message </li>
             <li> noonecares ⟶  Will send an editing no one cares message </li>
             <li> 911 ⟶  Will send an editing 911 image </li>
@@ -361,11 +347,11 @@
             <li> guild ⟶  Will send a ~2000 char long blank message after every message send in a guild </li>
             <li> noleave ⟶  Base command for instantly adding users back after leaving a group channel </li>
             <ul>
-                <li> stop ⟶  Will allow user to leave the group channel again </li>
                 <li> start ⟶  Will instantly add the &lt;user&gt; back to the group channel upon leaving </li>
+                <li> stop ⟶  Will allow user to leave the group channel again </li>
             </ul>
-            <li> stop ⟶  Will allow user to leave the group channel again </li>
             <li> start ⟶  Will instantly add the &lt;user&gt; back to the group channel upon leaving </li>
+            <li> stop ⟶  Will allow user to leave the group channel again </li>
             <li> nojoin ⟶  Base command for instantly kicking a user upon being added to a group </li>
             <ul>
                 <li> start ⟶  Will instantly kick the &lt;user&gt; from the group channel upon joining </li>
@@ -375,22 +361,22 @@
             <li> stop ⟶  Will allow a user to join the group again </li>
             <li> annoy ⟶  Base command for annoying entire guilds or specific users by reacting with emoji's </li>
             <ul>
+                <li> guild ⟶  Will attempt to react with [emojis...] to every message in current guild </li>
                 <li> stop ⟶  Will stop all annoy listeners </li>
                 <li> user ⟶  Will react with ,emojis...] to every message &lt;user&gt; </li>
-                <li> guild ⟶  Will attempt to react with [emojis...] to every message in current guild </li>
             </ul>
+            <li> guild ⟶  Will attempt to react with [emojis...] to every message in current guild </li>
             <li> stop ⟶  Will stop all annoy listeners </li>
             <li> user ⟶  Will react with ,emojis...] to every message &lt;user&gt; </li>
-            <li> guild ⟶  Will attempt to react with [emojis...] to every message in current guild </li>
             <li> copy ⟶  Base command for copying users messages or channels messages </li>
             <ul>
+                <li> stop ⟶  Will stop all copy listeners </li>
                 <li> user ⟶  Will copy every &lt;user&gt;'s message by default, else it will send the provided &lt;message&gt; </li>
                 <li> channel ⟶  Will copy everybody in &lt;channel&gt; by default, else it will send the provided &lt;message&gt; </li>
-                <li> stop ⟶  Will stop all copy listeners </li>
             </ul>
+            <li> stop ⟶  Will stop all copy listeners </li>
             <li> user ⟶  Will copy every &lt;user&gt;'s message by default, else it will send the provided &lt;message&gt; </li>
             <li> channel ⟶  Will copy everybody in &lt;channel&gt; by default, else it will send the provided &lt;message&gt; </li>
-            <li> stop ⟶  Will stop all copy listeners </li>
             <li> step ⟶  Base command for stepping through messages and stopping that listener </li>
             <ul>
                 <li> user ⟶  Will step through &lt;message&gt; by sending it word for word after every message by &lt;user&gt; </li>
@@ -414,8 +400,6 @@
             <li> stop ⟶  Will stop the autodeafen listener </li>
         </ul>
         </details>
-
-
         <details>
         <summary> Utilities </summary>
         <ul>
@@ -440,22 +424,22 @@
             <li> reverse_search ⟶  Will reverse image search the &lt;user&gt; profile picture with google </li>
             <li> loop ⟶  Base command for looping messages </li>
             <ul>
-                <li> start ⟶  Will start the loop function with the given &lt;delay&gt; and &lt;message&gt; </li>
                 <li> stop ⟶  Will stop the currently playing loop function </li>
+                <li> start ⟶  Will start the loop function with the given &lt;delay&gt; and &lt;message&gt; </li>
             </ul>
-            <li> start ⟶  Will start the loop function with the given &lt;delay&gt; and &lt;message&gt; </li>
             <li> stop ⟶  Will stop the currently playing loop function </li>
+            <li> start ⟶  Will start the loop function with the given &lt;delay&gt; and &lt;message&gt; </li>
             <li> dstatus ⟶  Base command for changing your discord status </li>
             <ul>
-                <li> streaming ⟶  Will change your status to streaming &lt;message&gt; with link &lt;stream_url&gt; </li>
-                <li> playing ⟶  Will change your status playing &lt;message&gt; </li>
                 <li> listening ⟶  Will change your status to listening to &lt;message&gt; </li>
                 <li> watching ⟶  Will change your status to watching &lt;message&gt; </li>
+                <li> streaming ⟶  Will change your status to streaming &lt;message&gt; with link &lt;stream_url&gt; </li>
+                <li> playing ⟶  Will change your status playing &lt;message&gt; </li>
             </ul>
-            <li> streaming ⟶  Will change your status to streaming &lt;message&gt; with link &lt;stream_url&gt; </li>
-            <li> playing ⟶  Will change your status playing &lt;message&gt; </li>
             <li> listening ⟶  Will change your status to listening to &lt;message&gt; </li>
             <li> watching ⟶  Will change your status to watching &lt;message&gt; </li>
+            <li> streaming ⟶  Will change your status to streaming &lt;message&gt; with link &lt;stream_url&gt; </li>
+            <li> playing ⟶  Will change your status playing &lt;message&gt; </li>
             <li> autodel ⟶  Base command for automatically deleting any (new) messages send by you over the provided limit </li>
             <ul>
                 <li> start ⟶  Will delete any messages send by you over the provided &lt;limit&gt; </li>
@@ -465,11 +449,11 @@
             <li> stop ⟶  Will stop the autodelete messages </li>
             <li> clistener ⟶  Base command for adding custom listeners for words, that are logged in a separate wh </li>
             <ul>
-                <li> stop ⟶  Will stop all custom listeners </li>
                 <li> start ⟶  Will start a custom listener for specified words </li>
+                <li> stop ⟶  Will stop all custom listeners </li>
             </ul>
-            <li> stop ⟶  Will stop all custom listeners </li>
             <li> start ⟶  Will start a custom listener for specified words </li>
+            <li> stop ⟶  Will stop all custom listeners </li>
         </ul>
         </details>
     </ul>
