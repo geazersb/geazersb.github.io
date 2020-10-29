@@ -134,7 +134,6 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
         <summary> Fun </summary>
         <ul>
         <p> Category with fun commands, these are mostly text based </p>
-            <li> genhtml ⟶  dook </li>
             <li> rembed ⟶  Will send an embed with &lt;title&gt; and &lt;description&gt;, who's colour will change every 3 seconds </li>
             <li> worm ⟶  Will send your &lt;message&gt; &lt;amount&gt; times in the form of a wave </li>
             <li> dice ⟶  Will send a random dice image </li>
