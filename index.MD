@@ -420,3 +420,85 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
         </details>
     </ul>
 </details>
+
+### Events
+<details open>
+<summary>open/close</summary>
+    <ul>
+        <details>
+            <summary>Nitro sniper</summary>
+            <ul>
+                <li> The nitro sniper has build in anti-spam methods, this means you won't ever be banned by using this!
+                The speed (depending on your internetspeed, discords server load and the distance) is around <a target="_blank" title="Snipe speeds" href="https://i.imgur.com/GZ8uR5W.png">0.15s</a>, but could drop to 0.12s from beginning to end. </li>
+            </ul>
+        </details>
+        <details>
+            <summary>Privnote sniper</summary>
+            <ul>
+                <li> The privnotes snipe speed are about the same as the nitro snipe speeds. The contents of these privnotes
+                are saved in a folder in .txt files. </li>
+            </ul>
+        </details>
+        <details>
+            <summary>Token sniper</summary>
+            <ul>
+                <li> If someone pastes a bot or user token, it will instantly be logged to the logging channel. </li>
+            </ul>
+        </details>
+        <details>
+            <summary>Giveaway sniper</summary>
+            <ul>
+                <li> If a giveaway is started from one of the 4 recognized bots, it will attempt to join it by reacting
+                with the emote after a random delay. </li>
+            </ul>
+        </details>
+        <details>
+            <summary>Auto delete</summary>
+            <ul>
+                <li> Every sentence/word starting with your custom prefix will instantly be deleted. </li>
+            </ul>
+        </details>
+    </ul>
+</details>
+
+### Other
+<details open>
+<summary>open/close</summary>
+    <ul>
+        <details>
+            <summary>Customizability</summary>
+            <ul>
+                <li> The embed colour, footer icon and text and autodelete time are customizable </li>
+                <li> The prefix is custamizable </li>
+                <li> Enabling/disabling sniping is optional </li>
+            </ul>
+        </details>
+        <details>
+            <summary>Extensions</summary>
+            <ul>
+                <li> I have made 2 optional extensions. This includes the Moderation (8 commands) and the NSFW extension (2 commands).
+                They can be downloaded in our guild upon buying the selfbot. </li>
+            </ul>
+        </details>
+        <details>
+            <summary>Logging</summary>
+            <ul>
+                <li> All logging is done discretely in a by you chosen guilds sytem channel. A webhook is created that will 
+                send what actions are being done, or some command output and more. </li>
+            </ul>
+        </details>
+        <details>
+            <summary>Support</summary>
+            <ul>
+                <li> You can create a ticket in <a target="_blank" href="https://discord.gg/ZGrYnNB">our discord</a> where we will provide great support
+                ASAP. The discord server also contains a FAQ page, where most of your questions will be answered. So make sure to check that out! </li>
+            </ul>
+        </details> 
+    </ul>
+</details>
+
+<button class="button button"><a style="color: black;" href="#top">Back to top</a></button>
+
+<p align="center">
+    <img alt="Geazer Selfbot Logo" src="https://i.imgur.com/UsrLN7k.gif" width="150" height="150" />
+</p>
