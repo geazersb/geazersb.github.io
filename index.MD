@@ -134,12 +134,6 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
         </ul>
         </details>
         <details>
-        <summary> Events </summary>
-        <ul>
-        <p> New cog docstring </p>
-        </ul>
-        </details>
-        <details>
         <summary> Fun </summary>
         <ul>
         <p> Category with fun commands, these are mostly text based </p>
