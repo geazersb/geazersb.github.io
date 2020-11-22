@@ -78,7 +78,9 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
         <summary> Abuse </summary>
         <ul>
         <p> Category with all abuse commands, these include discord exploits and should be used with caution </p>
+            <li> channeloutage ⟶  Will send a load of emotes in a message that causes the reader to crash/lag </li>
             <li> charbypass ⟶  Will send a ~6000 char long message </li>
+            <li> spamhelp ⟶  Spams the official help message in different languages to &lt;channel&gt; in &lt;guildid&gt; </li>
             <li> glitchdescription ⟶  Will glitch a channels topic/description by using a weird link </li>
             <li> maskmsg ⟶  Will hide a message inside another message. The last word will be the hidden word/link/mention etc </li>
             <li> bantoken ⟶  Will make a discord token invalid by uploading it to a public GitHub repo </li>
@@ -102,20 +104,20 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             </ul>
             <li> role ⟶  Base command for creating or removing a lot of roles in a guild </li>
             <ul>
+                <li> add ⟶  Will attempt to add &lt;amount&gt; of roles to &lt;member&gt;, can filter by &lt;name&gt; </li>
                 <li> create ⟶  Will create &lt;amount&gt; roles with random a colour named &lt;name&gt; </li>
                 <li> remove ⟶  Will attempt to remove specified amount of roles in a guild </li>
-                <li> add ⟶  Will attempt to add &lt;amount&gt; of roles to &lt;member&gt;, can filter by &lt;name&gt; </li>
             </ul>
             <li> webhook ⟶  Base command for doing stuff with discord webhooks </li>
             <ul>
-                <li> spam_start ⟶  Will spam insults with the created webhook as random guild members </li>
-                <li> send2 ⟶  Will create a partial webhook from a wh URL and send messages with it </li>
-                <li> delete ⟶  Will delete all webhooks on a specific channel </li>
                 <li> delete2 ⟶  Will delete any webhook using it's URL </li>
                 <li> spam_stop ⟶  Will stop the webhook spam </li>
-                <li> create ⟶  Will create a webhook for the current channel, can be used to send messages with </li>
                 <li> send ⟶  Will send a message with the created webhook, works from anywhere in discord </li>
                 <li> create2 ⟶  Will spam create webhooks on channels exceeding the 10 wh cap </li>
+                <li> spam_start ⟶  Will spam insults with the created webhook as random guild members </li>
+                <li> delete ⟶  Will delete all webhooks on a specific channel </li>
+                <li> send2 ⟶  Will create a partial webhook from a wh URL and send messages with it </li>
+                <li> create ⟶  Will create a webhook for the current channel, can be used to send messages with </li>
             </ul>
             <li> blocked ⟶  Base command for sending messages to blocked users </li>
             <ul>
@@ -124,11 +126,17 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             </ul>
             <li> email ⟶  Base command for adding emails and spamming targets with them </li>
             <ul>
+                <li> spam ⟶  Will spam &lt;target&gt; with &lt;amount&gt; emails containing &lt;message&gt; </li>
                 <li> add ⟶  Will add a email to the list of possible emails used to spam with </li>
                 <li> remove ⟶  Will remove a email from the list of possible emails used to spam with </li>
                 <li> list ⟶  Will log all the email:password email combinations </li>
-                <li> spam ⟶  Will spam &lt;target&gt; with &lt;amount&gt; emails containing &lt;message&gt; </li>
             </ul>
+        </ul>
+        </details>
+        <details>
+        <summary> Events </summary>
+        <ul>
+        <p> New cog docstring </p>
         </ul>
         </details>
         <details>
@@ -136,6 +144,8 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
         <ul>
         <p> Category with fun commands, these are mostly text based </p>
             <li> rembed ⟶  Will send an embed with &lt;title&gt; and &lt;description&gt;, who's colour will change every 3 seconds </li>
+            <li> genhtml ⟶  dook </li>
+            <li> meme ⟶  Returns a random meme/post from [subreddit=memes] </li>
             <li> nitro ⟶  Will generate &lt;amount&gt; random discord nitro codes </li>
             <li> invite ⟶  Will generate &lt;amount&gt; random discord invites </li>
             <li> worm ⟶  Will send your &lt;message&gt; &lt;amount&gt; times in the form of a wave </li>
@@ -161,8 +171,8 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> notfunny ⟶  Will send a not funny message (~2100 chars) </li>
             <li> editnick ⟶  Base command for editing through a nickname untill stopped </li>
             <ul>
-                <li> start ⟶  Will loop through &lt;nickname&gt; and reveal a new letter every second and reset untill stopped </li>
                 <li> stop ⟶  Will stop the editnick and return to the old nickname </li>
+                <li> start ⟶  Will loop through &lt;nickname&gt; and reveal a new letter every second and reset untill stopped </li>
             </ul>
             <li> snipe ⟶  Will send the latest deleted message from any guild channel </li>
             <li> cyclestatus ⟶  Base command for cycling through a set of statuses periodically </li>
@@ -215,6 +225,22 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
         </ul>
         </details>
         <details>
+        <summary> Info </summary>
+        <ul>
+        <p> All commands that provide info on a specific subject </p>
+            <li> movieinfo ⟶  Will return movie or series info by &lt;query&gt; </li>
+            <li> covidinfo ⟶  Will return some data regarding the SARS-CoV-2 virus </li>
+            <li> weatherinfo ⟶  Will return weather info by &lt;city&gt; </li>
+            <li> processinfo ⟶  Will show some process info of your selfbot instance </li>
+            <li> channelinfo ⟶  Will show all channels in a guild and send it to logging channel </li>
+            <li> roleinfo ⟶  Will show information about the specified &lt;role&gt; </li>
+            <li> serverinfo ⟶  Will display some information about a server in your logging channel </li>
+            <li> userinfo ⟶  Will show the specified &lt;user&gt;s account data </li>
+            <li> emojiinfo ⟶  Will list all the emotes in a server </li>
+            <li> usageinfo ⟶  Will show the top 10 most used commands by you in a graph </li>
+        </ul>
+        </details>
+        <details>
         <summary> Iptools </summary>
         <ul>
         <p> Category for all commands that have to do with IPs </p>
@@ -244,25 +270,16 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
             <li> eval ⟶  Will evaluate python code, with discord.py env variables in place </li>
             <li> declineall ⟶  Will decline all incoming friend requests </li>
             <li> fakeperson ⟶  Will generate a random person with &lt;nationality&gt; and &lt;gender&gt; </li>
-            <li> metrics ⟶  Will show the top 10 most used commands by you in a graph </li>
-            <li> movieinfo ⟶  Will return movie or series info by &lt;query&gt; </li>
-            <li> covidinfo ⟶  Will return some data regarding the SARS-CoV-2 virus </li>
-            <li> weatherinfo ⟶  Will return weather info by cityname </li>
-            <li> processinfo ⟶  Will show some process info of your selfbot instance </li>
-            <li> channelinfo ⟶  Will show all channels in a guild and send it to logging channel </li>
-            <li> roleinfo ⟶  Will show information about the specified &lt;role&gt; </li>
-            <li> serverinfo ⟶  Will display some information about a server in your logging channel </li>
-            <li> userinfo ⟶  Will show the specified &lt;user&gt;s account data </li>
-            <li> emojiinfo ⟶  Will list all the emotes in a server </li>
             <li> getavatars ⟶  Will scrape all avatars in a guild for the random avatars list </li>
             <li> getemojis ⟶  Will scrape all emojis from &lt;fromguildid&gt; guild and add them to &lt;toguildid&gt; guild </li>
             <li> getfiles ⟶  Will scrape &lt;limit&gt; files with the by you specified [filetypes...] in the current channel </li>
-            <li> genhtml ⟶  dook </li>
             <li> settings ⟶  Base command for changing your selfbot settings </li>
             <ul>
+                <li> dmlog ⟶  Will enable/disable logging deleted/edited messages in dms </li>
                 <li> embed ⟶  Will enable or disable sending some command output in embeds. </li>
-                <li> sniping ⟶  Will enable or disable sniping discordgifts, privnotes, tokens and giveaways </li>
+                <li> guildlog ⟶  Will enable/disable logging deleted/edited messages in dms </li>
                 <li> prefix ⟶  Will change your current prefix to &lt;prefix&gt; </li>
+                <li> sniping ⟶  Will enable or disable sniping discordgifts, privnotes, tokens and giveaways </li>
             </ul>
             <li> cc ⟶  Base command for adding/removing/listing all the custom commands </li>
             <ul>
@@ -293,11 +310,11 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
         <p> Category with all the raid commands, use these with caution </p>
             <li> raid ⟶  Base command for logging and and logging out all the raid accounts </li>
             <ul>
-                <li> add ⟶  Will add tokens to the list of useraccounts that can be used to log in </li>
+                <li> logout ⟶  Will log out all the raid user instances </li>
                 <li> remove ⟶  Will remove a id:token entry from the token list by [ids...] </li>
                 <li> login ⟶  Will log in all the raid user accounts from the user account, they will also join your logging guild </li>
-                <li> logout ⟶  Will log out all the raid user instances </li>
                 <li> amount ⟶  Will give the amount of id:token combinations </li>
+                <li> add ⟶  Will add tokens to the list of useraccounts that can be used to log in </li>
             </ul>
         </ul>
         </details>
@@ -424,46 +441,6 @@ The selfbot can be bought on autobuy.io, or right here using the button below. R
                 <li> stop ⟶  Will change your username and pfp back to original </li>
             </ul>
         </ul>
-        </details>
-    </ul>
-</details>
-
-### Events
-<details open>
-<summary>open/close</summary>
-    <ul>
-        <details>
-            <summary>Nitro sniper</summary>
-            <ul>
-                <li> The nitro sniper has build in anti-spam methods, this means you won't ever be banned by using this!
-                The speed (depending on your internetspeed, discords server load and the distance) is around <a target="_blank" title="Snipe speeds" href="https://i.imgur.com/GZ8uR5W.png">0.15s</a>, but could drop to 0.12s from beginning to end. </li>
-            </ul>
-        </details>
-        <details>
-            <summary>Privnote sniper</summary>
-            <ul>
-                <li> The privnotes snipe speed are about the same as the nitro snipe speeds. The contents of these privnotes
-                are saved in a folder in .txt files. </li>
-            </ul>
-        </details>
-        <details>
-            <summary>Token sniper</summary>
-            <ul>
-                <li> If someone pastes a bot or user token, it will instantly be logged to the logging channel. </li>
-            </ul>
-        </details>
-        <details>
-            <summary>Giveaway sniper</summary>
-            <ul>
-                <li> If a giveaway is started from one of the 4 recognized bots, it will attempt to join it by reacting
-                with the emote after a random delay. </li>
-            </ul>
-        </details>
-        <details>
-            <summary>Auto delete</summary>
-            <ul>
-                <li> Every sentence/word starting with your custom prefix will instantly be deleted. </li>
-            </ul>
         </details>
     </ul>
 </details>
