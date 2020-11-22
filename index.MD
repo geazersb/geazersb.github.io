@@ -14,6 +14,8 @@ Some of our best features include:
 <details open>
 <summary>open/close</summary>
     <ul>
+        <li> Being able to log deleted/edited messages in servers and DM's (separately) ✓ </li>
+        <li> Setting custom RPC ✓ </li>
         <li> Fast nitro and privnote sniper (<a target="_blank" title="Snipe speeds" href="https://i.imgur.com/GZ8uR5W.png">~0.15s</a>) and more ✓ </li>
         <li> Custom commands, listeners and embeds ✓ </li>
         <li> Creating and loading backups ✓ </li>
