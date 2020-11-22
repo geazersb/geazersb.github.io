@@ -27,7 +27,7 @@ Some of our best features include:
         <li> Frequent updates ✓ </li>
         <li> Good support ✓ </li>
         <li> Discrete webhooked <a target="_blank" title="Webhook logging screenshot" href="https://i.imgur.com/8uR38X2.png">logging</a> ✓ </li>
-        <li> <b>And in total over 210 commands! ✓</b> </li>
+        <li> <b>And in total over 250 commands! ✓</b> </li>
     </ul>
 </details>
 
