@@ -10,6 +10,10 @@
 <h3 name="introduction">Introduction</h3>
 Welcome to the Geazer (Discord) Selfbot website. A cheap and full of features discord selfbot made in Python, made by Buster.
 
+The selfbot can be bought in <a target="_blank" title="My autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">our shop</a>, or right here using the button below. We accept both PayPal and Bitcoin.
+
+<button class="button button" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
+
 Some of our best features include:
 <details open>
 <summary>open/close</summary>
@@ -61,11 +65,6 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
     <b>unless</b> you get <b>reported with proof</b> (e.g screen of embed/you saying you used abusive commands). </li>
     </ul>
 </details>
-
-<h3 name="buying">Buying</h3>
-The selfbot can be bought in <a target="_blank" title="My autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">our shop</a>, or right here using the button below. We accept both PayPal and Bitcoin.
-
-<button class="button button" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
 
 <h1 name="features" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Features</h1>
 ---
