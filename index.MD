@@ -18,12 +18,12 @@ Some of our best features include:
 <details open>
 <summary>open/close</summary>
     <ul>
-        <li> Being able to log deleted/edited messages in servers and DM's (separately) ✓ </li>
+        <li> Being able to log deleted/edited messages and keywords in servers and DM's (separately) ✓ </li>
         <li> Setting custom RPC ✓ </li>
-        <li> Fast nitro and privnote sniper (<a target="_blank" title="Snipe speeds" href="https://i.imgur.com/GZ8uR5W.png">~0.15s</a>) and more ✓ </li>
+        <li> Fast nitro, privnote, giveaway and token sniper (<a target="_blank" title="Snipe speeds" href="https://i.imgur.com/GZ8uR5W.png">~0.15s</a>) and more ✓ </li>
         <li> Custom commands, listeners and embeds ✓ </li>
         <li> Creating and loading backups ✓ </li>
-        <li> Great semi-interactive <a target="_blank" title="Help command screenshots" href="https://imgur.com/a/MRppIAw">help command</a> ✓ </li>
+        <li> Great semi-interactive <a target="_blank" title="Help command screenshots" href="https://imgur.com/a/1vM2Emo">help command</a> ✓ </li>
         <li> Controlling hundreds of bot/user accounts (for raiding) ✓ </li>
         <li> Loads of exploit/abuse commands ✓ </li>
         <li> Extensive optimization and ingenuity (abiding <a target="_blank" title="PEP-8 definition" href="https://www.python.org/dev/peps/pep-0008/">PEP-8</a> rules) ✓ </li>
@@ -31,7 +31,7 @@ Some of our best features include:
         <li> Frequent updates ✓ </li>
         <li> Good support ✓ </li>
         <li> Discrete webhooked <a target="_blank" title="Webhook logging screenshot" href="https://i.imgur.com/8uR38X2.png">logging</a> ✓ </li>
-        <li> <b>And in total over 250 commands! ✓</b> </li>
+        <li> <b>And in total over 270 commands! ✓</b> </li>
     </ul>
 </details>
 
@@ -401,7 +401,6 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
         <p> Category with all useful utility like commands </p>
             <li> ytsearch ⟶  Will search YouTube with &lt;query&gt; and return results </li>
             <li> discordstatus ⟶  Will show the current status of Discord (embedded) </li>
-            <li> genhtml ⟶  dook </li>
             <li> translate ⟶  Will translate &lt;message&gt; to &lt;targetlanguage&gt; </li>
             <li> tobtc ⟶  Will convert provided &lt;currency&gt; to it's bitcoin equivalent </li>
             <li> charcount ⟶  Will return the amount of chars, words and paragraphs in your &lt;message&gt; </li>
