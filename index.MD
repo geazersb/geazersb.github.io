@@ -461,9 +461,12 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
         <details>
             <summary>Customizability</summary>
             <ul>
-                <li> The embed colour, footer icon and text and autodelete time are customizable </li>
-                <li> The prefix is custamizable </li>
-                <li> Enabling/disabling sniping is optional </li>
+                <li> The embed colour, footer icon and text and autodelete time are customizable. </li>
+                <li> The prefix is custamizable. </li>
+                <li> Enabling/disabling sniping is optional. </li>
+                <li> Custom RPC is optional. </li>
+                <li> Custom keyword logging is optional. </li>
+                <li> And more! </li>
             </ul>
         </details>
         <details>
@@ -476,8 +479,9 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
         <details>
             <summary>Logging</summary>
             <ul>
-                <li> All logging is done discretely in a by you chosen guilds sytem channel. A webhook is created that will
+                <li> All bot logging is done discretely in a by you chosen guilds system channel. A webhook is created that will
                 send what actions are being done, or some command output and more. </li>
+                <li> You can also log deleted/edited messages and keywords in a servers and DM's to a chosen webhook URL. </li>
             </ul>
         </details>
         <details>
