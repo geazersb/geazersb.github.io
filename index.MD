@@ -330,11 +330,82 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
         </ul>
         </details>
         <details>
+        <summary> Raidcommands </summary>
+        <ul>
+        <p> These commands can only be used once the tokens in data/json/usertokens.json have been logged in.
+        </p>
+            <li> report ⟶  Will send a report to discord Trust & Safety </li>
+            <li> channeloutage ⟶  RAID - Will send a load of emotes in a message that causes the reader to crash/lag in every channel of &lt;guild_id&gt; </li>
+            <li> say ⟶  RAID - Will send a message to specified channel with all the RAID user accounts,
+        channel should be the ID, if it's 'c' it will user the current channel </li>
+            <li> dm ⟶  RAID - Attempts to DM a user by id. Works only when user is friended or accepts DMs for everyone. </li>
+            <li> fr ⟶  RAID - Attempts to add a user by id. </li>
+            <li> username ⟶  RAID - Will change the USERname for all the RAID user accounts to specified username
+        If not specifed, a random one is picked </li>
+            <li> avatar ⟶  RAID - Will change the avatar for every raid user
+        If not specifed, a random one is picked </li>
+            <li> nickname ⟶  RAID - Will change the nickname for all the RAID user accounts to specified nickname
+        This is guild specific, and needs the change nickname permission. </li>
+            <li> guild ⟶  RAID - Base command for RAID accounts to join and leave guilds </li>
+            <ul>
+                <li> join ⟶  RAID - Will join the specified guild with all the RAID user accounts using a link </li>
+                <li> leave ⟶  RAID - Will leave the specified guild from ID with all the RAID user accounts
+        guild could be an ID, c for current or a for all </li>
+            </ul>
+            <li> blank ⟶  RAID - Base command for sending ~2000 char long whitespace message and spamming guilds with it </li>
+            <ul>
+                <li> guild ⟶  RAID - Will send a ~2000 char long blank message after every message send in a guild with all the RAID user accounts
+        guild should be the ID, if it's 'c', it will use the current guild </li>
+                <li> stop ⟶  RAID - Will stop all blank spam in guilds </li>
+            </ul>
+            <li> annoy ⟶  RAID - Base command for annoying entire guilds by adding emoji's or specific users </li>
+            <ul>
+                <li> user ⟶  RAID - Will react with specified emojis to every message by specified user
+        user_id should be the ID of a user </li>
+                <li> guild ⟶  RAID - Will attempt to react with specified emojis to every message in current guild
+        guild should be the ID, if it's 'c', it will use the current guild </li>
+                <li> stop ⟶  RAID - Will stop all stop all annoy events </li>
+            </ul>
+            <li> copy ⟶  RAID - Base command for copying users messages or channels messages </li>
+            <ul>
+                <li> user ⟶  RAID - Will copy the specified user if no message is provided, if a message is provided it could be used as commandtimer used every time the specified user says something. </li>
+                <li> channel ⟶  RAID - Will copy everybody in a channel if no message is provided </li>
+                <li> stop ⟶  RAID - Will stop copying the user </li>
+            </ul>
+            <li> spam ⟶  RAID - Will send the provided messages x times in a row
+        channel should be the ID, if it's 'c' it will user the current channel </li>
+            <li> raidserver ⟶  RAID - Base command for raiding servers by spamming messages/blank in every channel </li>
+            <ul>
+                <li> blank ⟶  Will spam every channel in specified guild with blank. Needs to join guild first </li>
+                <li> message ⟶  Will spam every channel in specified guild with provided message. Needs to join guild first </li>
+                <li> stop ⟶  Stops the server raid </li>
+            </ul>
+            <li> status ⟶  RAID - Base command for changing your the status </li>
+            <ul>
+                <li> streaming ⟶  RAID - Will change your status to streaming input </li>
+                <li> playing ⟶  RAID - Will change your status playing input </li>
+                <li> listening ⟶  RAID - Will change your status to listening to input </li>
+                <li> watching ⟶  RAID - Will change your status to watching input </li>
+            </ul>
+            <li> presence ⟶  RAID - Base command for changing the presence (online, offline etc) </li>
+            <ul>
+                <li> online ⟶  RAID- Will set the presence to online </li>
+                <li> offline ⟶  RAID- Will set the presence to invisible </li>
+                <li> idle ⟶  RAID- Will set the presence to idle </li>
+                <li> dnd ⟶  RAID - Will set the presence to do not disturb </li>
+            </ul>
+            <li> voicechannel ⟶  RAID - Base command for joining and leaving voicechannels </li>
+            <ul>
+                <li> leave ⟶  RAID - Will leave the voicechannel set in voicechannel join </li>
+                <li> join ⟶  RAID - Will join a voicechannel by id </li>
+            </ul>
+        </ul>
+        </details>
+        <details>
         <summary> Trolling </summary>
         <ul>
         <p> Category will all trolling commands, some should be used with caution </p>
             <li> maskmsg ⟶  Will hide a message inside another message. The last word will be the hidden word/link/mention etc </li>
-            <li> glitchdescription ⟶  Will glitch a channels topic/description by using a weird link </li>
             <li> massrename ⟶  Will attempt to rename everybody to &lt;nickname&gt; in specified &lt;guild_id&gt; </li>
             <li> virus ⟶  Will send an editing virus message </li>
             <li> killpresident ⟶  You should use this command in a big server 😂 </li>
