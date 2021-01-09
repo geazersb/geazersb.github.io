@@ -73,6 +73,8 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
 
 <details open>
 <summary> open/close </summary>
+    <ul>
+    <p> Arguments within greater/smaller than signs (<>) are required, arguments within brackets ([]) are optional. </p>
         <details>
         <summary> Images </summary>
         <ul>
