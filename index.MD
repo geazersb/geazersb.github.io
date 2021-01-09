@@ -31,7 +31,7 @@ Some of our best features include:
         <li> Frequent updates ✓ </li>
         <li> Good support ✓ </li>
         <li> Discrete webhooked <a target="_blank" title="Webhook logging screenshot" href="https://i.imgur.com/8uR38X2.png">logging</a> ✓ </li>
-        <li> <b>And in total over 270 commands! ✓</b> </li>
+        <li> <b> And in total over <u> 275 </u> commands! ✓</b> </li>
     </ul>
 </details>
 
@@ -418,13 +418,6 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
             <li> charinfo ⟶  Will send info about your &lt;message&gt; unicode </li>
             <li> emojiinfo ⟶  Will list all the emotes in a server </li>
             <li> usageinfo ⟶  Will show the top 10 most used commands by you in a graph </li>
-        </ul>
-        </details>
-        <details>
-        <summary> Events </summary>
-        <ul>
-        <p> Contains all events like edits/deletes etc, no commands are in this cog
-     </p>
         </ul>
         </details>
         <details>
