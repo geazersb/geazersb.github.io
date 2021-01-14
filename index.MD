@@ -31,7 +31,7 @@ Some of our best features include:
         <li> Frequent updates ✓ </li>
         <li> Good support ✓ </li>
         <li> Discrete webhooked <a target="_blank" title="Webhook logging screenshot" href="https://i.imgur.com/8uR38X2.png">logging</a> ✓ </li>
-        <li> <b> And in total over <u> 295 </u> commands! ✓</b> </li>
+        <li> <b> And in total over <u> 300 </u> commands! ✓</b> </li>
     </ul>
 </details>
 
@@ -561,6 +561,47 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                 <li> toeth ⟶  Will convert provided &lt;amount&gt; to it's ethereum equivalent in &lt;currencycode&gt; </li>
             </ul>
         </ul>
+        </details>
+    </ul>
+</details>
+
+### Other
+<details open>
+<summary>open/close</summary>
+    <ul>
+        <details>
+            <summary>Customizability</summary>
+            <ul>
+                <li> The embed colour, footer icon and text and autodelete time are customizable. </li>
+                <li> The prefix is custamizable. </li>
+                <li> Enabling/disabling sniping is optional. </li>
+                <li> Custom RPC is optional. </li>
+                <li> Whether errors are send in current chat is optional. </li>
+                <li> Custom keyword and guild/dm edit/delete logging is optional. </li>
+                <li> And more! </li>
+            </ul>
+        </details>
+        <details>
+            <summary>Extensions</summary>
+            <ul>
+                <li> I have made 2 optional extensions. This includes the Moderation (8 commands) and the NSFW extension (2 commands).
+                They can be downloaded in our guild upon buying the selfbot. </li>
+            </ul>
+        </details>
+        <details>
+            <summary>Logging</summary>
+            <ul>
+                <li> All bot logging is done discretely in a by you chosen guilds system channel. A webhook is created that will
+                send what actions are being done, or some command output and more. </li>
+                <li> You can also log deleted/edited messages and keywords in a servers and DM's to a chosen webhook URL. </li>
+            </ul>
+        </details>
+        <details>
+            <summary>Support</summary>
+            <ul>
+                <li> You can create a ticket in <a target="_blank" href="https://discord.gg/ZGrYnNB">our discord</a> where we will provide great support
+                ASAP. The discord server also contains a FAQ page, where most of your questions will be answered. So make sure to check that out! </li>
+            </ul>
         </details>
     </ul>
 </details>
