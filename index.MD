@@ -5,6 +5,7 @@
 </head>
 
 <h1 name="top" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Preface</h1>
+<hr>
 
 <h3 name="introduction">Introduction</h3>
 <p> Welcome to the Geazer (Discord) Selfbot website. A cheap and full of features discord selfbot made in Python, made by Buster. </p>
@@ -67,6 +68,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
 </details>
 
 <h1 name="features" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Features</h1>
+<hr>
 
 <h3 name="commands">Commands</h3>
 <details open>
@@ -594,6 +596,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
 </details>
 
 <h1 name="changelog" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Changelog</h1>
+<hr>
 
 <h3 name="changelog">Changelog</h3>
 <details open>
