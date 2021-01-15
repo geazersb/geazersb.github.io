@@ -596,6 +596,8 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
 </details>
 
 <h1 name="changelog" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Changelog</h1>
+---
+
 <h3 name="changelog">Changelog</h3>
 <details open>
 <summary>open/close</summary>
@@ -606,19 +608,19 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                 <details>
                 <summary>Added Commands</summary>
                     <ul>
-                        <li> `dice` (Fun) </li>
-                        <li> `fact` (Fun) </li>
-                        <li> `snipe` (Fun) </li>
-                        <li> `serverinfo` (Info) </li>
-                        <li> `letterreplace` (Text) </li>
+                        <li> <code>dice</code> (Fun) </li>
+                        <li> <code>fact</code> (Fun) </li>
+                        <li> <code>snipe</code> (Fun) </li>
+                        <li> <code>serverinfo</code> (Info) </li>
+                        <li> <code>letterreplace</code> (Text) </li>
                     </ul>
                 </details>
                 <details>
                 <summary>Other Changes/Additions</summary>
                     <ul>
-                        <li> You can enable and disable sniping in the `settings` command now </li>
+                        <li> You can enable and disable sniping in the <code>settings</code> command now </li>
                         <li> For adding raid tokens, you no longer need to input an id token combination, but only tokens </li>
-                        <li> `userinfo` works for users in DMs now as well as in guilds </li>
+                        <li> <code>userinfo</code> works for users in DMs now as well as in guilds </li>
                         <li> Added extensions </li>
                     </ul>
                 </details>
@@ -630,15 +632,15 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                 <details>
                 <summary>Added Commands</summary>
                     <ul>
-                        <li> `dnsresolve` (IPTools) </li>
-                        <li> `showheaders` (IPTools) </li>
-                        <li> `portscan` (IPTools) </li>
-                        <li> `traceroute` (IPTools) </li>
-                        <li> `maclookup` (IPTools) </li>
-                        <li> `metrics` (Other) </li>
-                        <li> `fakeperson` (Other) </li>
-                        <li> `emojicopy` (Other) </li>
-                        <li> `worm` (Fun) </li>
+                        <li> <code>dnsresolve</code> (IPTools) </li>
+                        <li> <code>showheaders</code> (IPTools) </li>
+                        <li> <code>portscan</code> (IPTools) </li>
+                        <li> <code>traceroute</code> (IPTools) </li>
+                        <li> <code>maclookup</code> (IPTools) </li>
+                        <li> <code>metrics</code> (Other) </li>
+                        <li> <code>fakeperson</code> (Other) </li>
+                        <li> <code>emojicopy</code> (Other) </li>
+                        <li> <code>worm</code> (Fun) </li>
                     </ul>
                 </details>
                 <details>
@@ -655,8 +657,8 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                 <details>
                 <summary>Other Changes/Additions</summary>
                     <ul>
-                        <li> If you decide to log in your raid tokens using `raid login`, they will automatically join your logging guild so you can give them commands. </li>
-                        <li> The prefix for raid commands now is 'r' + your custom prefix. e.g if your prefix is `'` the raid prefix will be `r'` </li>
+                        <li> If you decide to log in your raid tokens using <code>raid login</code>, they will automatically join your logging guild so you can give them commands. </li>
+                        <li> The prefix for raid commands now is 'r' + your custom prefix. e.g if your prefix is <code>'</code> the raid prefix will be <code>r'</code> </li>
                     </ul>
                 </details>
             </ul>
@@ -667,11 +669,11 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                 <details>
                 <summary>Added Commands</summary>
                     <ul>
-                        <li> `viewbot` (Utilities) </li>
-                        <li> `exportchat` (Utilities) </li>
-                        <li> `declineall` (Other) </li>
-                        <li> `backup` (Other) </li>
-                        <li> `website` (Help) </li>
+                        <li> <code>viewbot</code> (Utilities) </li>
+                        <li> <code>exportchat</code> (Utilities) </li>
+                        <li> <code>declineall</code> (Other) </li>
+                        <li> <code>backup</code> (Other) </li>
+                        <li> <code>website</code> (Help) </li>
                     </ul>
                 </details>
                 <details>
@@ -682,7 +684,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                         <li> Removed some duplicate entries from avatars list </li>
                         <li> If you log in bot accounts, they will attempt to load the moderation cog, so you can have your own 'private' actual bot </li>
                         <li> You can remove multiple ids at once from raid tokens </li>
-                        <li> Fix to `raid login` </li>
+                        <li> Fix to <code>raid login</code> </li>
                     </ul>
                 </details>
             </ul>
@@ -693,21 +695,21 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                 <details>
                 <summary>Added Commands</summary>
                     <ul>
-                        <li> `cancerify` (Fun) </li>
-                        <li> `killpresident` (Trolling) </li>
-                        <li> `screenwebsite` (IPTools) </li>
-                        <li> `deleteaccount` (Abuse) </li>
-                        <li> `disableaccount` (Abuse) </li>
-                        <li> `getfiles` (Other) </li>
+                        <li> <code>cancerify</code> (Fun) </li>
+                        <li> <code>killpresident</code> (Trolling) </li>
+                        <li> <code>screenwebsite</code> (IPTools) </li>
+                        <li> <code>deleteaccount</code> (Abuse) </li>
+                        <li> <code>disableaccount</code> (Abuse) </li>
+                        <li> <code>getfiles</code> (Other) </li>
                     </ul>
                 </details>
                 <details>
                 <summary>Other Changes/Additions</summary>
                     <ul>
                         <li> Added intents for V8 support </li>
-                        <li> Added option to leave all guilds in `guild leave` command </li>
-                        <li> Removed old `chatexport` command, and replaced it with one that saves it to txt files (security reasons) </li>
-                        <li> Fix to `userinfo` </li>
+                        <li> Added option to leave all guilds in <code>guild leave</code> command </li>
+                        <li> Removed old <code>chatexport</code> command, and replaced it with one that saves it to txt files (security reasons) </li>
+                        <li> Fix to <code>userinfo</code> </li>
                     </ul>
                 </details>
             </ul>
@@ -718,20 +720,20 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                 <details>
                 <summary>Added Commands</summary>
                     <ul>
-                        <li> `charcount` (Utilities) </li>
-                        <li> `google` (Utilities) </li>
-                        <li> `invisible` (Trolling) </li>
-                        <li> `binary` (Fun) </li>
-                        <li> `moveinfo` (Info) </li>
-                        <li> `afkmode` (Other) </li>
+                        <li> <code>charcount</code> (Utilities) </li>
+                        <li> <code>google</code> (Utilities) </li>
+                        <li> <code>invisible</code> (Trolling) </li>
+                        <li> <code>binary</code> (Fun) </li>
+                        <li> <code>moveinfo</code> (Info) </li>
+                        <li> <code>afkmode</code> (Other) </li>
                     </ul>
                 </details>
                 <details>
                 <summary>Other Changes/Additions</summary>
                     <ul>
-                        <li> Added uptime to `pinfo` command </li>
+                        <li> Added uptime to <code>pinfo</code> command </li>
                         <li> Fix to startup being called multiple times (Discord API problem) </li>
-                        <li> Fix to `urbandict` command </li>
+                        <li> Fix to <code>urbandict</code> command </li>
                     </ul>
                 </details>
             </ul>
@@ -742,22 +744,22 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                 <details>
                 <summary>Added Commands</summary>
                     <ul>
-                        <li> `msasrename` (Trolling) </li>
-                        <li> `glitchzalgo` (Trolling) </li>
-                        <li> `nojoin` (Trolling) </li>
-                        <li> `fakeembed` (Trolling) </li>
-                        <li> `massban` (Abuse) </li>
-                        <li> `masskick` (Abuse) </li>
-                        <li> `covid` (Other) </li>
-                        <li> `report` (Utilities) </li>
-                        <li> `report` (RaidCommands) </li>
-                        <li> `embed` (Fun) </li>
+                        <li> <code>msasrename</code> (Trolling) </li>
+                        <li> <code>glitchzalgo</code> (Trolling) </li>
+                        <li> <code>nojoin</code> (Trolling) </li>
+                        <li> <code>fakeembed</code> (Trolling) </li>
+                        <li> <code>massban</code> (Abuse) </li>
+                        <li> <code>masskick</code> (Abuse) </li>
+                        <li> <code>covid</code> (Other) </li>
+                        <li> <code>report</code> (Utilities) </li>
+                        <li> <code>report</code> (RaidCommands) </li>
+                        <li> <code>embed</code> (Fun) </li>
                     </ul>
                 </details>
                 <details>
                 <summary>Other Changes/Additions</summary>
                     <ul>
-                        <li> Roles are shown in `serverinfo` command </li>
+                        <li> Roles are shown in <code>serverinfo</code> command </li>
                         <li> Added loads of aliases to commands </li>
                         <li> Changed some help for commands </li>
                         <li> If there are no perms to send embedded messages, it will be in a codeblock </li>
@@ -772,21 +774,21 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                 <details>
                 <summary>Added Commands</summary>
                     <ul>
-                        <li> `react` (Trolling) </li>
-                        <li> `create_group` (Utilities) </li>
-                        <li> `weatherinfo` (Info) </li>
-                        <li> `q` (Utilities) </li>
-                        <li> `letterreplace` (Fun) </li>
+                        <li> <code>react</code> (Trolling) </li>
+                        <li> <code>create_group</code> (Utilities) </li>
+                        <li> <code>weatherinfo</code> (Info) </li>
+                        <li> <code>q</code> (Utilities) </li>
+                        <li> <code>letterreplace</code> (Fun) </li>
                     </ul>
                 </details>
                 <details>
                 <summary>Other Changes/Additions</summary>
                     <ul>
-                        <li> Fix to `help` command </li>
-                        <li> Fix to `tokenspam` command </li>
-                        <li> `report` command takes message link now </li>
+                        <li> Fix to <code>help</code> command </li>
+                        <li> Fix to <code>tokenspam</code> command </li>
+                        <li> <code>report</code> command takes message link now </li>
                         <li> Made a separate launch file for the selfbot </li>
-                        <li> You can change your prefix in the `settings` command now </li>
+                        <li> You can change your prefix in the <code>settings</code> command now </li>
                         <li> Added option for autodeleting custom commands </li>
                     </ul>
                 </details>
@@ -798,10 +800,10 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                 <details>
                 <summary>Added Commands</summary>
                     <ul>
-                        <li> `channeloutage` (Abuse) </li>
-                        <li> `spamhelp` (Abuse) </li>
-                        <li> `channeloutage` (RaidCommands) </li>
-                        <li> `meme` (Fun) </li>
+                        <li> <code>channeloutage</code> (Abuse) </li>
+                        <li> <code>spamhelp</code> (Abuse) </li>
+                        <li> <code>channeloutage</code> (RaidCommands) </li>
+                        <li> <code>meme</code> (Fun) </li>
                     </ul>
                 </details>
                 <details>
@@ -809,8 +811,8 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                     <ul>
                         <li> New cog with all info commands (userinfo, weatherinfo, etc) </li>
                         <li> New cog with all events, this doesn't include any commands and is hidden from the help command </li>
-                        <li> The ability to log deleted/edited messages in DM's (able to be stopped in `settings` command) </li>
-                        <li> The ability to log deleted/edited messages in servers (able to be stopped in `settings` command) </li>
+                        <li> The ability to log deleted/edited messages in DM's (able to be stopped in <code>settings</code> command) </li>
+                        <li> The ability to log deleted/edited messages in servers (able to be stopped in <code>settings</code> command) </li>
                         <li> The ability to set custom Rich Presence </li>
                         <li> Fix to embed command </li>
                         <li> Fix to covid command </li>
@@ -824,34 +826,34 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                 <details>
                 <summary>Added Commands</summary>
                     <ul>
-                        <li> `gay` (Images) </li>
-                        <li> `ytcomment` (Images) </li>
-                        <li> `wasted` (Images) </li>
-                        <li> `koala` (Images) </li>
-                        <li> `panda` (Images) </li>
-                        <li> `redpanda` (Images) </li>
-                        <li> `fox` (Images) </li>
-                        <li> `bird` (Images) </li>
-                        <li> `racoon` (Images) </li>
-                        <li> `kangaroo` (Images) </li>
-                        <li> `whale` (Images) </li>
-                        <li> `pokemoninfo` (Info) </li>
-                        <li> `minecraftinfo` (Info) </li>
-                        <li> `songinfo` (Info) </li>
-                        <li> `discordstatus` (Utilities) </li>
-                        <li> `translate` (Utilities) </li>
-                        <li> `binary` (Other) </li>
-                        <li> `base64` (Other) </li>
-                        <li> `chatbot` (Fun) </li>
+                        <li> <code>gay</code> (Images) </li>
+                        <li> <code>ytcomment</code> (Images) </li>
+                        <li> <code>wasted</code> (Images) </li>
+                        <li> <code>koala</code> (Images) </li>
+                        <li> <code>panda</code> (Images) </li>
+                        <li> <code>redpanda</code> (Images) </li>
+                        <li> <code>fox</code> (Images) </li>
+                        <li> <code>bird</code> (Images) </li>
+                        <li> <code>racoon</code> (Images) </li>
+                        <li> <code>kangaroo</code> (Images) </li>
+                        <li> <code>whale</code> (Images) </li>
+                        <li> <code>pokemoninfo</code> (Info) </li>
+                        <li> <code>minecraftinfo</code> (Info) </li>
+                        <li> <code>songinfo</code> (Info) </li>
+                        <li> <code>discordstatus</code> (Utilities) </li>
+                        <li> <code>translate</code> (Utilities) </li>
+                        <li> <code>binary</code> (Other) </li>
+                        <li> <code>base64</code> (Other) </li>
+                        <li> <code>chatbot</code> (Fun) </li>
                     </ul>
                 </details>
                 <details>
                 <summary>Other Changes/Additions</summary>
                     <ul>
-                        <li> The ability to log keywords in DM's and servers (able to be stopped in `settings` command) </li>
+                        <li> The ability to log keywords in DM's and servers (able to be stopped in <code>settings</code> command) </li>
                         <li> New startup screen </li>
-                        <li> Fix to `purge` command </li>
-                        <li> Fix to `ytsearch` command </li>
+                        <li> Fix to <code>purge</code> command </li>
+                        <li> Fix to <code>ytsearch</code> command </li>
                         <li> Commands in Images aren't grouped by user and link anymore, and attempt to convert automatically </li>
                     </ul>
                 </details>
@@ -863,17 +865,17 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                 <details>
                 <summary>Added Commands</summary>
                     <ul>
-                        <li> `readall` (Other) </li>
-                        <li> `reverse_search` (Images) </li>
-                        <li> `motd` (Other) </li>
+                        <li> <code>readall</code> (Other) </li>
+                        <li> <code>reverse_search</code> (Images) </li>
+                        <li> <code>motd</code> (Other) </li>
                     </ul>
                 </details>
                 <details>
                 <summary>Other Changes/Additions</summary>
                     <ul>
-                        <li> Fix to `userinfo` command </li>
-                        <li> Fix to `serverinfo` command </li>
-                        <li> Fix to `gay` command </li>
+                        <li> Fix to <code>userinfo</code> command </li>
+                        <li> Fix to <code>serverinfo</code> command </li>
+                        <li> Fix to <code>gay</code> command </li>
                         <li> Fix to sniping events </li>
                         <li> The ability to provide a message link (instead of amount of messages) that purge will delete up to </li>
                         <li> Categories in the help command are case <b>in</b>sensitive </li>
@@ -888,12 +890,12 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                 <details>
                 <summary>Added Commands</summary>
                     <ul>
-                        <li> `kanjify` (Text) </li>
-                        <li> `oldify` (Text) </li>
-                        <li> `bubblify` (Text) </li>
-                        <li> `squarify` (Text) </li>
-                        <li> `cursivy` (Text) </li>
-                        <li> `mee6` (Trolling) </li>
+                        <li> <code>kanjify</code> (Text) </li>
+                        <li> <code>oldify</code> (Text) </li>
+                        <li> <code>bubblify</code> (Text) </li>
+                        <li> <code>squarify</code> (Text) </li>
+                        <li> <code>cursivy</code> (Text) </li>
+                        <li> <code>mee6</code> (Trolling) </li>
                     </ul>
                 </details>
                 <details>
@@ -904,15 +906,15 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                         <li> More accurate gift sniping </li>
                         <li> Added a jump url to most events (dmlog, snipe events, etc) </li>
                         <li> Deleted glitchdescription command (it was patched) </li>
-                        <li> Fix to `reverse_search` command </li>
+                        <li> Fix to <code>reverse_search</code> command </li>
                         <li> Faster cog loading </li>
-                        <li> `IPInfo` sends response in current channel </li>
+                        <li> <code>IPInfo</code> sends response in current channel </li>
                         <li> Python 3.9+ support (if discord.py==1.6.0 is downloaded) </li>
-                        <li> Improved `roleinfo` command (more info, like permissions) </li>
-                        <li> Improved `react` command (you can just do react 10 hi and it will react with :regional_indicator_h: :regional_indicator_i: to 10 latest messages) </li>
-                        <li> Improved `reverse` command (Reverses actual letters as well now) </li>
-                        <li> Improved `random_screen` command (Will also send Imgur links, and ability to specify amount to send) </li>
-                        <li> Improved `poll` command (Will create an actual strawpoll and send link, instead of an embed with reactions) </li>
+                        <li> Improved <code>roleinfo</code> command (more info, like permissions) </li>
+                        <li> Improved <code>react</code> command (you can just do react 10 hi and it will react with :regional_indicator_h: :regional_indicator_i: to 10 latest messages) </li>
+                        <li> Improved <code>reverse</code> command (Reverses actual letters as well now) </li>
+                        <li> Improved <code>random_screen</code> command (Will also send Imgur links, and ability to specify amount to send) </li>
+                        <li> Improved <code>poll</code> command (Will create an actual strawpoll and send link, instead of an embed with reactions) </li>
                     </ul>
                 </details>
             </ul>
@@ -923,21 +925,21 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                 <details>
                 <summary>Added Commands</summary>
                     <ul>
-                        <li> `setname` (Utilities) </li>
-                        <li> `setpfp` (Utilities) </li>
-                        <li> `hastebin` (Utilities) </li>
-                        <li> `crypto eth` (Utilities) </li>
-                        <li> `crypto toeth` (Utilities) </li>
-                        <li> `crypto custom` (Utilities) </li>
-                        <li> `crypto tocustom` (Utilities) </li>
-                        <li> `texttospeech` (Utilities) </li>
-                        <li> `qr encode` (Images) </li>
-                        <li> `qr decode` (Images) </li>
-                        <li> `makememe` (Images) </li>
-                        <li> `advice` (Fun) </li>
-                        <li> `wouldyourather` (Fun) </li>
-                        <li> `phonelookup` (IPTools) </li>
-                        <li> `spampins` (Trolling) </li>
+                        <li> <code>setname</code> (Utilities) </li>
+                        <li> <code>setpfp</code> (Utilities) </li>
+                        <li> <code>hastebin</code> (Utilities) </li>
+                        <li> <code>crypto eth</code> (Utilities) </li>
+                        <li> <code>crypto toeth</code> (Utilities) </li>
+                        <li> <code>crypto custom</code> (Utilities) </li>
+                        <li> <code>crypto tocustom</code> (Utilities) </li>
+                        <li> <code>texttospeech</code> (Utilities) </li>
+                        <li> <code>qr encode</code> (Images) </li>
+                        <li> <code>qr decode</code> (Images) </li>
+                        <li> <code>makememe</code> (Images) </li>
+                        <li> <code>advice</code> (Fun) </li>
+                        <li> <code>wouldyourather</code> (Fun) </li>
+                        <li> <code>phonelookup</code> (IPTools) </li>
+                        <li> <code>spampins</code> (Trolling) </li>
                     </ul>
                 </details>
                 <details>
@@ -946,13 +948,13 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                         <li> Command responses are faster </li>
                         <li> Simple detecting other selfbot users (logged in log channel) </li>
                         <li> DM/guild edit/delete loggers ignore bots and improved speed </li>
-                        <li> Added optional delay of 5 to 120 seconds when using `guild join` </li>
+                        <li> Added optional delay of 5 to 120 seconds when using <code>guild join</code> </li>
                         <li> Made almost every potentially blocking request async (non-blocking) </li>
                         <li> Added special permissions required to a command (e.g destroy server requires administrator, if you don't have that perm it will throw an error, also shown in help) </li>
-                        <li> `weatherinfo`, `metrics` and `songinfo` commands use your custom embeds now </li>
-                        <li> Fix to `embed` command </li>
-                        <li> Fix to `userinfo` command </li>
-                        <li> Fix to `mee6` command </li>
+                        <li> <code>weatherinfo</code>, <code>metrics</code> and <code>songinfo</code> commands use your custom embeds now </li>
+                        <li> Fix to <code>embed</code> command </li>
+                        <li> Fix to <code>userinfo</code> command </li>
+                        <li> Fix to <code>mee6</code> command </li>
                         <li> Some consistency and readability changes </li>
                     </ul>
                 </details>
