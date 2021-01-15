@@ -21,6 +21,7 @@ Some of our best features include:
         <li> Being able to log deleted/edited messages and keywords in servers and DM's (separately) ✓ </li>
         <li> Setting custom RPC ✓ </li>
         <li> Fast nitro, privnote, giveaway and token sniper (<a target="_blank" title="Snipe speeds" href="https://i.imgur.com/GZ8uR5W.png">~0.15s</a>) and more ✓ </li>
+        <li> Detecting other selfbot users ✓ </li>
         <li> Custom commands, listeners and embeds ✓ </li>
         <li> Creating and loading backups ✓ </li>
         <li> Great semi-interactive <a target="_blank" title="Help command screenshots" href="https://imgur.com/a/1vM2Emo">help command</a> ✓ </li>
