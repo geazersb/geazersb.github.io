@@ -604,6 +604,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
     <ul>
         <details>
         <summary>V1.0.0</summary>
+            <ul>
                 <details>
                 <summary>Added Commands</summary>
                     <ul>
@@ -623,6 +624,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                         <li> Added extensions </li>
                     </ul>
                 </details>
+            </ul>
         </details>
         <details>
         <summary>V1.0.1</summary>
