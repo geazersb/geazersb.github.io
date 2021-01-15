@@ -613,7 +613,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                     </ul>
                 </details>
                 <details>
-                <summary>Other Changes/Additions</summary>
+                <summary>Changes/Additions</summary>
                     <ul>
                         <li> You can enable and disable sniping in the <code>settings</code> command now </li>
                         <li> For adding raid tokens, you no longer need to input an id token combination, but only tokens </li>
@@ -641,7 +641,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                     </ul>
                 </details>
                 <details>
-                <summary>Other Changes/Additions</summary>
+                <summary>Changes/Additions</summary>
                     <ul>
                         <li> Changes to startup screen </li>
                     </ul>
@@ -652,7 +652,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
         <summary>V1.0.2</summary>
             <ul>
                 <details>
-                <summary>Other Changes/Additions</summary>
+                <summary>Changes/Additions</summary>
                     <ul>
                         <li> If you decide to log in your raid tokens using <code>raid login</code>, they will automatically join your logging guild so you can give them commands. </li>
                         <li> The prefix for raid commands now is 'r' + your custom prefix. e.g if your prefix is <code>'</code> the raid prefix will be <code>r'</code> </li>
@@ -674,7 +674,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                     </ul>
                 </details>
                 <details>
-                <summary>Other Changes/Additions</summary>
+                <summary>Changes/Additions</summary>
                     <ul>
                         <li> Improved snipe command by saving last deleted message for every channel </li>
                         <li> Improved proxy command by adding timeout argument </li>
@@ -701,7 +701,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                     </ul>
                 </details>
                 <details>
-                <summary>Other Changes/Additions</summary>
+                <summary>Changes/Additions</summary>
                     <ul>
                         <li> Added intents for V8 support </li>
                         <li> Added option to leave all guilds in <code>guild leave</code> command </li>
@@ -726,7 +726,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                     </ul>
                 </details>
                 <details>
-                <summary>Other Changes/Additions</summary>
+                <summary>Changes/Additions</summary>
                     <ul>
                         <li> Added uptime to <code>pinfo</code> command </li>
                         <li> Fix to startup being called multiple times (Discord API problem) </li>
@@ -754,7 +754,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                     </ul>
                 </details>
                 <details>
-                <summary>Other Changes/Additions</summary>
+                <summary>Changes/Additions</summary>
                     <ul>
                         <li> Roles are shown in <code>serverinfo</code> command </li>
                         <li> Added loads of aliases to commands </li>
@@ -779,7 +779,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                     </ul>
                 </details>
                 <details>
-                <summary>Other Changes/Additions</summary>
+                <summary>Changes/Additions</summary>
                     <ul>
                         <li> Fix to <code>help</code> command </li>
                         <li> Fix to <code>tokenspam</code> command </li>
@@ -804,7 +804,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                     </ul>
                 </details>
                 <details>
-                <summary>Other Changes/Additions</summary>
+                <summary>Changes/Additions</summary>
                     <ul>
                         <li> New cog with all info commands (userinfo, weatherinfo, etc) </li>
                         <li> New cog with all events, this doesn't include any commands and is hidden from the help command </li>
@@ -845,7 +845,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                     </ul>
                 </details>
                 <details>
-                <summary>Other Changes/Additions</summary>
+                <summary>Changes/Additions</summary>
                     <ul>
                         <li> The ability to log keywords in DM's and servers (able to be stopped in <code>settings</code> command) </li>
                         <li> New startup screen </li>
@@ -868,7 +868,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                     </ul>
                 </details>
                 <details>
-                <summary>Other Changes/Additions</summary>
+                <summary>Changes/Additions</summary>
                     <ul>
                         <li> Fix to <code>userinfo</code> command </li>
                         <li> Fix to <code>serverinfo</code> command </li>
@@ -896,7 +896,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                     </ul>
                 </details>
                 <details>
-                <summary>Other Changes/Additions</summary>
+                <summary>Changes/Additions</summary>
                     <ul>
                         <li> The option to disable error feedback in current channel (command not found, missing arguments, etc) </li>
                         <li> Added a new category Text for text changing commands </li>
@@ -940,7 +940,7 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
                     </ul>
                 </details>
                 <details>
-                <summary>Other Changes/Additions</summary>
+                <summary>Changes/Additions</summary>
                     <ul>
                         <li> Command responses are faster </li>
                         <li> Simple detecting other selfbot users (logged in log channel) </li>
