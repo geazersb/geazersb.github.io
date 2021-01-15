@@ -604,31 +604,25 @@ separate channel, and giving the option to disable embeds. You will <b>not</b> b
     <ul>
         <details>
         <summary>V1.0.0</summary>
-            <ul>
-                <li>
-                    <details>
-                    <summary>Added Commands</summary>
-                        <ul>
-                            <li> <code>dice</code> (Fun) </li>
-                            <li> <code>fact</code> (Fun) </li>
-                            <li> <code>snipe</code> (Fun) </li>
-                            <li> <code>serverinfo</code> (Info) </li>
-                            <li> <code>letterreplace</code> (Text) </li>
-                        </ul>
-                    </details>
-                </li>
-                <li>
-                    <details>
-                    <summary>Changes/Additions</summary>
-                        <ul>
-                            <li> You can enable and disable sniping in the <code>settings</code> command now </li>
-                            <li> For adding raid tokens, you no longer need to input an id token combination, but only tokens </li>
-                            <li> <code>userinfo</code> works for users in DMs now as well as in guilds </li>
-                            <li> Added extensions </li>
-                        </ul>
-                    </details>
-                </li>
-            </ul>
+                <details>
+                <summary>Added Commands</summary>
+                    <ul>
+                        <li> <code>dice</code> (Fun) </li>
+                        <li> <code>fact</code> (Fun) </li>
+                        <li> <code>snipe</code> (Fun) </li>
+                        <li> <code>serverinfo</code> (Info) </li>
+                        <li> <code>letterreplace</code> (Text) </li>
+                    </ul>
+                </details>
+                <details>
+                <summary>Changes/Additions</summary>
+                    <ul>
+                        <li> You can enable and disable sniping in the <code>settings</code> command now </li>
+                        <li> For adding raid tokens, you no longer need to input an id token combination, but only tokens </li>
+                        <li> <code>userinfo</code> works for users in DMs now as well as in guilds </li>
+                        <li> Added extensions </li>
+                    </ul>
+                </details>
         </details>
         <details>
         <summary>V1.0.1</summary>
