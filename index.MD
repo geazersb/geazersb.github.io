@@ -10,7 +10,7 @@
 <h3 name="introduction">Introduction</h3>
 <p> Geazer SB, A cheap selfbot with almost 300 commands being nothing like the
     generic github copy and paste selfbots. Geazer comes with uniquely created
-    features, requested by our customers and other never before seen features
+    features requested by our customers, and other never before seen features
     all at the power of the customers fingertips.
 </p>
 <p>
