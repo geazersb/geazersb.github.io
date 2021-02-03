@@ -445,6 +445,7 @@
         <p>Category will all commands that allow images as input and will return a modified result</p>
         <li>makememe ⟶ Will edit your attachment or [image] to show &lt;top_text&gt; and &lt;bottom_text&gt;</li>
         <li>meme ⟶ Returns a random meme/post from [subreddit=memes]</li>
+        <li>headsortails ⟶ Sends a random heads or tails image</li>
         <li>whowouldwin ⟶ Will send an image with the profile pictures of &lt;user1&gt; and &lt;user2&gt;</li>
         <li>avatar ⟶ Will send a enlarged users avatar in chat</li>
         <li>reverse_search ⟶ Will reverse image search the &lt;link&gt;</li>
@@ -1181,6 +1182,7 @@
         <details>
           <summary>Added commands</summary>
           <ul>
+            <li><code>headsortails</code> (Images)</li>
             <li><code>animal monkey</code> (Images)</li>
             <li><code>animal pig</code> (Images)</li>
             <li><code>animal bear</code> (Images)</li>
@@ -1228,6 +1230,32 @@
             <li>Improved giveaway and privnote sniping</li>
             <li>Changed some docstrings and added aliases</li>
             <li>Other small changes</li>
+          </ul>
+        </details>
+      </ul>
+    </details>
+    <details>
+      <summary>V1.11.1 (03/02/2020)</summary>
+      <ul>
+        <details>
+          <summary>Other changes</summary>
+          <ul>
+            <li>Fix to launch</li>
+            <li>Fix to <code>reload</code> command</li>
+            <li>Other small changes</li>
+          </ul>
+        </details>
+      </ul>
+    </details>
+    <details>
+      <summary>V1.11.2 (03/02/2020)</summary>
+      <ul>
+        <details>
+          <summary>Other changes</summary>
+          <ul>
+            <li>Fix to <code>reminder</code> command</li>
+            <li>Fix to sniping</li>
+            <li>Fix to selfbot detect</li>
           </ul>
         </details>
       </ul>
