@@ -40,7 +40,7 @@
     <li>Great, helpful support ✓</li>
     <li>Discrete webhooked <a target="_blank" title="webhook logging" href="https://imgur.com/a/lkflK4T">logging</a> ✓</li>
     <li>
-      <b> And in total over <u>366</u> commands! ✓</b>
+      <b> And in total over <u>370</u> commands! ✓</b>
     </li>
   </ul>
 </details>
