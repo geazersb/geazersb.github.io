@@ -104,6 +104,8 @@
         <li>colourinfo ⟶ Will show information about a hex/rgb colour</li>
         <li>emojiinfo ⟶ Will list all the emotes in a server</li>
         <li>usageinfo ⟶ Will show the top 10 most used commands by you in a graph</li>
+        <li>foodinfo ⟶  Will return some info about &lt;dish&gt;</li>
+        <li>tokeninfo ⟶ Will show information about a token</li>
       </ul>
     </details>
     <details>
@@ -167,6 +169,11 @@
         <ul>
           <li>start ⟶ Will automatically deafen &lt;member&gt; after a undeafen</li>
           <li>stop ⟶ Will stop the autodeafen listener</li>
+        </ul>
+        <li>autodisconnect ⟶ Base command for starting/stopping autodisconnect</li>
+        <ul>
+          <li>start ⟶ Will automatically kick <member> from a voicechannel on join</li>
+          <li>stop ⟶ Will stop the autodisconnect listener</li>
         </ul>
         <li>invisible ⟶ Base command for making your username/pfp blank, and reverting that</li>
         <ul>
@@ -268,6 +275,11 @@
           <li>encode ⟶ Will encode your &lt;message&gt; to base64</li>
           <li>decode ⟶ Will decode your &lt;message&gt; to a string</li>
         </ul>
+        <li>qr ⟶ Base command for encoding text to QR and decoding QR to text</li>
+        <ul>
+          <li>encode ⟶ Will generate a QR code from your &lt;message&gt;</li>
+          <li>decode ⟶ Will decode a QRs contents to text</li>
+        </ul>
       </ul>
     </details>
     <details>
@@ -322,6 +334,7 @@
         <li>passgen ⟶ Will generate a &lt;length&gt; long password</li>
         <li>logout ⟶ Will log out the selfbot</li>
         <li>reboot ⟶ Will restart the selfbot</li>
+        <li>removealllisteners ⟶ Will stop all running listeners, like annoy, autodeafen, etc.</li>
         <li>loop ⟶ Base command for looping messages</li>
         <ul>
           <li>start ⟶ Will send &lt;message&gt; after &lt;delay&gt; untill stopped</li>
@@ -448,22 +461,19 @@
         <li>headsortails ⟶ Sends a random heads or tails image</li>
         <li>whowouldwin ⟶ Will send an image with the profile pictures of &lt;user1&gt; and &lt;user2&gt;</li>
         <li>avatar ⟶ Will send a enlarged users avatar in chat</li>
+        <li>resize ⟶ Will resize your &lt;link&gt; to &lt;width&gt; &lt;height&gt; dimensions</li>
+        <li>ocr ⟶  Will return the text found in your &lt;link&gt;s image</li>
         <li>reverse_search ⟶ Will reverse image search the &lt;link&gt;</li>
         <li>random_screen ⟶ Will send a random screen from prnt.sc or imgur, not guaranteed to contain anything</li>
         <li>phcomment ⟶ Will send an image containing a pornhub comment by the &lt;user&gt; saying &lt;message&gt;</li>
         <li>ytcomment ⟶ Will send an image containing a youtube comment by the &lt;user&gt; saying &lt;message&gt;</li>
         <li>changemymind ⟶ Will send an image with in the change my mind meme saying &lt;message&gt;</li>
+        <li>spongebob ⟶ Will send an image of mocking spongebob or with &lt;message&gt;</li>
         <li>tweet ⟶ Base command for sending tweets as trump or normal</li>
         <ul>
           <li>normal ⟶ Will send an image with the input text as a tweet</li>
           <li>trump ⟶ Will send an image with the input text as a tweet</li>
         </ul>
-        <li>qr ⟶ Base command for encoding text to QR and decoding QR to text</li>
-        <ul>
-          <li>encode ⟶ Will generate a QR code from your &lt;message&gt;</li>
-          <li>decode ⟶ Will decode a QRs contents to text</li>
-        </ul>
-        <li>spongebob ⟶ Will send an image of mocking spongebob or with &lt;message&gt;</li>
         <li>animal ⟶ Base command for sending animal images + facts</li>
         <ul>
           <li>monkey ⟶ Will send a random monkey image and fact</li>
@@ -541,7 +551,6 @@
         <li>bantoken ⟶ Will make ban a Discord token forcing the user to reset it</li>
         <li>deleteaccount ⟶ Will DELETE someones discord account by using their &lt;token&gt; and &lt;password&gt;</li>
         <li>disableaccount ⟶ Will DISABLE someones discord account by using their &lt;token&gt; and &lt;password&gt;</li>
-        <li>tokeninfo ⟶ Will show information about a token</li>
         <li>tokenspam ⟶ Will flash screen and changes settings of account by using its token</li>
         <li>destroyserver ⟶ Will destroy a server by banning users, deleting and creating channels/roles</li>
         <li>massban ⟶ Will attempt to ban everybody in specified &lt;guild_id&gt; excluding [exclusions...]</li>
@@ -1256,6 +1265,44 @@
             <li>Fix to <code>reminder</code> command</li>
             <li>Fix to sniping</li>
             <li>Fix to selfbot detect</li>
+          </ul>
+        </details>
+      </ul>
+    </details>
+    <details>
+      <summary>V1.12.0 (06/02/2021)</summary>
+      <ul>
+        <details>
+          <summary>Added commands</summary>
+          <ul>
+            <li><code>resize</code> (Images)</li>
+            <li><code>ocr</code> (Images)</li>
+            <li><code>foodinfo</code> (Info)</li>
+            <li><code>removealllisteners</code> (Utilities)</li>
+            <li><code>autodisconnect start/stop</code> (Trolling)</li>
+          </ul>
+        </details>
+        <details>
+          <summary>Other changes</summary>
+          <ul>
+            <li>Improved <code>avatar</code> command by resizing the avatar</li>
+            <li>Improved <code>google</code> command by returning actual content/images</li>
+            <li>Improved <code>typeracer</code> command by showing the sentence in an image</li>
+            <li>Improved <code>processinfo</code> command by showing more information</li>
+            <li>Improved <code>cc add</code> command by adding the optional '--embedded' and '--deleteafter' flags</li>
+            <li>Improved all Text commands by increasing speed</li>
+            <li>Improved errorhandling for most Info commands</li>
+            <li>Improved custom commands by allowing them to be send through your custom embed</li>
+            <li>Added extra coloured bar for responses and the help command</li>
+            <li>Added feedback for when a required package is not found</li>
+            <li>Added token check for commands where a token is put in</li>
+            <li>Fix to <code>metrics</code> not sending image in embed</li>
+            <li>Fix to <code>annoy</code> command not working</li>
+            <li>Fix to <code>autodeafen</code> command not working</li>
+            <li>Fix to <code>reminder add</code> when trying to use it in DM's</li>
+            <li>Fix to <code>cc list</code> not properly updating when a cc was removed</li>
+            <li>Fix to setup not working when setup had been cancelled before</li>
+            <li>Fix to some game commands not properly stopping when no one replied within a reasonable timeframe</li>
           </ul>
         </details>
       </ul>
