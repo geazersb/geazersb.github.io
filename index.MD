@@ -172,7 +172,7 @@
         </ul>
         <li>autodisconnect ⟶ Base command for starting/stopping autodisconnect</li>
         <ul>
-          <li>start ⟶ Will automatically kick <member> from a voicechannel on join</li>
+          <li>start ⟶ Will automatically kick &lt;member&gt; from a voicechannel on join</li>
           <li>stop ⟶ Will stop the autodisconnect listener</li>
         </ul>
         <li>invisible ⟶ Base command for making your username/pfp blank, and reverting that</li>
