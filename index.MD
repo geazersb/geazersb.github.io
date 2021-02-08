@@ -82,11 +82,11 @@
 <hr />
 <h3 name="commands">Commands</h3>
 <details open>
-  <summary> open/close </summary>
+  <summary>open/close</summary>
   <ul>
     <p>Arguments within greater/smaller than signs (<>) are required, arguments within brackets ([]) are optional.</p>
     <details>
-      <summary> Info </summary>
+      <summary>Info</summary>
       <ul>
         <p>All commands that provide info on a specific subject</p>
         <li>movieinfo ⟶ Will return movie or series info by &lt;query&gt; (embedded)</li>
@@ -110,7 +110,7 @@
       </ul>
     </details>
     <details>
-      <summary> Trolling </summary>
+      <summary>Trolling</summary>
       <ul>
         <p>Category will all trolling commands, some should be used with caution</p>
         <li>massrename ⟶ Will attempt to rename everybody to &lt;nickname&gt; in specified &lt;guild_id&gt;</li>
@@ -189,7 +189,7 @@
       </ul>
     </details>
     <details>
-      <summary> Other </summary>
+      <summary>Other</summary>
       <ul>
         <p>Category for all commands without a specific category</p>
         <li>eval ⟶ Will evaluate python code, with discord.py env variables in place</li>
@@ -243,7 +243,7 @@
       </ul>
     </details>
     <details>
-      <summary> Text </summary>
+      <summary>Text</summary>
       <ul>
         <p>Category for all commands that send a modified version of your text input</p>
         <li>worm ⟶ Will send your &lt;message&gt; &lt;amount&gt; times in the form of a wave</li>
@@ -284,7 +284,7 @@
       </ul>
     </details>
     <details>
-      <summary> Iptools </summary>
+      <summary>Iptools</summary>
       <ul>
         <p>Category for all commands that have to do with IPs</p>
         <li>ipinfo ⟶ Will display information about &lt;host&gt; (embedded)</li>
@@ -311,7 +311,7 @@
       </ul>
     </details>
     <details>
-      <summary> Utilities </summary>
+      <summary>Utilities</summary>
       <ul>
         <p>Category with all useful utility like commands</p>
         <li>ytsearch ⟶ Will search YouTube with &lt;query&gt; and return results</li>
@@ -380,7 +380,7 @@
       </ul>
     </details>
     <details>
-      <summary> Raid </summary>
+      <summary>Raid</summary>
       <ul>
         <p>Category with all the raid commands, use these with caution</p>
         <li>account ⟶ Base command for logging in all the raid accounts</li>
@@ -456,7 +456,7 @@
       </ul>
     </details>
     <details>
-      <summary> Images </summary>
+      <summary>Images</summary>
       <ul>
         <p>Category will all commands that allow images as input and will return a modified result</p>
         <li>makememe ⟶ Will edit your attachment or [image] to show &lt;top_text&gt; and &lt;bottom_text&gt;</li>
@@ -545,7 +545,7 @@
       </ul>
     </details>
     <details>
-      <summary> Abuse </summary>
+      <summary>Abuse</summary>
       <ul>
         <p>Category with all abuse commands, these include discord exploits and should be used with caution</p>
         <li>channeloutage ⟶ Will send a load of emotes in a message that causes the reader to crash/lag</li>
@@ -600,13 +600,13 @@
       </ul>
     </details>
     <details>
-      <summary> Events </summary>
+      <summary>Events</summary>
       <ul>
         <p>Contains all events like edits/deletes etc, no commands are in this cog</p>
       </ul>
     </details>
     <details>
-      <summary> Fun </summary>
+      <summary>Fun</summary>
       <ul>
         <p>Category with fun commands, they pretty useless overall</p>
         <li>rembed ⟶ Will send an embed with &lt;title&gt; and &lt;description&gt;, who's colour will change every 3 seconds</li>
