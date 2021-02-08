@@ -27,7 +27,7 @@
     <li>Easy to use commands</li>
     <li>Being able to log deleted/edited messages and keywords in servers and DM's (separately) ✓</li>
     <li>Setting custom RPC ✓</li>
-    <li><a target="_blank" title="snipe speeds" href="https://cdn.discordapp.com/attachments/773332500210647072/805056868870651924/image1.jpg">Fast</a> nitro, privnote, giveaway and token sniper ✓</li>
+    <li><a target="_blank" title="snipe speeds" href="https://cdn.discordapp.com/attachments/765282567355760650/808270280413544478/unknown.png">Fast</a> nitro, privnote, giveaway and token sniper ✓</li>
     <li><a target="_blank" title="selfbot detect" href="https://imgur.com/a/XkmPcmQ">Detecting</a> other selfbot users ✓</li>
     <li>Custom commands, listeners and embeds ✓</li>
     <li>Creating and loading backups ✓</li>
@@ -106,6 +106,7 @@
         <li>usageinfo ⟶ Will show the top 10 most used commands by you in a graph</li>
         <li>foodinfo ⟶  Will return some info about &lt;dish&gt;</li>
         <li>tokeninfo ⟶ Will show information about a token</li>
+        <li>emailinfo ⟶ Will show some information about &lt;email&gt</li>
       </ul>
     </details>
     <details>
@@ -298,6 +299,8 @@
         <li>maclookup ⟶ Will search for the manufacturer of a product based on it's &lt;mac&gt; address</li>
         <li>phonelookup ⟶ Will search for the phonenumber and return some information</li>
         <li>screenwebsite ⟶ Will send a screenshot of a website with the provided &lt;url&gt;</li>
+        <li>whois ⟶ Will do a WHOIS lookup for &lt;host&gt; and return the results</li>
+        <li>websiterep ⟶ Will show some information about &lt;host&gt;'s reputation</li>
         <li>proxies ⟶ Base command for getting http/https/socks4/socks5 proxies</li>
         <ul>
           <li>socks5 ⟶ Scrapes socks5 proxies (IP:PORT) and sends the file in chat</li>
@@ -1303,6 +1306,32 @@
             <li>Fix to <code>cc list</code> not properly updating when a cc was removed</li>
             <li>Fix to setup not working when setup had been cancelled before</li>
             <li>Fix to some game commands not properly stopping when no one replied within a reasonable timeframe</li>
+          </ul>
+        </details>
+      </ul>
+    </details>
+    <details>
+      <summary>V1.12.1 (08/02/2021)</summary>
+      <ul>
+        <details>
+          <summary>Added commands</summary>
+          <ul>
+            <li><code>whois</code> (IPTools)</li>
+            <li><code>websiterep</code> (IPTools)</li>
+            <li><code>emailinfo</code> (Info)</li>
+          </ul>
+        </details>
+        <details>
+          <summary>Other changes</summary>
+          <ul>
+            <li>Added some 'not found' feedback on <code>urban</code> and <code>userinfo</code> command</li>
+            <li>Selfbot setup has the input sometimes checked for the right format now</li>
+            <li>Discord Nitro sniping is now ~30% faster</li>
+            <li>Proper message jump url included to all sniping events</li>
+            <li><code>userinfo</code> shows mutual guilds, nitro time and is more reliable</li>
+            <li><code>dnsresolve</code> does not require an API key anymore and shows more info</li>
+            <li>Fix to <code>tts</code> command not working</li>
+            <li>Fix to <code>autorespond</code> and <code>imitate</code> commands mixup regarding the cancerify parameter</li>
           </ul>
         </details>
       </ul>
