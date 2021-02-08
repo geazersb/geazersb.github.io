@@ -24,7 +24,6 @@
 <details open>
   <summary>open/close</summary>
   <ul>
-    <li>Easy to use commands</li>
     <li>Being able to log deleted/edited messages and keywords in servers and DM's (separately) ✓</li>
     <li>Setting custom RPC ✓</li>
     <li><a target="_blank" title="snipe speeds" href="https://cdn.discordapp.com/attachments/765282567355760650/808270280413544478/unknown.png">Fast</a> nitro, privnote, giveaway and token sniper ✓</li>
@@ -40,7 +39,7 @@
     <li>Great, helpful support ✓</li>
     <li>Discrete webhooked <a target="_blank" title="webhook logging" href="https://imgur.com/a/lkflK4T">logging</a> ✓</li>
     <li>
-      <b> And in total over <u>370</u> commands! ✓</b>
+      <b> And in total over <u>370</u> easily usable commands! ✓</b>
     </li>
   </ul>
 </details>
