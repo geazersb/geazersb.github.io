@@ -24,22 +24,23 @@
 <details open>
   <summary>open/close</summary>
   <ul>
+    <li>Easy to use commands</li>
     <li>Being able to log deleted/edited messages and keywords in servers and DM's (separately) ✓</li>
     <li>Setting custom RPC ✓</li>
-    <li><a target="_blank" title="snipe speeds" href="https://cdn.discordapp.com/attachments/765282567355760650/808270280413544478/unknown.png">Fast</a> nitro, privnote, giveaway and token sniper ✓</li>
-    <li><a target="_blank" title="selfbot detect" href="https://imgur.com/a/XkmPcmQ">Detecting</a> other selfbot users ✓</li>
+    <li><a target="_blank" title="snipe speeds" href="https://geazersb.github.io/snipe_speeds.png">Fast</a> nitro, privnote, giveaway and token sniper ✓</li>
+    <li><a target="_blank" title="selfbot detect" href="https://geazersb.github.io/selfbot_detect.png">Detecting</a> other selfbot users ✓</li>
     <li>Custom commands, listeners and embeds ✓</li>
     <li>Creating and loading backups ✓</li>
-    <li>Great informative <a target="_blank" title="help command" href="https://imgur.com/a/jeqMlVZ">help command</a> ✓</li>
+    <li>Great informative <a target="_blank" title="help command" href="https://geazersb.github.io/help_command.png">help command</a> ✓</li>
     <li>Controlling hundreds of bot/user accounts (for raiding) ✓</li>
     <li>Loads of abuse, image manipulating, utility and fun commands ✓</li>
     <li>Extensive optimization and ingenuity (abiding <a target="_blank" title="PEP-8 definition" href="https://www.python.org/dev/peps/pep-0008/">PEP-8</a> rules) ✓</li>
     <li>Cheap price ✓</li>
     <li><a target="_blank" title="changelog" href="https://geazersb.github.io#changelog">Frequent updates</a> ✓</li>
     <li>Great, helpful support ✓</li>
-    <li>Discrete webhooked <a target="_blank" title="webhook logging" href="https://imgur.com/a/lkflK4T">logging</a> ✓</li>
+    <li>Discrete webhooked <a target="_blank" title="webhook logging" href="https://geazersb.github.io/logging.png">logging</a> ✓</li>
     <li>
-      <b> And in total over <u>370</u> easily usable commands! ✓</b>
+      <b> And in total over <u>370</u> commands! ✓</b>
     </li>
   </ul>
 </details>
