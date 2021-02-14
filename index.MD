@@ -1336,6 +1336,26 @@
         </details>
       </ul>
     </details>
+    <details>
+      <summary>V1.12.2 (10/02/2021)</summary>
+      <ul>
+        <details>
+          <summary>Other changes</summary>
+          <ul>
+            <li>Added connected accounts to the <code>userinfo</code> command</li>
+            <li>You can control each sniping category individually now</li>
+            <li>Added a "exclusions" entry to config file that allows for excluding certain servers from sniping</li>
+            <li>Better explaining in setup</li>
+            <li>Better and more input checking/warning in setup</li>
+            <li>Added more sniping settings to setup</li>
+            <li>Only using Discord API V8 now</li>
+            <li>Fix to <code>account login</code> not working</li>
+            <li>Fix to giveaway sniper trying to join a giveaway multiple times</li>
+            <li>Fix to false positives on nitro sniper</li>
+          </ul>
+        </details>
+      </ul>
+    </details>
   </ul>
 </details>
 <button class="button button"><a style="color: black;" href="#top">Back to top</a></button>
