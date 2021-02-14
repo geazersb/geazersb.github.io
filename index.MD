@@ -106,7 +106,8 @@
         <li>usageinfo ⟶ Will show the top 10 most used commands by you in a graph</li>
         <li>foodinfo ⟶  Will return some info about &lt;dish&gt;</li>
         <li>tokeninfo ⟶ Will show information about a token</li>
-        <li>emailinfo ⟶ Will show some information about &lt;email&gt</li>
+        <li>emailinfo ⟶ Will show some information about &lt;email&gt;</li>
+        <li>packageinfo ⟶ Will show information about the Python &lt;package&gt;</li>
       </ul>
     </details>
     <details>
@@ -210,6 +211,7 @@
           <li>rpc ⟶ Will enable/disable custom Rich Presence (RPC)</li>
           <li>keywordlog ⟶ Will enable/disable logging your keywords in dms/servers</li>
           <li>errorinfo ⟶ Will enable/disable sending some error info in current channel</li>
+          <li>list ⟶ Will show your current settings</li>
         </ul>
         <li>cc ⟶ Base command for adding/removing/listing custom commands</li>
         <ul>
@@ -634,6 +636,8 @@
         <li>cum ⟶ Will send an editing masturbating image 😳</li>
         <li>poll ⟶ Will create a strawpoll with possible [answers...] and certain [options...]</li>
         <li>8ball ⟶ Will pick a random response from a list</li>
+        <li>xkcd ⟶ Will send a random xkcd comic</li>
+        <li>randomemotes ⟶ Will send &lt;amount&gt; random emojis you have access to</li>
         <li>editnick ⟶ Base command for starting/stopping editnick</li>
         <ul>
           <li>start ⟶ Will loop through &lt;nickname&gt; and reveal a new letter every second and reset untill stopped</li>
@@ -1352,6 +1356,35 @@
             <li>Fix to <code>account login</code> not working</li>
             <li>Fix to giveaway sniper trying to join a giveaway multiple times</li>
             <li>Fix to false positives on nitro sniper</li>
+          </ul>
+        </details>
+      </ul>
+    </details>
+    <details>
+      <summary>V1.12.3 (12/02/2021)</summary>
+      <ul>
+        <details>
+          <summary>Added commands</summary>
+          <ul>
+            <li><code>randomemotes</code> (Fun)</li>
+            <li><code>xkcd</code> (Fun)</li>
+            <li><code>settings list</code> (Other)</li>
+            <li><code>packageinfo</code> (Info)</li>
+          </ul>
+        </details>
+        <details>
+          <summary>Other changes</summary>
+          <ul>
+            <li>Changes to error handling: Removed long tracebacks in console and errorinfo uses your custom embed now</li>
+            <li>Improved responses send by commands by always showing a multiple of 3 fields (for proper alignment)</li>
+            <li>Improved <code>metrics</code> command by showing more info</li>
+            <li>Improved <code>reddit</code> command by showing more information about the post and allowing to specify the amount of posts to send</li>
+            <li>Improved <code>help</code> command by consistently editing the original message, and resetting the autodelete timer. Also properly escapes prefixes now</li>
+            <li>Fix to the <code>settings prefix</code> command not working properly</li>
+            <li>Fix to the <code>react</code> command not working with text</li>
+            <li>Fix to the the <code>help</code> message of the embed command</li>
+            <li>Fix to <code>account login</code> command not working properly, along with other small changes to account</li>
+            <li>Other small changes</li>
           </ul>
         </details>
       </ul>
