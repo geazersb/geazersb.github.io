@@ -694,7 +694,7 @@
 </details>
 
 <h3 name="extensions">Extensions</h3>
-<details open>
+<details>
   <summary>open/close</summary>
   <ul>
     <p>These are free extensions that can be downloaded in our guild, and added upon buying the selfbot.</p>
