@@ -785,10 +785,10 @@
 <h1 name="changelog" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent">Changelog</h1>
 <hr />
 <h3 name="changelog">Changelog</h3>
-<details open>
+<details>
   <summary>open/close</summary>
   <ul>
-    <details>
+    <details open>
       <summary>V1.0.0 (02/10/2020)</summary>
       <ul>
         <details>
