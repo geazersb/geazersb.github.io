@@ -4,21 +4,12 @@
   <meta property="og:image" content="https://i.imgur.com/shO8dws.png" />
 </head>
 
-<h1 name="top" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">Preface</h1>
+<h1 name="top" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent">Preface</h1>
 <hr />
 <h3 name="introduction">Introduction</h3>
-<p>
-  Geazer SB, a cheap selfbot with nearly 370 commands being nothing like the generic github copy and paste selfbots. Geazer comes with uniquely created features requested by our customers, and other never before seen features all at the
-  power of the customers fingertips.
-</p>
-<p>
-  Our team strives to make a successful and recognisable name and bring the incredible functionality of a every day use selfbot. With our selfbot you're not only getting the overall handiness of one, but also great support and the comfort
-  of your money well spent!
-</p>
-<p>
-  The selfbot can be bought in <a target="_blank" title="My autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">our shop</a>, or right here using the button below. We accept both PayPal,
-  Bitcoin and Bitcoin Cash.
-</p>
+<p>Geazer SB, a cheap selfbot with nearly 370 commands being nothing like the generic github copy and paste selfbots. Geazer comes with uniquely created features requested by our customers, and other never before seen features all at the power of the customers fingertips.</p>
+<p>Our team strives to make a successful and recognisable name and bring the incredible functionality of a every day use selfbot. With our selfbot you're not only getting the overall handiness of one, but also great support and the comfort of your money well spent!</p>
+<p>The selfbot can be bought in <a target="_blank" title="My autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">our shop</a>, or right here using the button below. We accept both PayPal, Bitcoin and Bitcoin Cash.</p>
 <button class="button button" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
 <p>Some of our best features include:</p>
 <details open>
@@ -48,10 +39,7 @@
 <details open>
   <summary>open/close</summary>
   <ul>
-    <li>
-      Join our discord <a target="_blank" title="Support, suggestions, questions and more" href="https://discord.gg/ZGrYnNB">here</a> (
-      <a target="_blank" title="Support, suggestions, questions and more" href="https://discord.gg/22fZqtp">backup</a>)
-    </li>
+    <li>Join our discord <a target="_blank" title="Support, suggestions, questions and more" href="https://discord.gg/ZGrYnNB">here</a> ( <a target="_blank" title="Support, suggestions, questions and more" href="https://discord.gg/22fZqtp">backup</a>)</li>
     <li>View our shop <a target="_blank" title="My autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">here</a></li>
     <li>View our features quickly <a target="_blank" title="Clear pastebin listing of commands" href="https://pastebin.com/raw/7f4RHTeH">here</a></li>
   </ul>
@@ -71,122 +59,80 @@
   <summary>open/close</summary>
   <ul>
     <li>
-      Using a selfbot is <b>against</b> Discord's <a target="_blank" title="Discord article on Selfbots" href="https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-">TOS</a>. Though I have made this selfbot
-      very <b>discrete</b> by logging into a separate channel, and giving the option to disable embeds. You will <b>not</b> be banned, <b>unless</b> you get <b>reported with proof</b> (e.g screen of embed/you saying you used abusive
-      commands).
+      Using a selfbot is <b>against</b> Discord's <a target="_blank" title="Discord article on Selfbots" href="https://support.discord.com/hc/en-us/articles/115002192352-Automated-user-accounts-">TOS</a>. Though I have made this selfbot very <b>discrete</b> by logging into a separate channel, and
+      giving the option to disable embeds. You will <b>not</b> be banned, <b>unless</b> you get <b>reported with proof</b> (e.g screen of embed/you saying you used abusive commands).
     </li>
   </ul>
 </details>
 
-<h1 name="features" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">Features</h1>
+<h1 name="features" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent">Features</h1>
 <hr />
-<h3 name="commands">Commands</h3>
 <details open>
   <summary>open/close</summary>
   <ul>
     <p>Arguments within greater/smaller than signs (<>) are required, arguments within brackets ([]) are optional.</p>
     <details>
+      <summary>Iptools</summary>
+      <ul>
+        <p>Category for all commands that have to do with IPs</p>
+        <li>iplookup ⟶ Will display information about &lt;host&gt; (embedded)</li>
+        <li>unshorten ⟶ Wil unshorten ad.fly, sh.st and adfoc.us links</li>
+        <li>shorten ⟶ Will generate a tinyurl link from &lt;link&gt;</li>
+        <li>icmpping ⟶ Will ping &lt;host&gt; using ICMP packets</li>
+        <li>tcpping ⟶ Will ping &lt;host&gt; on port &lt;port&gt; using TCP packets</li>
+        <li>dnsresolve ⟶ Will resolve a DNS by hostname</li>
+        <li>websiterep ⟶ Will show some information about &lt;host&gt;'s reputation</li>
+        <li>showheaders ⟶ Will show the HTTP headers that your client sends when connecting to a webserver</li>
+        <li>whois ⟶ Will do a WHOIS lookup for &lt;host&gt; and return the results</li>
+        <li>portscan ⟶ Will scan the common ports of a &lt;host&gt;</li>
+        <li>traceroute ⟶ Will determine what servers data traverses through before reaching the &lt;host&gt;</li>
+        <li>maclookup ⟶ Will search for the manufacturer of a product based on it's &lt;mac&gt; address</li>
+        <li>phonelookup ⟶ Will search for the phonenumber and return some information</li>
+        <li>screenwebsite ⟶ Will send a screenshot of a website with the provided &lt;url&gt;</li>
+        <li>proxies ⟶ Base command for getting http/https/socks4/socks5 proxies</li>
+        <ul>
+          <li>http ⟶ Scrapes HTTP proxies (IP:PORT) and sends the file in chat</li>
+          <li>https ⟶ Scrapes HTTPS proxies (IP:PORT) and sends the file in chat</li>
+          <li>socks4 ⟶ Scrapes socks4 proxies (IP:PORT) and sends the file in chat</li>
+          <li>socks5 ⟶ Scrapes socks5 proxies (IP:PORT) and sends the file in chat</li>
+        </ul>
+      </ul>
+    </details>
+    <details>
+      <summary>Games</summary>
+      <ul>
+        <p>A Games extension</p>
+        <li>minesweeper ⟶ Will allow you to play a game of minesweeper</li>
+        <li>whotypesitfaster ⟶ Will allow you to play a game of who types it faster</li>
+        <li>guessthewords ⟶ Will allow you to play a game of guess the words</li>
+        <li>guessthetiming ⟶ Will allow you to play a game of guess timing</li>
+        <li>guessthelogo ⟶ Will allow you to play a game of guess the logo</li>
+      </ul>
+    </details>
+    <details>
       <summary>Info</summary>
       <ul>
         <p>All commands that provide info on a specific subject</p>
-        <li>movieinfo ⟶ Will return movie or series info by &lt;query&gt; (embedded)</li>
-        <li>songinfo ⟶ Will return some information about a song including lyrics (embedded)</li>
-        <li>pokemoninfo ⟶ Will return information about a Pokemon (embedded)</li>
+        <li>movieinfo ⟶ Will return movie or series info by &lt;query&gt;</li>
+        <li>songinfo ⟶ Will return some information about &lt;song&gt; including lyrics</li>
+        <li>pokemoninfo ⟶ Will return information about &lt;pokemon&gt;</li>
         <li>minecraftinfo ⟶ Will return some information about a Minecraft account</li>
         <li>covidinfo ⟶ Will return some data regarding the SARS-CoV-2 virus</li>
         <li>weatherinfo ⟶ Will return weather info by &lt;city&gt;</li>
+        <li>packageinfo ⟶ Will show information about the Python &lt;package&gt;</li>
+        <li>foodinfo ⟶ Will return some info about &lt;dish&gt;</li>
         <li>processinfo ⟶ Will show some process info of your selfbot instance</li>
+        <li>computerinfo ⟶ Will show information about the computer the bot is running on</li>
         <li>channelinfo ⟶ Will show all channels in a guild</li>
-        <li>roleinfo ⟶ Will show information about the specified &lt;role&gt;</li>
+        <li>roleinfo ⟶ Will show information about the specified &lt;role&gt; (log)</li>
+        <li>emailinfo ⟶ Will show some information about &lt;email&gt;</li>
         <li>serverinfo ⟶ Will display some information about a server in your logging channel</li>
         <li>userinfo ⟶ Will show the specified &lt;user&gt;s account data</li>
+        <li>tokeninfo ⟶ Will show information about &lt;token&gt; (log)</li>
         <li>charinfo ⟶ Will send info about your &lt;message&gt; unicode</li>
         <li>colourinfo ⟶ Will show information about a hex/rgb colour</li>
         <li>emojiinfo ⟶ Will list all the emotes in a server</li>
         <li>usageinfo ⟶ Will show the top 10 most used commands by you in a graph</li>
-        <li>foodinfo ⟶  Will return some info about &lt;dish&gt;</li>
-        <li>tokeninfo ⟶ Will show information about a token</li>
-        <li>emailinfo ⟶ Will show some information about &lt;email&gt;</li>
-        <li>packageinfo ⟶ Will show information about the Python &lt;package&gt;</li>
-      </ul>
-    </details>
-    <details>
-      <summary>Trolling</summary>
-      <ul>
-        <p>Category will all trolling commands, some should be used with caution</p>
-        <li>massrename ⟶ Will attempt to rename everybody to &lt;nickname&gt; in specified &lt;guild_id&gt;</li>
-        <li>tokencalc ⟶ Will calculate someones discord token (last parts random)</li>
-        <li>fakeembed ⟶ Will send your &lt;link&gt; + and embed with &lt;description&gt; and &lt;thumbnail&gt;</li>
-        <li>glitchmention ⟶ Will send a &lt;length&gt; long mention looking message</li>
-        <li>typing ⟶ Will make it look like you are typing indefinitely</li>
-        <li>freenitro ⟶ Will send an embedded gif that if added to favourites will send the customurl gif instead. Use Discord CDN links</li>
-        <li>editpos ⟶ Will send a &lt;message&gt; with glitched edited tag</li>
-        <li>massping ⟶ Will massping everybody in the guild</li>
-        <li>spam ⟶ Will send &lt;message&gt; &lt;amount&gt; times in a row</li>
-        <li>spampins ⟶ Will pin latest &lt;amount&gt; messages in channel</li>
-        <li>uclone ⟶ Will copy &lt;user&gt;'s pfp/username in DM and role in a guild</li>
-        <li>blank ⟶ Base command for sending ~2000 char long whitespace message</li>
-        <ul>
-          <li>guild ⟶ Will send a ~2000 blank after every message in a guild</li>
-        </ul>
-        <li>noleave ⟶ Base command for instantly adding users back after leaving a group channel</li>
-        <ul>
-          <li>stop ⟶ Will allow user to leave the group channel again</li>
-          <li>start ⟶ Will instantly add the &lt;user&gt; back to the group channel upon leaving</li>
-        </ul>
-        <li>nojoin ⟶ Base command for instantly kicking a user upon being added to a group</li>
-        <ul>
-          <li>start ⟶ Will instantly kick the &lt;user&gt; from the group channel upon joining</li>
-          <li>stop ⟶ Will allow a user to join the group again</li>
-        </ul>
-        <li>annoy ⟶ Base command for reacting to messages with emoji's</li>
-        <ul>
-          <li>stop ⟶ Will stop all annoy listeners</li>
-          <li>user ⟶ Will react with [emojis...] to every message by &lt;user&gt;</li>
-          <li>channel ⟶ Will react with [emojis...] to every message in &lt;channel&gt;</li>
-        </ul>
-        <li>imitate ⟶ Base command for starting/stopping copy</li>
-        <ul>
-          <li>user ⟶ Will copy every &lt;user&gt;'s message</li>
-          <li>channel ⟶ Will copy everybody in &lt;channel&gt;</li>
-          <li>stop ⟶ Will stop all copy listeners</li>
-        </ul>
-        <li>autorespond ⟶ Base command for starting/stopping autorespond</li>
-        <ul>
-          <li>channel ⟶ Will autorespond to everybody in &lt;channel&gt; with &lt;message&gt;</li>
-          <li>stop ⟶ Will stop all autorespond listeners</li>
-          <li>user ⟶ Will autorespond to every &lt;users&gt;'s message with &lt;message&gt;</li>
-        </ul>
-        <li>step ⟶ Base command for starting/stopping step</li>
-        <ul>
-          <li>user ⟶ Will step through &lt;message&gt; by sending it word for word after every message by &lt;user&gt;</li>
-          <li>stop ⟶ Will stop all step listeners</li>
-        </ul>
-        <li>automute ⟶ Base command for starting/stopping automute</li>
-        <ul>
-          <li>start ⟶ Will automatically mute &lt;member&gt; after a unmute</li>
-          <li>stop ⟶ Will stop the automute listener</li>
-        </ul>
-        <li>autodeafen ⟶ Base command for starting/stopped autodeafen</li>
-        <ul>
-          <li>start ⟶ Will automatically deafen &lt;member&gt; after a undeafen</li>
-          <li>stop ⟶ Will stop the autodeafen listener</li>
-        </ul>
-        <li>autodisconnect ⟶ Base command for starting/stopping autodisconnect</li>
-        <ul>
-          <li>start ⟶ Will automatically kick &lt;member&gt; from a voicechannel on join</li>
-          <li>stop ⟶ Will stop the autodisconnect listener</li>
-        </ul>
-        <li>invisible ⟶ Base command for making your username/pfp blank, and reverting that</li>
-        <ul>
-          <li>start ⟶ Will change your username and pfp to be blank</li>
-          <li>stop ⟶ Will change your username and pfp back to original</li>
-        </ul>
-        <li>mee6 ⟶ Base command for making your username/pfp mee6, and reverting that</li>
-        <ul>
-          <li>start ⟶ Will change your username and pfp to mee6</li>
-          <li>stop ⟶ Will change your username and pfp back to original</li>
-        </ul>
       </ul>
     </details>
     <details>
@@ -203,30 +149,30 @@
         <li>getfiles ⟶ Will scrape &lt;limit&gt; files with the by you specified [filetypes...] in the current channel</li>
         <li>settings ⟶ Base command for changing your selfbot settings</li>
         <ul>
-          <li>embed ⟶ Will enable/disable sending some command output in embeds.</li>
-          <li>dmlog ⟶ Will enable/disable logging deleted/edited messages in dms</li>
-          <li>prefix ⟶ Will change your current prefix to &lt;prefix&gt;</li>
-          <li>sniping ⟶ Will enable/disable sniping discordgifts, privnotes, tokens and giveaways</li>
-          <li>guildlog ⟶ Will enable/disable logging deleted/edited messages in dms</li>
-          <li>rpc ⟶ Will enable/disable custom Rich Presence (RPC)</li>
-          <li>keywordlog ⟶ Will enable/disable logging your keywords in dms/servers</li>
-          <li>errorinfo ⟶ Will enable/disable sending some error info in current channel</li>
           <li>list ⟶ Will show your current settings</li>
+          <li>keywordlog ⟶ Will enable/disable logging your keywords in dms/servers</li>
+          <li>prefix ⟶ Will change your current prefixes to &lt;prefixes&gt;</li>
+          <li>embed ⟶ Will enable/disable sending some command output in embeds</li>
+          <li>rpc ⟶ Will enable/disable custom Rich Presence (RPC)</li>
+          <li>dmlog ⟶ Will enable/disable logging deleted/edited messages in dms</li>
+          <li>sniping ⟶ Will enable/disable all sniping</li>
+          <li>guildlog ⟶ Will enable/disable logging deleted/edited messages in dms</li>
+          <li>errorinfo ⟶ Will enable/disable sending some error info in current channel</li>
         </ul>
         <li>cc ⟶ Base command for adding/removing/listing custom commands</li>
         <ul>
-          <li>add ⟶ Will add the custom command named &lt;command_name&gt; sending &lt;content&gt;</li>
           <li>list ⟶ Will show all your custom commands</li>
+          <li>add ⟶ Will add the custom command named &lt;command_name&gt; sending &lt;content&gt;</li>
           <li>remove ⟶ Will remove the custom command named &lt;command_name&gt;</li>
         </ul>
         <li>backup ⟶ Base command for making/loading backups</li>
         <ul>
           <li>make ⟶ Sub-base command for backing up friends, blocked users, settings and joined servers</li>
           <ul>
-            <li>settings ⟶ Will create a backup of all your Discord settings in a txt file</li>
+            <li>friends ⟶ Will create a backup of all your friends in a txt file as ids</li>
             <li>blocked ⟶ Will create a backup of all your blocked users in a txt file as ids</li>
             <li>servers ⟶ Will create a backup of all your joined servers in a txt file as invites</li>
-            <li>friends ⟶ Will create a backup of all your friends in a txt file as ids</li>
+            <li>settings ⟶ Will create a backup of all your Discord settings in a txt file</li>
           </ul>
           <li>load ⟶ Sub-base command for adding backed up friends, blocking blocked users and joining servers</li>
           <ul>
@@ -236,162 +182,35 @@
             <li>servers ⟶ Will join all servers from a backed up txt file</li>
           </ul>
         </ul>
-        <li>genhtml ⟶ genhtml</li>
         <li>extension ⟶ Base command for loading/unloading extensions</li>
         <ul>
-          <li>load ⟶ Will load the extension named &lt;name&gt;</li>
           <li>unload ⟶ Will unload the extension named &lt;name&gt;</li>
+          <li>load ⟶ Will load the extension named &lt;name&gt;</li>
+        </ul>
+        <li>serverlogs ⟶ Base command for sending edited/deleted messages from servers in files</li>
+        <ul>
+          <li>edits ⟶ Will send the latest [amount=10] (max 1500) edited messages from [guild_id] (or global)</li>
+          <li>deletes ⟶ Will send the latest [amount=10] (max 1500) deleted messages from [guild_id] (or global)</li>
         </ul>
       </ul>
     </details>
     <details>
-      <summary>Text</summary>
+      <summary>Events</summary>
       <ul>
-        <p>Category for all commands that send a modified version of your text input</p>
-        <li>worm ⟶ Will send your &lt;message&gt; &lt;amount&gt; times in the form of a wave</li>
-        <li>combine ⟶ Will combine &lt;word1&gt; and &lt;word2&gt; into one word</li>
-        <li>novowel ⟶ Will send a &lt;message&gt; with all vowels removed from your input</li>
-        <li>letterreplace ⟶ Will replace &lt;letter1&gt; with &lt;letter2&gt; in &lt;message&gt;</li>
-        <li>leetify ⟶ Will convert each letter in your &lt;message&gt; to a bold letter</li>
-        <li>uni ⟶ Will convert each letter/number/?! in your &lt;message&gt; to a bold letter</li>
-        <li>reversify ⟶ Will convert each letter/'?!.& in your &lt;message&gt; to a cursive letter and reverse that</li>
-        <li>emojify ⟶ Will send a message joining your input with &lt;emote&gt;</li>
-        <li>furrify ⟶ Will convert your &lt;message&gt; into a incel message</li>
-        <li>oldify ⟶ Will convert each letter in your &lt;message&gt; to an old english letter</li>
-        <li>kanjify ⟶ Will convert each letter in your &lt;message&gt; to a kanji letter</li>
-        <li>bubblify ⟶ Will convert each letter/number in your &lt;message&gt; to a rounded letter</li>
-        <li>squarify ⟶ Will convert each letter in your &lt;message&gt; to a squared letter</li>
-        <li>cursify ⟶ Will convert each letter in your &lt;message&gt; to a cursive letter</li>
-        <li>maskmsg ⟶ Will hide &lt;hidden_message&gt; in &lt;message&gt;</li>
-        <li>gif ⟶ Will send dancing letters in gifs for each letter/number/!@$& in your &lt;message&gt;</li>
-        <li>invisify ⟶ Will convert each letter from your input to be invisible</li>
-        <li>ascify ⟶ Will convert your &lt;message&gt; to look like ascii art</li>
-        <li>edit ⟶ Will edit &lt;message&gt; to show a new letter</li>
-        <li>notfunny ⟶ Will send a not funny message (~2100 chars)</li>
-        <li>binary ⟶ Base command for encoding/decoding binary</li>
-        <ul>
-          <li>decode ⟶ Will decode your &lt;message&gt; to a string</li>
-          <li>encode ⟶ Will encode your &lt;message&gt; to binary (1s and 0s)</li>
-        </ul>
-        <li>base64 ⟶ Base command for encoding/decoding base64</li>
-        <ul>
-          <li>encode ⟶ Will encode your &lt;message&gt; to base64</li>
-          <li>decode ⟶ Will decode your &lt;message&gt; to a string</li>
-        </ul>
-        <li>qr ⟶ Base command for encoding text to QR and decoding QR to text</li>
-        <ul>
-          <li>encode ⟶ Will generate a QR code from your &lt;message&gt;</li>
-          <li>decode ⟶ Will decode a QRs contents to text</li>
-        </ul>
-      </ul>
-    </details>
-    <details>
-      <summary>Iptools</summary>
-      <ul>
-        <p>Category for all commands that have to do with IPs</p>
-        <li>ipinfo ⟶ Will display information about &lt;host&gt; (embedded)</li>
-        <li>unshorten ⟶ Wil unshorten ad.fly, sh.st and adfoc.us links</li>
-        <li>shorten ⟶ Will generate a tinyurl link from &lt;link&gt;</li>
-        <li>icmpping ⟶ Will ping &lt;host&gt; using ICMP packets</li>
-        <li>tcpping ⟶ Will ping &lt;host&gt; on port &lt;port&gt; using TCP packets</li>
-        <li>dnsresolve ⟶ Will resolve a DNS by hostname</li>
-        <li>showheaders ⟶ Will show the HTTP headers that your client sends when connecting to a webserver</li>
-        <li>portscan ⟶ Will scan the common ports of a &lt;host&gt;</li>
-        <li>traceroute ⟶ Will determine what servers data traverses through before reaching the &lt;host&gt;</li>
-        <li>maclookup ⟶ Will search for the manufacturer of a product based on it's &lt;mac&gt; address</li>
-        <li>phonelookup ⟶ Will search for the phonenumber and return some information</li>
-        <li>screenwebsite ⟶ Will send a screenshot of a website with the provided &lt;url&gt;</li>
-        <li>whois ⟶ Will do a WHOIS lookup for &lt;host&gt; and return the results</li>
-        <li>websiterep ⟶ Will show some information about &lt;host&gt;'s reputation</li>
-        <li>proxies ⟶ Base command for getting http/https/socks4/socks5 proxies</li>
-        <ul>
-          <li>socks5 ⟶ Scrapes socks5 proxies (IP:PORT) and sends the file in chat</li>
-          <li>http ⟶ Scrapes HTTP proxies (IP:PORT) and sends the file in chat</li>
-          <li>https ⟶ Scrapes HTTPS proxies (IP:PORT) and sends the file in chat</li>
-          <li>socks4 ⟶ Scrapes socks4 proxies (IP:PORT) and sends the file in chat</li>
-        </ul>
-      </ul>
-    </details>
-    <details>
-      <summary>Utilities</summary>
-      <ul>
-        <p>Category with all useful utility like commands</p>
-        <li>ytsearch ⟶ Will search YouTube with &lt;query&gt; and return results</li>
-        <li>discordstatus ⟶ Will show the current status of Discord (embedded)</li>
-        <li>translate ⟶ Will translate &lt;message&gt; to &lt;targetlanguage&gt;</li>
-        <li>texttospeech ⟶ Generates an mp3 file with an automated voice saying &lt;message&gt;</li>
-        <li>charcount ⟶ Will return the amount of chars, words and paragraphs in your &lt;message&gt;</li>
-        <li>hastebin ⟶ Will upload your &lt;message&gt; to a hastebin and send the link</li>
-        <li>privnote ⟶ Will create a privnote with &lt;message&gt;</li>
-        <li>setpfp ⟶ Will set your pfp to &lt;pfp&gt;, can be a mention or link</li>
-        <li>setname ⟶ Will set your name to &lt;name&gt;, can be a mention or text</li>
-        <li>create_group ⟶ Will create a group channel with [users...] if they are on your friendslist</li>
-        <li>report ⟶ Will send a report to discord Trust & Safety</li>
-        <li>commandtimer ⟶ Will use &lt;command&gt; every &lt;interval&gt; seconds &lt;amount&gt; times</li>
-        <li>timer ⟶ Will count down from [time=10m] and update in an embed every &lt;interval&gt; seconds (embedded)</li>
-        <li>urban ⟶ Will define your &lt;query&gt; via urban dictionary</li>
-        <li>reload ⟶ Will reload all the cogs</li>
-        <li>exportchat ⟶ Will backup the latest &lt;limit&gt; messages in the current channel to a txt file</li>
-        <li>viewbot ⟶ Will have &lt;amount&gt; bots visiting &lt;url&gt;</li>
-        <li>google ⟶ Will search google by &lt;query&gt; and return results as links</li>
-        <li>purge ⟶ Will delete &lt;amount&gt; of messages send by you (cap 300), filtering with [keywords...]</li>
-        <li>rand ⟶ Will send a random number between &lt;num1&gt; and &lt;num2&gt;</li>
-        <li>passgen ⟶ Will generate a &lt;length&gt; long password</li>
-        <li>logout ⟶ Will log out the selfbot</li>
-        <li>reboot ⟶ Will restart the selfbot</li>
-        <li>removealllisteners ⟶ Will stop all running listeners, like annoy, autodeafen, etc.</li>
-        <li>loop ⟶ Base command for looping messages</li>
-        <ul>
-          <li>start ⟶ Will send &lt;message&gt; after &lt;delay&gt; untill stopped</li>
-          <li>stop ⟶ Will stop the currently playing loop function</li>
-        </ul>
-        <li>status ⟶ Base command for changing your discord presence</li>
-        <ul>
-          <li>competing ⟶ Will change your presence to Competing in &lt;message&gt;</li>
-          <li>playing ⟶ Will change your presence Playing &lt;message&gt;</li>
-          <li>watching ⟶ Will change your presence to Watching &lt;message&gt;</li>
-          <li>listening ⟶ Will change your presence to Listening to &lt;message&gt;</li>
-          <li>streaming ⟶ Will change your presence to Streaming &lt;message&gt; with link &lt;stream_url&gt;</li>
-        </ul>
-        <li>autodel ⟶ Base command for starting and stopping autodelete</li>
-        <ul>
-          <li>stop ⟶ Will stop the autodelete messages</li>
-          <li>start ⟶ Will delete any messages send by you over the provided &lt;limit&gt;</li>
-        </ul>
-        <li>afkmode ⟶ Base command for turning on and off afkmode</li>
-        <ul>
-          <li>stop ⟶ Will stop the afkmode</li>
-          <li>start ⟶ Will start automatically replying to mentions/dms with &lt;message&gt;</li>
-        </ul>
-        <li>crypto ⟶ Base command for commands regarding crypto currency</li>
-        <ul>
-          <li>toeth ⟶ Will convert provided &lt;amount&gt; to it's ethereum equivalent in &lt;currencycode&gt;</li>
-          <li>btc ⟶ Will show value of 1 btc in &lt;currencycode&gt;</li>
-          <li>custom ⟶ Gets the value of your &lt;coin&gt; in &lt;currencycode&gt;</li>
-          <li>tobtc ⟶ Will convert provided &lt;amount&gt; to it's bitcoin equivalent in &lt;currencycode&gt;</li>
-          <li>tocustom ⟶ Will convert provided &lt;amount&gt; to it's &lt;coin&gt; equivalent in &lt;currencycode&gt;</li>
-          <li>eth ⟶ Will show value of 1 eth in &lt;currencycode&gt;</li>
-        </ul>
-        <li>reminder ⟶ Base command for creating/removing/listing reminders</li>
-        <ul>
-          <li>clear ⟶ Will clear all reminders</li>
-          <li>list ⟶ Will show all your reminders</li>
-          <li>remove ⟶ Will remove a reminder by &lt;query&gt;</li>
-          <li>add ⟶ Will add a reminder for &lt;when&gt; with &lt;message&gt;</li>
-        </ul>
+        <p>Contains all events like edits/deletes etc, no commands are in this cog</p>
       </ul>
     </details>
     <details>
       <summary>Raid</summary>
       <ul>
         <p>Category with all the raid commands, use these with caution</p>
-        <li>account ⟶ Base command for logging in all the raid accounts</li>
+        <li>account ⟶ Base command for logging in/out and listing/adding/removing accounts</li>
         <ul>
+          <li>logout ⟶ Will log out all the user instances</li>
+          <li>login ⟶ Will log in all the user accounts from usertokens.json, they will also join your logging guild</li>
           <li>amount ⟶ Will give the amount of id:token combinations</li>
           <li>add ⟶ Will add tokens to the list of useraccounts that can be used to log in</li>
-          <li>logout ⟶ Will log out all the raid user instances</li>
           <li>remove ⟶ Will remove a id:token entry from the token list by [ids...]</li>
-          <li>login ⟶ Will log in all the raid user accounts from the user account, they will also join your logging guild</li>
         </ul>
       </ul>
     </details>
@@ -458,162 +277,142 @@
       </ul>
     </details>
     <details>
-      <summary>Images</summary>
+      <summary>Text</summary>
       <ul>
-        <p>Category will all commands that allow images as input and will return a modified result</p>
-        <li>makememe ⟶ Will edit your attachment or [image] to show &lt;top_text&gt; and &lt;bottom_text&gt;</li>
-        <li>meme ⟶ Returns a random meme/post from [subreddit=memes]</li>
-        <li>headsortails ⟶ Sends a random heads or tails image</li>
-        <li>whowouldwin ⟶ Will send an image with the profile pictures of &lt;user1&gt; and &lt;user2&gt;</li>
-        <li>avatar ⟶ Will send a enlarged users avatar in chat</li>
-        <li>resize ⟶ Will resize your &lt;link&gt; to &lt;width&gt; &lt;height&gt; dimensions</li>
-        <li>ocr ⟶  Will return the text found in your &lt;link&gt;s image</li>
-        <li>reverse_search ⟶ Will reverse image search the &lt;link&gt;</li>
-        <li>random_screen ⟶ Will send a random screen from prnt.sc or imgur, not guaranteed to contain anything</li>
-        <li>phcomment ⟶ Will send an image containing a pornhub comment by the &lt;user&gt; saying &lt;message&gt;</li>
-        <li>ytcomment ⟶ Will send an image containing a youtube comment by the &lt;user&gt; saying &lt;message&gt;</li>
-        <li>changemymind ⟶ Will send an image with in the change my mind meme saying &lt;message&gt;</li>
-        <li>spongebob ⟶ Will send an image of mocking spongebob or with &lt;message&gt;</li>
-        <li>tweet ⟶ Base command for sending tweets as trump or normal</li>
+        <p>Category for all commands that send a modified version of your text input</p>
+        <li>worm ⟶ Will send your &lt;message&gt; &lt;amount&gt; times in the form of a wave</li>
+        <li>combine ⟶ Will combine &lt;word1&gt; and &lt;word2&gt; into one word</li>
+        <li>novowel ⟶ Will send a &lt;message&gt; with all vowels removed from your input</li>
+        <li>superscript ⟶ Will convert your &lt;message&gt; to superscript</li>
+        <li>subscript ⟶ Will convert your &lt;message&gt; to subscript</li>
+        <li>letterreplace ⟶ Will replace &lt;letter1&gt; with &lt;letter2&gt; in &lt;message&gt;</li>
+        <li>emojify ⟶ Will send a message joining your input with &lt;emote&gt;</li>
+        <li>uni ⟶ Will convert each letter/number/?! in your &lt;message&gt; to a bold letter</li>
+        <li>leetify ⟶ Will convert each letter in your &lt;message&gt; to a bold letter</li>
+        <li>reversify ⟶ Will convert each letter/'?!.& in your &lt;message&gt; to a cursive letter and reverse that</li>
+        <li>furrify ⟶ Will convert your &lt;message&gt; into a incel message</li>
+        <li>oldify ⟶ Will convert each letter in your &lt;message&gt; to an old english letter</li>
+        <li>kanjify ⟶ Will convert each letter in your &lt;message&gt; to a kanji letter</li>
+        <li>bubblify ⟶ Will convert each letter/number in your &lt;message&gt; to a rounded letter</li>
+        <li>squarify ⟶ Will convert each letter in your &lt;message&gt; to a squared letter</li>
+        <li>cursify ⟶ Will convert each letter in your &lt;message&gt; to a cursive letter</li>
+        <li>maskmsg ⟶ Will hide &lt;hidden_message&gt; in &lt;message&gt;</li>
+        <li>gif ⟶ Will send dancing letters in gifs for each letter/number/!@$& in your &lt;message&gt;</li>
+        <li>invisify ⟶ Will convert each letter from your input to be invisible</li>
+        <li>ascify ⟶ Will convert your &lt;message&gt; to look like ascii art</li>
+        <li>mock ⟶ Will mock your &lt;message&gt;</li>
+        <li>genhtml ⟶ genhtml</li>
+        <li>edit ⟶ Will edit &lt;message&gt; to show a new letter</li>
+        <li>notfunny ⟶ Will send a not funny message (~2100 chars)</li>
+        <li>morse ⟶ Base command for encoding/decoding morse</li>
         <ul>
-          <li>normal ⟶ Will send an image with the input text as a tweet</li>
-          <li>trump ⟶ Will send an image with the input text as a tweet</li>
+          <li>encode ⟶ Will encode your &lt;message&gt; into morse</li>
+          <li>decode ⟶ Will decode your morse &lt;message&gt; to a string</li>
         </ul>
-        <li>animal ⟶ Base command for sending animal images + facts</li>
+        <li>binary ⟶ Base command for encoding/decoding binary</li>
         <ul>
-          <li>monkey ⟶ Will send a random monkey image and fact</li>
-          <li>whale ⟶ Will send a random whale image and fact</li>
-          <li>pig ⟶ Will send a random pig image and fact</li>
-          <li>bear ⟶ Will send a random bear image and fact</li>
-          <li>horse ⟶ Will send a random horse image and fact</li>
-          <li>duck ⟶ Will send a random duck image and fact</li>
-          <li>cat ⟶ Will send a random cat image and fact</li>
-          <li>spider ⟶ Will send a random spider image and fact</li>
-          <li>dog ⟶ Will send a random dog image and facy</li>
-          <li>cow ⟶ Will send a random cow image and fact</li>
-          <li>panda ⟶ Will send a random panda image and fact</li>
-          <li>seal ⟶ Will send a random seal image and fact</li>
-          <li>fox ⟶ Will send a random fox image and fact</li>
-          <li>fish ⟶ Will send a random fish image and fact</li>
-          <li>koala ⟶ Will send a random koala image and fact</li>
-          <li>turtle ⟶ Will send a random fish image and fact</li>
-          <li>bird ⟶ Will send a random bird image and fact</li>
-          <li>elephant ⟶ Will send a random elephant image and fact</li>
-          <li>racoon ⟶ Will send a random racoon image and fact</li>
-          <li>wombat ⟶ Will send a random wombat image and fact</li>
-          <li>kangaroo ⟶ Will send a random kangaroo image and fact</li>
-          <li>redpanda ⟶ Will send a random red panda image</li>
+          <li>encode ⟶ Will encode your &lt;message&gt; to binary (1s and 0s)</li>
+          <li>decode ⟶ Will decode your binary &lt;message&gt; to a string</li>
         </ul>
-        <li>overlay ⟶ Base command for adding overlays to images or vice-versa</li>
+        <li>base64 ⟶ Base command for encoding/decoding base64</li>
         <ul>
-          <li>obama ⟶ Will add your &lt;link1&gt; to a obama scene</li>
-          <li>motivational ⟶ Will generate a motivational speech image</li>
-          <li>wasted ⟶ Will add a wasted overlay to your &lt;link&gt;</li>
-          <li>america ⟶ Will add a america overlay your &lt;link&gt;</li>
-          <li>fedora ⟶ Will add your &lt;link&gt; to a fedora scene</li>
-          <li>trash ⟶ Will add your &lt;link&gt; to a trash scene</li>
-          <li>fakemessage ⟶ Will make a fake discord message</li>
-          <li>pride ⟶ Will add a [option] overlay to your &lt;link&gt;</li>
-          <li>hitler ⟶ Will add a hitler overlay to your &lt;link&gt;</li>
-          <li>triangle ⟶ Will triangle your &lt;link&gt;</li>
-          <li>fiveguysonegirl ⟶ Will add your &lt;link&gt; and [link2] to fiveguysonegirl scene</li>
-          <li>communism ⟶ Will add a communism overlay your &lt;link&gt;</li>
-          <li>wanted ⟶ Will add a wanted overlay to your &lt;link&gt;</li>
-          <li>rgb ⟶ Will get an rgb graph your &lt;link&gt;s colours</li>
-          <li>captcha ⟶ Will generate a captcha v3 image with &lt;link&gt; and &lt;message&gt;</li>
-          <li>whyareyougay ⟶ Will add your &lt;link&gt; and [link2] to whyareyougay scene</li>
-          <li>triggered ⟶ Will add a triggered overlay to your &lt;link&gt;</li>
-          <li>jail ⟶ Will add a jail overlay to your &lt;link&gt;</li>
+          <li>decode ⟶ Will decode your base64 &lt;message&gt; to a string</li>
+          <li>encode ⟶ Will encode your &lt;message&gt; to base64</li>
         </ul>
-        <li>effect ⟶ Base command for adding effects to images</li>
+        <li>qr ⟶ Base command for encoding text to QR and decoding QR to text</li>
         <ul>
-          <li>sepia ⟶ Will add a sepia filter to your &lt;link&gt;</li>
-          <li>hog ⟶ Will hog your &lt;link&gt;s colours</li>
-          <li>blurpify ⟶ Will blurpify your &lt;link&gt;</li>
-          <li>magik ⟶ Will add a magik effect to your &lt;link&gt;</li>
-          <li>ascii ⟶ Will convert your &lt;link&gt; to ascii art</li>
-          <li>swirl ⟶ Will add a swirl effect to your &lt;link&gt;</li>
-          <li>deepfry ⟶ Will deepfry your &lt;link&gt;</li>
-          <li>pixelate ⟶ Will pixelate your &lt;link&gt;</li>
-          <li>blur ⟶ Will blur your &lt;link&gt;</li>
-          <li>charcoal ⟶ Will convert your &lt;link&gt; to a charcoal drawing</li>
-          <li>night ⟶ Will add a night effect to your &lt;link&gt;</li>
-          <li>paint ⟶ Will convert your &lt;link&gt; to art</li>
-          <li>invert ⟶ Will invert your &lt;link&gt;s colours</li>
-          <li>emboss ⟶ Will emboss your &lt;link&gt;</li>
-          <li>posterize ⟶ Will add a posterize filter to your &lt;link&gt;</li>
-          <li>rainbow ⟶ Will add a rainbow effect to your &lt;link&gt;</li>
+          <li>encode ⟶ Will generate a QR code from your &lt;message&gt;</li>
+          <li>decode ⟶ Will decode your qr &lt;image_url&gt; to a string</li>
         </ul>
       </ul>
     </details>
     <details>
-      <summary>Abuse</summary>
+      <summary>Trolling</summary>
       <ul>
-        <p>Category with all abuse commands, these include discord exploits and should be used with caution</p>
-        <li>channeloutage ⟶ Will send a load of emotes in a message that causes the reader to crash/lag</li>
-        <li>charbypass ⟶ Will send a ~6000 char long message</li>
-        <li>spamhelp ⟶ Spams the official help message in different languages to &lt;channel&gt; in &lt;guildid&gt;</li>
-        <li>bantoken ⟶ Will make ban a Discord token forcing the user to reset it</li>
-        <li>deleteaccount ⟶ Will DELETE someones discord account by using their &lt;token&gt; and &lt;password&gt;</li>
-        <li>disableaccount ⟶ Will DISABLE someones discord account by using their &lt;token&gt; and &lt;password&gt;</li>
-        <li>tokenspam ⟶ Will flash screen and changes settings of account by using its token</li>
-        <li>destroyserver ⟶ Will destroy a server by banning users, deleting and creating channels/roles</li>
-        <li>massban ⟶ Will attempt to ban everybody in specified &lt;guild_id&gt; excluding [exclusions...]</li>
-        <li>masskick ⟶ Will attempt to kick everybody in specified &lt;guild_id&gt; excluding [exclusions...]</li>
-        <li>crashcall ⟶ Base command for starting/stopping crashcalll</li>
+        <p>Category will all trolling commands, some should be used with caution</p>
+        <li>massrename ⟶ Will attempt to rename everybody to &lt;nickname&gt; in specified &lt;guild_id&gt;</li>
+        <li>tokencalc ⟶ Will calculate someones discord token (last parts random)</li>
+        <li>glitchmention ⟶ Will send a &lt;length&gt; long mention looking message</li>
+        <li>typing ⟶ Will make it look like you are typing indefinitely</li>
+        <li>freenitro ⟶ Will send an embedded gif that if added to favourites will send the customurl gif instead. Use Discord CDN links</li>
+        <li>editpos ⟶ Will send a &lt;message&gt; with glitched edited tag</li>
+        <li>massping ⟶ Will massping everybody in the guild</li>
+        <li>spam ⟶ Will send &lt;message&gt; &lt;amount&gt; times in a row</li>
+        <li>spampins ⟶ Will pin latest &lt;amount&gt; messages in channel</li>
+        <li>uclone ⟶ Will copy &lt;user&gt;'s pfp/username in DM and role in a guild</li>
+        <li>blank ⟶ Base command for sending ~2000 char long whitespace message</li>
         <ul>
-          <li>start ⟶ Will start call DOS in a DM or groupchat</li>
-          <li>stop ⟶ Will stop the callcrash</li>
+          <li>guild ⟶ Will send a ~2000 blank after every message in a guild</li>
         </ul>
-        <li>channel ⟶ Base command for creating/removing channels</li>
+        <li>noleave ⟶ Base command for instantly adding users back after leaving a group channel</li>
         <ul>
-          <li>create ⟶ Will spam create &lt;amount&gt; of tc or vc with &lt;name&gt;</li>
-          <li>remove ⟶ Will attempt to remove &lt;amount&gt; of channels in a guild</li>
+          <li>start ⟶ Will instantly add the &lt;user&gt; back to the group channel upon leaving</li>
+          <li>stop ⟶ Will allow user to leave the group channel again</li>
         </ul>
-        <li>role ⟶ Base command for creating/removing/adding roles</li>
+        <li>nojoin ⟶ Base command for instantly kicking a user upon being added to a group</li>
         <ul>
-          <li>create ⟶ Will create &lt;amount&gt; roles with random a colour named &lt;name&gt;</li>
-          <li>remove ⟶ Will attempt to remove &lt;amount&gt; of roles in a guild</li>
-          <li>add ⟶ Will attempt to add &lt;amount&gt; of roles to &lt;member&gt;, can filter by &lt;role&gt;</li>
+          <li>start ⟶ Will instantly kick the &lt;user&gt; from the group channel upon joining</li>
+          <li>stop ⟶ Will allow a user to join the group again</li>
         </ul>
-        <li>webhook ⟶ Base command for doing stuff with discord webhooks</li>
+        <li>annoy ⟶ Base command for reacting to messages with emoji's</li>
         <ul>
-          <li>create ⟶ Will create a webhook for the current channel, can be used to send messages with</li>
-          <li>spam_stop ⟶ Will stop the webhook spam</li>
-          <li>send ⟶ Will send a message with the created webhook, works from anywhere in discord</li>
-          <li>create2 ⟶ Will spam create webhooks on channels exceeding the 10 wh cap</li>
-          <li>spam_start ⟶ Will spam insults with the created webhook as random guild members</li>
-          <li>send2 ⟶ Will create a partial webhook from a wh URL and send messages with it</li>
-          <li>delete ⟶ Will delete all webhooks on a specific channel</li>
-          <li>delete2 ⟶ Will delete any webhook using its &ltwebhook_url&gt;</li>
+          <li>user ⟶ Will react with [emojis...] to every message by &lt;user&gt;</li>
+          <li>channel ⟶ Will react with [emojis...] to every message in &lt;channel&gt;</li>
+          <li>stop ⟶ Will stop all annoy listeners</li>
         </ul>
-        <li>blocked ⟶ Base command for sending messages to blocked users</li>
+        <li>imitate ⟶ Base command for starting/stopping copy</li>
         <ul>
-          <li>setid ⟶ Will set the (DM) channel to send messages to</li>
-          <li>send ⟶ Will send a message to user that is blocked</li>
+          <li>stop ⟶ Will stop all imitate listeners</li>
+          <li>user ⟶ Will copy every &lt;user&gt;'s message</li>
+          <li>channel ⟶ Will copy everybody in &lt;channel&gt;</li>
         </ul>
-        <li>email ⟶ Base command for adding/removing/listing/spamming emails</li>
+        <li>autorespond ⟶ Base command for starting/stopping autorespond</li>
         <ul>
-          <li>add ⟶ Will add &lt;gmail_name&gt;:&lt;gmail_password&gt; to gmails.json</li>
-          <li>remove ⟶ Will remove &lt;gmail_name&gt; from gmails.json</li>
-          <li>list ⟶ Will log amount of emails in gmails.json</li>
-          <li>spam ⟶ Will spam &lt;target&gt; with &lt;amount&gt; emails containing &lt;message&gt;</li>
+          <li>stop ⟶ Will stop all autorespond listeners</li>
+          <li>user ⟶ Will autorespond to every &lt;users&gt;'s message with &lt;message&gt;</li>
+          <li>channel ⟶ Will autorespond to everybody in &lt;channel&gt; with &lt;message&gt;</li>
         </ul>
-      </ul>
-    </details>
-    <details>
-      <summary>Events</summary>
-      <ul>
-        <p>Contains all events like edits/deletes etc, no commands are in this cog</p>
+        <li>step ⟶ Base command for starting/stopping step</li>
+        <ul>
+          <li>stop ⟶ Will stop all step listeners</li>
+          <li>user ⟶ Will step through &lt;message&gt; by sending it word for word after every message by &lt;user&gt;</li>
+        </ul>
+        <li>automute ⟶ Base command for starting/stopping automute</li>
+        <ul>
+          <li>start ⟶ Will automatically mute &lt;member&gt; after a unmute</li>
+          <li>stop ⟶ Will stop the automute listener</li>
+        </ul>
+        <li>autodeafen ⟶ Base command for starting/stopped autodeafen</li>
+        <ul>
+          <li>start ⟶ Will automatically deafen &lt;member&gt; after a undeafen</li>
+          <li>stop ⟶ Will stop the autodeafen listener</li>
+        </ul>
+        <li>autodisconnect ⟶ Base command for starting/stopping autodisconnect</li>
+        <ul>
+          <li>start ⟶ Will automatically kick &lt;member&gt; from a voicechannel on join</li>
+          <li>stop ⟶ Will stop the autodisconnect listener</li>
+        </ul>
+        <li>invisible ⟶ Base command for starting/stopping invisible</li>
+        <ul>
+          <li>start ⟶ Will change your username and pfp to be blank</li>
+          <li>stop ⟶ Will change your username and pfp back to original</li>
+        </ul>
+        <li>mee6 ⟶ Base command for starting/stopping mee6</li>
+        <ul>
+          <li>start ⟶ Will change your username and pfp to mee6</li>
+          <li>stop ⟶ Will change your username and pfp back to original</li>
+        </ul>
       </ul>
     </details>
     <details>
       <summary>Fun</summary>
       <ul>
         <p>Category with fun commands, they pretty useless overall</p>
-        <li>rembed ⟶ Will send an embed with &lt;title&gt; and &lt;description&gt;, who's colour will change every 3 seconds</li>
+        <li>urban ⟶ Will define your &lt;query&gt; via urban dictionary</li>
+        <li>reddit ⟶ Returns a random post from [subreddit=memes]</li>
+        <li>rembed ⟶ Will send an embed with &lt;title&gt; and &lt;description&gt;, with changing colour</li>
         <li>nitro ⟶ Will generate &lt;amount&gt; random discord nitro codes</li>
-        <li>invite ⟶ Will generate &lt;amount&gt; random discord invites</li>
+        <li>invite ⟶ Will generate &lt;amount&gt; random or big server discord invites</li>
         <li>dice ⟶ Will send a random dice image</li>
         <li>wouldyourather ⟶ Will send a random wouldyourather dilemma</li>
         <li>advice ⟶ Will send a random advice</li>
@@ -625,6 +424,7 @@
         <li>fact ⟶ Will send a random fact</li>
         <li>chatbot ⟶ Will send a message replying to &lt;message&gt; by AI</li>
         <li>embed ⟶ Will allow you to specify certain embed parts</li>
+        <li>texttospeech ⟶ Generates an mp3 file with an automated voice saying &lt;message&gt;</li>
         <li>react ⟶ Will react to the last &lt;amount&gt; messages with [emojis...]</li>
         <li>lmgtfy ⟶ Will send a let me google that for the &lt;message&gt;</li>
         <li>virus ⟶ Will send an editing virus message</li>
@@ -632,12 +432,12 @@
         <li>stfu ⟶ Will send an editing stfu message</li>
         <li>noc ⟶ Will send an editing no one cares message</li>
         <li>911 ⟶ Will send an editing 911 image</li>
-        <li>snipe ⟶ Will send the latest deleted message from any guild channel</li>
         <li>cum ⟶ Will send an editing masturbating image 😳</li>
+        <li>emojisearch ⟶ Will send &lt;amount&gt; emojis you have access to, optionally searching for &lt;query&gt;</li>
+        <li>xkcd ⟶ Will send a random xkcd comic</li>
+        <li>snipe ⟶ Will send the latest deleted message from any guild channel</li>
         <li>poll ⟶ Will create a strawpoll with possible [answers...] and certain [options...]</li>
         <li>8ball ⟶ Will pick a random response from a list</li>
-        <li>xkcd ⟶ Will send a random xkcd comic</li>
-        <li>randomemotes ⟶ Will send &lt;amount&gt; random emojis you have access to</li>
         <li>editnick ⟶ Base command for starting/stopping editnick</li>
         <ul>
           <li>start ⟶ Will loop through &lt;nickname&gt; and reveal a new letter every second and reset untill stopped</li>
@@ -645,22 +445,254 @@
         </ul>
         <li>cyclestatus ⟶ Base command for starting/stopping cyclestatus</li>
         <ul>
-          <li>start ⟶ Will cycle trough a list of &lt;statuses&gt; changing every &lt;interval&gt; sec</li>
+          <li>start ⟶ Will cycle trough a list of &lt;statuses&gt; changing every &lt;delay&gt; sec</li>
           <li>stop ⟶ Will stop the cyclestatus listener</li>
         </ul>
         <li>joke ⟶ Base command for sending jokes</li>
         <ul>
+          <li>programming ⟶ Will send a random programming related joke</li>
           <li>dad ⟶ Will send a random dad joke</li>
           <li>yomama ⟶ Will send a random yomama joke</li>
-          <li>pun ⟶ Will send a random pun joke</li>
           <li>dark ⟶ Will send a random dark joke</li>
           <li>misc ⟶ Will send a random miscellaneous joke</li>
-          <li>programming ⟶ Will send a random programming related joke</li>
+          <li>pun ⟶ Will send a random pun joke</li>
+        </ul>
+      </ul>
+    </details>
+    <details>
+      <summary>Utilities</summary>
+      <ul>
+        <p>Category with all useful utility like commands</p>
+        <li>ytsearch ⟶ Will search YouTube with &lt;query&gt; and return results</li>
+        <li>translate ⟶ Will translate &lt;message&gt; to &lt;targetlanguage&gt;</li>
+        <li>charcount ⟶ Will return the amount of chars, words and paragraphs in your &lt;message&gt;</li>
+        <li>hastebin ⟶ Will upload your &lt;message&gt; to a hastebin and send the link</li>
+        <li>calculate ⟶ Will solve your &lt;equation&gt;</li>
+        <li>privnote ⟶ Will create a privnote with &lt;message&gt;</li>
+        <li>setpfp ⟶ Will set your pfp to &lt;pfp&gt;, can be a mention or link</li>
+        <li>setname ⟶ Will set your name to &lt;name&gt;, can be a mention or text</li>
+        <li>create_group ⟶ Will create a group channel with [users...] if they are on your friendslist</li>
+        <li>report ⟶ Will send a report to discord Trust & Safety</li>
+        <li>timer ⟶ Will count down from [time=10m] and update in an embed every &lt;interval&gt; seconds (embedded)</li>
+        <li>reload ⟶ Will reload all the cogs</li>
+        <li>stoplisteners ⟶ Will stop all running listeners, like annoy, autodeafen etc</li>
+        <li>exportchat ⟶ Will backup the latest &lt;limit&gt; messages in the current channel to a txt file</li>
+        <li>viewbot ⟶ Will have &lt;amount&gt; bots visiting &lt;url&gt;</li>
+        <li>google ⟶ Will search google by &lt;query&gt; and return results as links</li>
+        <li>purge ⟶ Will delete &lt;amount&gt; of messages send by you (300 cap), filtering with [keywords...]</li>
+        <li>rand ⟶ Will send a random number between &lt;num1&gt; and &lt;num2&gt;</li>
+        <li>passgen ⟶ Will generate a &lt;length&gt; long password</li>
+        <li>logout ⟶ Will log out the selfbot</li>
+        <li>reboot ⟶ Will restart the selfbot</li>
+        <li>loop ⟶ Base command for looping messages</li>
+        <ul>
+          <li>start ⟶ Will send &lt;message&gt; after &lt;delay&gt; untill stopped</li>
+          <li>stop ⟶ Will stop the currently playing loop function</li>
+        </ul>
+        <li>status ⟶ Base command for changing your discord presence</li>
+        <ul>
+          <li>playing ⟶ Will change your presence Playing &lt;message&gt;</li>
+          <li>watching ⟶ Will change your presence to Watching &lt;message&gt;</li>
+          <li>streaming ⟶ Will change your presence to Streaming &lt;message&gt; with link &lt;stream_url&gt;</li>
+          <li>competing ⟶ Will change your presence to Competing in &lt;message&gt;</li>
+          <li>listening ⟶ Will change your presence to Listening to &lt;message&gt;</li>
+        </ul>
+        <li>autodel ⟶ Base command for starting and stopping autodelete</li>
+        <ul>
+          <li>stop ⟶ Will stop the autodelete messages</li>
+          <li>start ⟶ Will delete any messages send by you over the provided &lt;limit&gt;</li>
+        </ul>
+        <li>afkmode ⟶ Base command for turning on and off afkmode</li>
+        <ul>
+          <li>start ⟶ Will start automatically replying to mentions/dms with &lt;message&gt;</li>
+          <li>stop ⟶ Will stop the afkmode</li>
+        </ul>
+        <li>crypto ⟶ Base command for commands regarding crypto currency</li>
+        <ul>
+          <li>custom ⟶ Gets the value of your &lt;coin&gt; in &lt;currencycode&gt;</li>
+          <li>tocustom ⟶ Will convert provided &lt;amount&gt; to it's &lt;coin&gt; equivalent in &lt;currencycode&gt;</li>
+          <li>toeth ⟶ Will convert provided &lt;amount&gt; to it's ethereum equivalent in &lt;currencycode&gt;</li>
+          <li>eth ⟶ Will show value of 1 eth in &lt;currencycode&gt;</li>
+          <li>btc ⟶ Will show value of 1 btc in &lt;currencycode&gt;</li>
+          <li>tobtc ⟶ Will convert provided &lt;amount&gt; to it's bitcoin equivalent in &lt;currencycode&gt;</li>
+        </ul>
+        <li>reminder ⟶ Base command for creating/removing/listing/clearing reminders</li>
+        <ul>
+          <li>list ⟶ Will show all your reminders</li>
+          <li>remove ⟶ Will remove a reminder by &lt;query&gt;</li>
+          <li>clear ⟶ Will clear all reminders</li>
+          <li>add ⟶ Will add a reminder for &lt;when&gt; with &lt;message&gt;</li>
+        </ul>
+        <li>todo ⟶ Base command for creating/removing/listing/clearing todo's</li>
+        <ul>
+          <li>list ⟶ Will show all your todo's</li>
+          <li>remove ⟶ Will remove a todo by &lt;query&gt;</li>
+          <li>add ⟶ Will create a todo with &lt;message&gt;, and save it to a file</li>
+          <li>clear ⟶ Will clear all todo's</li>
+        </ul>
+      </ul>
+    </details>
+    <details>
+      <summary>Images</summary>
+      <ul>
+        <p>Category will all commands that allow images as input and will return a modified result</p>
+        <li>makememe ⟶ Will edit your attachment or [image] to show &lt;top_text&gt; and &lt;bottom_text&gt;</li>
+        <li>ocr ⟶ Will return the text found in your &lt;link&gt;s image</li>
+        <li>whowouldwin ⟶ Will send an image with the profile pictures of &lt;user1&gt; and &lt;user2&gt;</li>
+        <li>resize ⟶ Will resize your &lt;link&gt; to &lt;width&gt; &lt;height&gt; dimensions</li>
+        <li>avatar ⟶ Will send a enlarged users avatar in chat</li>
+        <li>reverse_search ⟶ Will reverse image search the &lt;link&gt;</li>
+        <li>random_screen ⟶ Will send a random screen from prnt.sc or imgur, not guaranteed to contain anything</li>
+        <li>phcomment ⟶ Will send an image containing a pornhub comment by the &lt;user&gt; saying &lt;message&gt;</li>
+        <li>ytcomment ⟶ Will send an image containing a youtube comment by the &lt;user&gt; saying &lt;message&gt;</li>
+        <li>changemymind ⟶ Will send an image with in the change my mind meme saying &lt;message&gt;</li>
+        <li>tweet ⟶ Base command for sending tweets as trump or normal</li>
+        <ul>
+          <li>normal ⟶ Will send an image with the input text as a tweet</li>
+          <li>trump ⟶ Will send an image with the input text as a tweet</li>
+        </ul>
+        <li>spongebob ⟶ Will send an image of mocking spongebob or with &lt;message&gt;</li>
+        <li>animal ⟶ Base command for sending animal images + facts</li>
+        <ul>
+          <li>dog ⟶ Will send a random dog image and facy</li>
+          <li>duck ⟶ Will send a random duck image and fact</li>
+          <li>spider ⟶ Will send a random spider image and fact</li>
+          <li>koala ⟶ Will send a random koala image and fact</li>
+          <li>cow ⟶ Will send a random cow image and fact</li>
+          <li>bird ⟶ Will send a random bird image and fact</li>
+          <li>seal ⟶ Will send a random seal image and fact</li>
+          <li>turtle ⟶ Will send a random fish image and fact</li>
+          <li>racoon ⟶ Will send a random racoon image and fact</li>
+          <li>kangaroo ⟶ Will send a random kangaroo image and fact</li>
+          <li>fish ⟶ Will send a random fish image and fact</li>
+          <li>monkey ⟶ Will send a random monkey image and fact</li>
+          <li>elephant ⟶ Will send a random elephant image and fact</li>
+          <li>redpanda ⟶ Will send a random red panda image</li>
+          <li>whale ⟶ Will send a random whale image and fact</li>
+          <li>wombat ⟶ Will send a random wombat image and fact</li>
+          <li>cat ⟶ Will send a random cat image and fact</li>
+          <li>bear ⟶ Will send a random bear image and fact</li>
+          <li>horse ⟶ Will send a random horse image and fact</li>
+          <li>pig ⟶ Will send a random pig image and fact</li>
+          <li>panda ⟶ Will send a random panda image and fact</li>
+          <li>fox ⟶ Will send a random fox image and fact</li>
+        </ul>
+        <li>overlay ⟶ Base command for adding overlays to images or vice-versa</li>
+        <ul>
+          <li>america ⟶ Will add a america overlay your &lt;link&gt;</li>
+          <li>whyareyougay ⟶ Will add your &lt;link&gt; and [link2] to whyareyougay scene</li>
+          <li>hitler ⟶ Will add a hitler overlay to your &lt;link&gt;</li>
+          <li>obama ⟶ Will add your &lt;link1&gt; to a obama scene</li>
+          <li>triggered ⟶ Will add a triggered overlay to your &lt;link&gt;</li>
+          <li>jail ⟶ Will add a jail overlay to your &lt;link&gt;</li>
+          <li>trash ⟶ Will add your &lt;link&gt; to a trash scene</li>
+          <li>wasted ⟶ Will add a wasted overlay to your &lt;link&gt;</li>
+          <li>fakemessage ⟶ Will make a fake discord message</li>
+          <li>rgb ⟶ Will get an rgb graph your &lt;link&gt;s colours</li>
+          <li>fedora ⟶ Will add your &lt;link&gt; to a fedora scene</li>
+          <li>communism ⟶ Will add a communism overlay your &lt;link&gt;</li>
+          <li>pride ⟶ Will add a [option] overlay to your &lt;link&gt;</li>
+          <li>fiveguysonegirl ⟶ Will add your &lt;link&gt; and [link2] to fiveguysonegirl scene</li>
+          <li>captcha ⟶ Will generate a captcha v3 image with &lt;link&gt; and &lt;message&gt;</li>
+          <li>motivational ⟶ Will generate a motivational speech image</li>
+          <li>wanted ⟶ Will add a wanted overlay to your &lt;link&gt;</li>
+          <li>triangle ⟶ Will triangle your &lt;link&gt;</li>
+        </ul>
+        <li>effect ⟶ Base command for adding effects to images</li>
+        <ul>
+          <li>charcoal ⟶ Will convert your &lt;link&gt; to a charcoal drawing</li>
+          <li>pixelate ⟶ Will pixelate your &lt;link&gt;</li>
+          <li>ascii ⟶ Will convert your &lt;link&gt; to ascii art</li>
+          <li>invert ⟶ Will invert your &lt;link&gt;s colours</li>
+          <li>deepfry ⟶ Will deepfry your &lt;link&gt;</li>
+          <li>sepia ⟶ Will add a sepia filter to your &lt;link&gt;</li>
+          <li>magik ⟶ Will add a magik effect to your &lt;link&gt;</li>
+          <li>night ⟶ Will add a night effect to your &lt;link&gt;</li>
+          <li>blur ⟶ Will blur your &lt;link&gt;</li>
+          <li>swirl ⟶ Will add a swirl effect to your &lt;link&gt;</li>
+          <li>paint ⟶ Will convert your &lt;link&gt; to art</li>
+          <li>emboss ⟶ Will emboss your &lt;link&gt;</li>
+          <li>rainbow ⟶ Will add a rainbow effect to your &lt;link&gt;</li>
+          <li>posterize ⟶ Will add a posterize filter to your &lt;link&gt;</li>
+          <li>hog ⟶ Will hog your &lt;link&gt;s colours</li>
+          <li>blurpify ⟶ Will blurpify your &lt;link&gt;</li>
+        </ul>
+      </ul>
+    </details>
+    <details>
+      <summary>Abuse</summary>
+      <ul>
+        <p>Category with all abuse commands, these include discord exploits and should be used with caution</p>
+        <li>channeloutage ⟶ Will send a load of emotes in a message that causes the reader to crash/lag</li>
+        <li>charbypass ⟶ Will send a ~6000 char long message</li>
+        <li>spamhelp ⟶ Spams the official help message in different languages to &lt;channel&gt; in &lt;guildid&gt;</li>
+        <li>bantoken ⟶ Will make ban a Discord token, forcing the user to reset it</li>
+        <li>deleteaccount ⟶ Will delete someones discord account by using their &lt;token&gt; and &lt;password&gt;</li>
+        <li>disableaccount ⟶ Will disable someones Discord account by using their &lt;token&gt; and &lt;password&gt;</li>
+        <li>tokenspam ⟶ Will flash screen and changes settings of account by using its token</li>
+        <li>destroyserver ⟶ Will destroy a server by banning users, deleting and creating channels/roles</li>
+        <li>massban ⟶ Will attempt to ban everybody in specified &lt;guild_id&gt; excluding [exclusions...]</li>
+        <li>masskick ⟶ Will attempt to kick everybody in specified &lt;guild_id&gt; excluding [exclusions...]</li>
+        <li>crashcall ⟶ Base command for starting/stopping crashcalll</li>
+        <ul>
+          <li>start ⟶ Will start call DOS in a DM or groupchat</li>
+          <li>stop ⟶ Will stop the callcrash</li>
+        </ul>
+        <li>channel ⟶ Base command for creating/removing channels</li>
+        <ul>
+          <li>remove ⟶ Will attempt to remove &lt;amount&gt; of channels in a guild</li>
+          <li>create ⟶ Will spam create &lt;amount&gt; of tc or vc with &lt;name&gt;</li>
+        </ul>
+        <li>role ⟶ Base command for creating/removing/adding roles</li>
+        <ul>
+          <li>remove ⟶ Will attempt to remove &lt;amount&gt; of roles in a guild</li>
+          <li>add ⟶ Will attempt to add &lt;amount&gt; of roles to &lt;member&gt;, can filter by &lt;role&gt;</li>
+          <li>create ⟶ Will create &lt;amount&gt; roles with random a colour named &lt;name&gt;</li>
+        </ul>
+        <li>webhook ⟶ Base command for doing stuff with Discord webhooks</li>
+        <ul>
+          <li>send ⟶ Will send a message with the created webhook, works from anywhere in discord</li>
+          <li>send2 ⟶ Will create a partial webhook from a wh URL and send messages with it</li>
+          <li>delete ⟶ Will delete all webhooks on a specific channel</li>
+          <li>create ⟶ Will create a webhook for the current channel, can be used to send messages with</li>
+          <li>spam_stop ⟶ Will stop the webhook spam</li>
+          <li>delete2 ⟶ Will delete any webhook using its &lt;webhook_url&gt;</li>
+        </ul>
+        <li>blocked ⟶ Base command for sending messages to blocked users</li>
+        <ul>
+          <li>setid ⟶ Will set the (DM) channel to send messages to</li>
+          <li>send ⟶ Will send a message to user that is blocked</li>
+        </ul>
+        <li>email ⟶ Base command for adding/removing/listing/spamming emails</li>
+        <ul>
+          <li>spam ⟶ Will spam &lt;target&gt; with &lt;amount&gt; emails containing &lt;message&gt;</li>
+          <li>remove ⟶ Will remove &lt;gmail_name&gt; from gmails.json</li>
+          <li>list ⟶ Will log amount of emails in gmails.json</li>
+          <li>add ⟶ Will add &lt;gmail_name&gt;:&lt;gmail_password&gt; to gmails.json</li>
+        </ul>
+      </ul>
+    </details>
+    <details>
+      <summary>Moderation</summary>
+      <ul>
+        <p>A Moderation extension</p>
+        <li>mpurge ⟶ Will purge a chat for &lt;amount&gt; messages by any one</li>
+        <li>kick ⟶ Will kick &lt;member&gt; with a &lt;reason&gt; if provided</li>
+        <li>ban ⟶ Will ban &lt;member&gt; with a &lt;reason&gt; if provided and delete it's messages the last &lt;delmsgs&gt; days (max 7)</li>
+        <li>hackban ⟶ Will ban a user by ID, even if they are not in the guild</li>
+        <li>nuke ⟶ Will clone and delete a channel</li>
+        <li>mute ⟶ Will mute &lt;member&gt; for &lt;time&gt;</li>
+        <li>unmute ⟶ Will unmute &lt;member&gt;</li>
+        <li>slowmode ⟶ Base command for overwriting/resetting slowmode</li>
+        <ul>
+          <li>overwrite ⟶ Sets the slowmode in each channel to &lt;delay&gt;</li>
+          <li>reset ⟶ Resets the slowmode of each channel back to its original</li>
         </ul>
       </ul>
     </details>
   </ul>
 </details>
+
 <h3 name="extensions">Extensions</h3>
 <details open>
   <summary>open/close</summary>
@@ -750,7 +782,7 @@
   </ul>
 </details>
 
-<h1 name="changelog" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">Changelog</h1>
+<h1 name="changelog" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent">Changelog</h1>
 <hr />
 <h3 name="changelog">Changelog</h3>
 <details open>
@@ -1389,9 +1421,48 @@
         </details>
       </ul>
     </details>
+    <details>
+        <summary>V1.13.0 (16/02/2021)</summary>
+        <ul>
+          <details>
+            <summary>Added commands</summary>
+            <ul>
+              <li><code>mock</code> (Text)</li>
+              <li><code>superscript</code> (Text)</li>
+              <li><code>subscript</code> (Text)</li>
+              <li><code>serverlogs edits/deletes</code> (Other)</li>
+              <li><code>calculate</code> (Utilities)</li>
+              <li><code>todo add/remove/list/clear</code> (Utilities)</li>
+              <li><code>pcinfo</code> (Info)</li>
+            </ul>
+          </details>
+          <details>
+            <summary>Other changes</summary>
+            <ul>
+              <li>Improved <code>randomemotes</code> command by being able to filter to a specific name</li>
+              <li>Improved <code>exportchat</code> command by sending the file in the current chat with better formatted contents</li>
+              <li>Improved <code>scrapeemojis</code> command by being able to filter to a specific name</li>
+              <li>Improved <code>metrics</code> command by showing even more data</li>
+              <li>Improved <code>invite</code> command by being to filter to existing large servers to join, which is useful for sniping</li>
+              <li>Improved the <code>cyclestatus</code>, <code>mute</code>, <code>slowmode overwrite</code>, <code>timer</code>, <code>loop start</code> commands by using the time convert, so that instead of '60' the input can be '1m' etc. </li>
+              <li>Improved the nearest match for when command is not found, to also include aliases</li>
+              <li>Removed the proxies folder in the data folder, they are only send in chat now</li>
+              <li>Fix to some commands erroring in dm's due to a Discord permission bug</li>
+              <li>Fix to <code>help</code> command not working properly when the initial help message was deleted</li>
+              <li>Fix to error_log.log file filling up with false errors</li>
+              <li>Fix to <code>mee6</code> command not having the right PFP</li>
+              <li>Fix to <code>report</code> command not retrieving the report ID correctly</li>
+              <li>Fix to weird colour bug in setup</li>
+              <li>Fix to <code>translate</code> command not working</li>
+              <li>Fix to discord token input in setup sometimes giving false negatives on the token that was put in</li>
+              <li>Fix to avatar command not properly resizing the image</li>
+            </ul>
+          </details>
+        </ul>
+      </details>
   </ul>
 </details>
-<button class="button button"><a style="color: black;" href="#top">Back to top</a></button>
+<button class="button button"><a style="color: black" href="#top">Back to top</a></button>
 <p align="center">
   <img alt="Geazer Selfbot Logo" src="https://i.imgur.com/UsrLN7k.gif" width="150" height="150" />
 </p>
