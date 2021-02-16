@@ -788,7 +788,7 @@
 <details>
   <summary>open/close</summary>
   <ul>
-    <details open>
+    <details>
       <summary>V1.0.0 (02/10/2020)</summary>
       <ul>
         <details>
