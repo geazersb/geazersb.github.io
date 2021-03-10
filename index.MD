@@ -7,9 +7,9 @@
 <h1 name="top" style="background: -webkit-linear-gradient(#c45e62, #28526d); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent">Preface</h1>
 <hr />
 <h3 name="introduction">Introduction</h3>
-<p>Geazer SB, a cheap selfbot with nearly 410 commands being nothing like the generic github copy and paste selfbots. Geazer comes with uniquely created features requested by our customers, and other never before seen features all at the power of the customers fingertips.</p>
-<p>Our team strives to make a successful and recognisable name and bring the incredible functionality of a every day use selfbot. With our selfbot you're not only getting the overall handiness of one, but also great support and the comfort of your money well spent!</p>
-<p>The selfbot can be bought in <a target="_blank" title="Our autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">our shop</a>, or right here using the button below. We accept both PayPal, Bitcoin and Bitcoin Cash.</p>
+<p>Geazer SB, a cheap selfbot with nearly 410 commands being nothing like the generic github copy and paste selfbots. Geazer comes with uniquely created features, and other never before seen features all at the power of the customers fingertips.</p>
+<p>Our team strives to make a successful and recognisable name and bring the incredible functionality of an every day use selfbot. With our selfbot you're not only getting the overall handiness of one, but also great support and the comfort of your money well spent!</p>
+<p>The selfbot can be bought in <a target="_blank" title="Our autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">our shop</a>, or right here using the button below. We accept both PayPal, Bitcoin and Bitcoin Cash (Nitro gift(s) as payment can be discussed).</p>
 <button class="button button" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
 <p>Some of our best features include:</p>
 <details open>
