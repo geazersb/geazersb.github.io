@@ -9,7 +9,7 @@
 <h3 name="introduction">Introduction</h3>
 <p>Geazer SB, a cheap selfbot with nearly 410 commands being nothing like the generic github copy and paste selfbots. Geazer comes with uniquely created features requested by our customers, and other never before seen features all at the power of the customers fingertips.</p>
 <p>Our team strives to make a successful and recognisable name and bring the incredible functionality of a every day use selfbot. With our selfbot you're not only getting the overall handiness of one, but also great support and the comfort of your money well spent!</p>
-<p>The selfbot can be bought in <a target="_blank" title="My autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">our shop</a>, or right here using the button below. We accept both PayPal, Bitcoin and Bitcoin Cash.</p>
+<p>The selfbot can be bought in <a target="_blank" title="Our autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">our shop</a>, or right here using the button below. We accept both PayPal, Bitcoin and Bitcoin Cash.</p>
 <button class="button button" data-autobuy-product="a2bb2869-46d4-48af-8f49-08d842cf9dbd">Buy now!</button>
 <p>Some of our best features include:</p>
 <details open>
@@ -27,7 +27,7 @@
     <li>Loads of abuse, image manipulating, utility and fun commands ✓</li>
     <li>Extensive optimization and ingenuity (abiding <a target="_blank" title="PEP-8 definition" href="https://www.python.org/dev/peps/pep-0008/">PEP-8</a> rules) ✓</li>
     <li>Cheap price ✓</li>
-    <li><a target="_blank" title="changelog" href="https://geazersb.github.io#changelog">Frequent updates</a> ✓</li>
+    <li><a title="changelog" href="https://geazersb.github.io#changelog">Frequent updates</a> ✓</li>
     <li>Great, helpful support ✓</li>
     <li>Discrete webhooked <a target="_blank" title="webhook logging" href="https://geazersb.github.io/logging.png">logging</a> ✓</li>
     <li>
@@ -40,7 +40,7 @@
   <summary>open/close</summary>
   <ul>
     <li>Join our discord <a target="_blank" title="Support, suggestions, questions and more" href="https://discord.gg/ZGrYnNB">here</a> ( <a target="_blank" title="Support, suggestions, questions and more" href="https://discord.gg/22fZqtp">backup</a>)</li>
-    <li>View our shop <a target="_blank" title="My autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">here</a></li>
+    <li>View our shop <a target="_blank" title="Our autobuy.io shop" href="https://autobuy.io/@Geazer-Selfbot/Product/a2bb2869-46d4-48af-8f49-08d842cf9dbd">here</a></li>
     <li>View our features quickly <a target="_blank" title="Clear pastebin listing of commands" href="https://pastebin.com/raw/7f4RHTeH">here</a></li>
   </ul>
 </details>
